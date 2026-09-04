@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* ---- LearnPath AI design tokens ----
+   Metaphor: a learning path is a trail with waypoints. Ink-navy ground,
+   an amber waypoint marker as the single accent, a quiet mint used only
+   for "passed / correct" states elsewhere in the product. */
+:root {
+  --ink: #171b26;        /* base background */
+  --ink-raised: #1f2434; /* panels/cards on the ink background */
+  --paper: #f3f1e9;      /* light panel (auth form side) */
+  --paper-line: #e2ded0;
+  --line: #2b3145;       /* hairline on ink */
+  --text: #cfd3e0;       /* body text on ink */
+  --text-muted: #8890a6;
+  --text-ink-strong: #f5f4ef;
+  --text-paper: #2a2b26;
+  --text-paper-muted: #6b6a60;
+  --waypoint: #e8a33d;   /* amber accent — the one bold color */
+  --waypoint-strong: #d68d22;
+  --mint: #6fe7c0;       /* reserved for success/passed states */
+
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+:focus-visible {
+  outline: 2px solid var(--waypoint);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
