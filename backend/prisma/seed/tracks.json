@@ -3,42 +3,48 @@
     "id": "track_frontend",
     "slug": "frontend-development",
     "name": "Frontend Development",
-    "description": "Build modern, accessible, performant user interfaces for the web using HTML, CSS, JavaScript, and React.",
+    "description": "Master modern client-side web development covering HTML, CSS, JavaScript, DOM manipulation, APIs, and React application architecture.",
+    "is_active": true,
     "display_order": 1
   },
   {
     "id": "track_backend",
-    "slug": "backend-development-nodejs-express",
-    "name": "Backend Development \u2014 Node.js & Express",
-    "description": "Design and build server-side applications, REST APIs, and backend architecture using Node.js and Express.",
+    "slug": "backend-development",
+    "name": "Backend Development",
+    "description": "Build robust server-side applications and APIs using Node.js, Express, async programming, security best practices, and integration strategies.",
+    "is_active": true,
     "display_order": 2
   },
   {
     "id": "track_devops_cloud",
     "slug": "devops-cloud",
     "name": "DevOps & Cloud",
-    "description": "Learn Linux, Git, containerization, CI/CD, and cloud fundamentals to build, deploy, and operate production systems.",
+    "description": "Learn Linux environments, Git workflows, cloud infrastructure on AWS, Docker containerization, and automated CI/CD pipelines.",
+    "is_active": true,
     "display_order": 3
   },
   {
     "id": "track_relational_databases",
     "slug": "relational-databases",
     "name": "Relational Databases",
-    "description": "Master relational data modeling, SQL, normalization, transactions, and production database design.",
+    "description": "Master relational database architecture, schema design, advanced SQL queries, normalization, indexing, ACID transactions, and performance tuning.",
+    "is_active": true,
     "display_order": 4
   },
   {
     "id": "track_ai_ml",
     "slug": "ai-machine-learning",
     "name": "AI & Machine Learning",
-    "description": "Learn the mathematical foundations, classical algorithms, deep learning, and modern LLM/RAG application patterns.",
+    "description": "Understand core AI/ML principles, supervised/unsupervised learning with Python, statistical modeling, neural networks, LLMs, and RAG architectures.",
+    "is_active": true,
     "display_order": 5
   },
   {
     "id": "track_data_analytics",
     "slug": "data-analytics",
-    "name": "Data Analytics \u2014 Excel, Power BI & Analytics",
-    "description": "Learn to clean, analyze, visualize, and communicate data using Excel, Power Query, Power BI, and DAX.",
+    "name": "Data Analytics",
+    "description": "Transform raw business data into actionable insights using analytics fundamentals, advanced Microsoft Excel modeling, and Power BI dashboards.",
+    "is_active": true,
     "display_order": 6
   }
 ]

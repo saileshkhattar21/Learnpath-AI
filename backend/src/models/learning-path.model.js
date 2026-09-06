@@ -4,7 +4,9 @@ const pathInclude = {
   items: {
     orderBy: { position: "asc" },
     include: {
-      course: { select: { id: true, title: true, level: { select: { name: true } } } },
+      course: {
+        select: { id: true, title: true, level: { select: { name: true } } },
+      },
       section: { select: { id: true, title: true } },
     },
   },
@@ -16,7 +18,13 @@ export const findLearningPath = ({ userId, trackId }) =>
     include: pathInclude,
   });
 
-export const createLearningPath = ({ userId, trackId, items, summary, recommendedStartingPoint }) =>
+export const createLearningPath = ({
+  userId,
+  trackId,
+  items,
+  summary,
+  recommendedStartingPoint,
+}) =>
   prisma.learningPath.create({
     data: {
       userId,
@@ -33,4 +41,36 @@ export const createLearningPath = ({ userId, trackId, items, summary, recommende
       },
     },
     include: pathInclude,
+  });
+
+export const deleteLearningPath = ({ userId, trackId }) =>
+  prisma.learningPath
+    .delete({ where: { userId_trackId: { userId, trackId } } })
+    .catch((err) => {
+      if (err.code === "P2025") return null; // nothing to delete, fine
+      throw err;
+    });
+
+const studyInclude = {
+  items: {
+    orderBy: { position: "asc" },
+    include: {
+      course: {
+        select: {
+          id: true,
+          title: true,
+          level: { select: { id: true, name: true, rank: true } },
+        },
+      },
+      section: {
+        include: { resources: true, videos: true },
+      },
+    },
+  },
+};
+
+export const findLearningPathForStudy = ({ userId, trackId }) =>
+  prisma.learningPath.findUnique({
+    where: { userId_trackId: { userId, trackId } },
+    include: studyInclude,
   });

@@ -60,3 +60,19 @@ export const submitTrackQuiz = (slug, responses, getToken) =>
 
 export const generateLearningPath = (slug, getToken) =>
   apiRequest(`/tracks/${slug}/path`, { method: "POST", getToken });
+
+export const getTrackStudy = (slug, getToken) =>
+  apiRequest(`/tracks/${slug}/study`, { getToken });
+
+export const regenerateLearningPath = (slug, getToken) =>
+  apiRequest(`/tracks/${slug}/path/regenerate`, { method: "POST", getToken });
+
+export const getSectionQuiz = (slug, sectionId, getToken) =>
+  apiRequest(`/tracks/${slug}/sections/${sectionId}/quiz`, { getToken });
+
+export const submitSectionQuiz = (slug, sectionId, responses, getToken) =>
+  apiRequest(`/tracks/${slug}/sections/${sectionId}/quiz/submit`, {
+    method: "POST",
+    body: { responses },
+    getToken,
+  });

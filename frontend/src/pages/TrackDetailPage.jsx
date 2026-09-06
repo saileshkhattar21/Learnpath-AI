@@ -38,6 +38,12 @@ function PathModal({ path, close, study }) {
             {path.summary}
           </p>
         )}
+        <button
+          onClick={study}
+          className="mt-6 w-full rounded-md bg-[var(--waypoint)] px-5 py-3 text-sm font-medium text-[#1c1a12] hover:bg-[var(--waypoint-strong)]"
+        >
+          Start studying →
+        </button>
         {path.recommendedStartingPoint && (
           <p className="mt-4 rounded-md border border-[var(--line)] p-3 text-sm text-[var(--text-ink-strong)]">
             Start with:{" "}
@@ -69,12 +75,6 @@ function PathModal({ path, close, study }) {
             </li>
           ))}
         </ol>
-        <button
-          onClick={study}
-          className="mt-6 w-full rounded-md bg-[var(--waypoint)] px-5 py-3 text-sm font-medium text-[#1c1a12] hover:bg-[var(--waypoint-strong)]"
-        >
-          Start studying →
-        </button>
       </div>
     </div>
   );
@@ -289,7 +289,7 @@ export default function TrackDetailPage() {
         <PathModal
           path={path}
           close={() => setShowPath(false)}
-          study={() => navigate(`/paths/${path.id}/study`)}
+          study={() => navigate(`/tracks/${slug}/study`)}
         />
       )}
     </div>

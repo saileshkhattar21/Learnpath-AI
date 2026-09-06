@@ -1,6 +1,7 @@
 import { getTrackDetail, getTrackCatalog } from "./track.service.js";
 import { getRatingsForTrack } from "./skill-rating.service.js";
 import { getFullContextForAttempt } from "./track-assessment.service.js";
+import { findCompletedSectionIdsForTrack } from "../models/user-section-progress.model.js";
 
 export const buildAiContext = async ({ userId, slug, attemptId }) => {
   console.log(
@@ -23,6 +24,13 @@ export const buildAiContext = async ({ userId, slug, attemptId }) => {
   if (quiz && quiz.trackId !== track.id) {
     throw new Error("The diagnostic quiz does not belong to this track.");
   }
+
+  const completedSectionIds = await findCompletedSectionIdsForTrack(
+    userId,
+    track.id,
+  );
+  console.log(`[ai-context] completed sections: ${completedSectionIds.length}`);
+
   console.log(
     quiz
       ? `[ai-context] quiz: ${quiz.questionDetails.length} questions`
@@ -50,6 +58,7 @@ export const buildAiContext = async ({ userId, slug, attemptId }) => {
       skillName: r.skill.name,
       rating: r.rating,
     })),
+    completedSectionIds,
     quiz,
   };
 

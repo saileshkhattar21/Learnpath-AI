@@ -6,7 +6,8 @@ import DashboardPage from "./pages/DashboardPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import TrackDetailPage from "./pages/TrackDetailPage";
 import QuizPage from "./pages/QuizPage";
-import StudyStubPage from "./pages/StudyStubPage";
+import StudyPage from "./pages/StudyPage";
+import SectionQuizPage from "./pages/SectionQuizPage";
 
 export default function App() {
   return (
@@ -38,9 +39,22 @@ export default function App() {
           </ProtectedRoute>
         }
       />
+      // add routes
       <Route
-        path="/paths/:pathId/study"
-        element={<ProtectedRoute><StudyStubPage /></ProtectedRoute>}
+        path="/tracks/:slug/study"
+        element={
+          <ProtectedRoute>
+            <StudyPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/tracks/:slug/sections/:sectionId/quiz"
+        element={
+          <ProtectedRoute>
+            <SectionQuizPage />
+          </ProtectedRoute>
+        }
       />
     </Routes>
   );
