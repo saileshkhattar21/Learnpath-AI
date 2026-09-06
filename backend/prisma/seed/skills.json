@@ -298,5 +298,293 @@
     "slug": "dax-measures",
     "name": "DAX Fundamentals",
     "description": "Calculated columns, custom DAX measures, CALCULATE context, and time intelligence functions."
+  },
+  {
+    "id": "skill_accessibility",
+    "slug": "accessibility",
+    "name": "Accessibility",
+    "description": null
+  },
+  {
+    "id": "skill_react",
+    "slug": "react",
+    "name": "React",
+    "description": null
+  },
+  {
+    "id": "skill_component_architecture",
+    "slug": "component-architecture",
+    "name": "Component Architecture",
+    "description": null
+  },
+  {
+    "id": "skill_web_performance",
+    "slug": "web-performance",
+    "name": "Web Performance",
+    "description": null
+  },
+  {
+    "id": "skill_routing",
+    "slug": "routing",
+    "name": "Routing",
+    "description": null
+  },
+  {
+    "id": "skill_rest_api",
+    "slug": "rest-api",
+    "name": "REST API",
+    "description": null
+  },
+  {
+    "id": "skill_authentication",
+    "slug": "authentication",
+    "name": "Authentication",
+    "description": null
+  },
+  {
+    "id": "skill_authorization",
+    "slug": "authorization",
+    "name": "Authorization",
+    "description": null
+  },
+  {
+    "id": "skill_cloud_computing",
+    "slug": "cloud-computing",
+    "name": "Cloud Computing",
+    "description": null
+  },
+  {
+    "id": "skill_aws",
+    "slug": "aws",
+    "name": "AWS",
+    "description": null
+  },
+  {
+    "id": "skill_containerization",
+    "slug": "containerization",
+    "name": "Containerization",
+    "description": null
+  },
+  {
+    "id": "skill_github_actions",
+    "slug": "github-actions",
+    "name": "Github Actions",
+    "description": null
+  },
+  {
+    "id": "skill_deployment",
+    "slug": "deployment",
+    "name": "Deployment",
+    "description": null
+  },
+  {
+    "id": "skill_infrastructure",
+    "slug": "infrastructure",
+    "name": "Infrastructure",
+    "description": null
+  },
+  {
+    "id": "skill_relational_modeling",
+    "slug": "relational-modeling",
+    "name": "Relational Modeling",
+    "description": null
+  },
+  {
+    "id": "skill_crud",
+    "slug": "crud",
+    "name": "CRUD",
+    "description": null
+  },
+  {
+    "id": "skill_joins",
+    "slug": "joins",
+    "name": "Joins",
+    "description": null
+  },
+  {
+    "id": "skill_aggregations",
+    "slug": "aggregations",
+    "name": "Aggregations",
+    "description": null
+  },
+  {
+    "id": "skill_constraints",
+    "slug": "constraints",
+    "name": "Constraints",
+    "description": null
+  },
+  {
+    "id": "skill_schema_design",
+    "slug": "schema-design",
+    "name": "Schema Design",
+    "description": null
+  },
+  {
+    "id": "skill_acid",
+    "slug": "acid",
+    "name": "ACID",
+    "description": null
+  },
+  {
+    "id": "skill_query_optimization",
+    "slug": "query-optimization",
+    "name": "Query Optimization",
+    "description": null
+  },
+  {
+    "id": "skill_concurrency_control",
+    "slug": "concurrency-control",
+    "name": "Concurrency Control",
+    "description": null
+  },
+  {
+    "id": "skill_ai_ml_fundamentals",
+    "slug": "ai-ml-fundamentals",
+    "name": "AI ML Fundamentals",
+    "description": null
+  },
+  {
+    "id": "skill_python",
+    "slug": "python",
+    "name": "Python",
+    "description": null
+  },
+  {
+    "id": "skill_numpy",
+    "slug": "numpy",
+    "name": "Numpy",
+    "description": null
+  },
+  {
+    "id": "skill_pandas",
+    "slug": "pandas",
+    "name": "Pandas",
+    "description": null
+  },
+  {
+    "id": "skill_statistics_probability",
+    "slug": "statistics-probability",
+    "name": "Statistics Probability",
+    "description": null
+  },
+  {
+    "id": "skill_supervised_learning",
+    "slug": "supervised-learning",
+    "name": "Supervised Learning",
+    "description": null
+  },
+  {
+    "id": "skill_classical_ml_algorithms",
+    "slug": "classical-ml-algorithms",
+    "name": "Classical ML Algorithms",
+    "description": null
+  },
+  {
+    "id": "skill_unsupervised_learning",
+    "slug": "unsupervised-learning",
+    "name": "Unsupervised Learning",
+    "description": null
+  },
+  {
+    "id": "skill_feature_engineering",
+    "slug": "feature-engineering",
+    "name": "Feature Engineering",
+    "description": null
+  },
+  {
+    "id": "skill_overfitting",
+    "slug": "overfitting",
+    "name": "Overfitting",
+    "description": null
+  },
+  {
+    "id": "skill_neural_networks",
+    "slug": "neural-networks",
+    "name": "Neural Networks",
+    "description": null
+  },
+  {
+    "id": "skill_transformers",
+    "slug": "transformers",
+    "name": "Transformers",
+    "description": null
+  },
+  {
+    "id": "skill_llms",
+    "slug": "llms",
+    "name": "LLMs",
+    "description": null
+  },
+  {
+    "id": "skill_embeddings",
+    "slug": "embeddings",
+    "name": "Embeddings",
+    "description": null
+  },
+  {
+    "id": "skill_ai_app_architecture",
+    "slug": "ai-app-architecture",
+    "name": "AI App Architecture",
+    "description": null
+  },
+  {
+    "id": "skill_data_cleaning",
+    "slug": "data-cleaning",
+    "name": "Data Cleaning",
+    "description": null
+  },
+  {
+    "id": "skill_excel",
+    "slug": "excel",
+    "name": "Excel",
+    "description": null
+  },
+  {
+    "id": "skill_lookup_functions",
+    "slug": "lookup-functions",
+    "name": "Lookup Functions",
+    "description": null
+  },
+  {
+    "id": "skill_charts_data_viz",
+    "slug": "charts-data-viz",
+    "name": "Charts Data Viz",
+    "description": null
+  },
+  {
+    "id": "skill_pivot_tables",
+    "slug": "pivot-tables",
+    "name": "Pivot Tables",
+    "description": null
+  },
+  {
+    "id": "skill_power_query",
+    "slug": "power-query",
+    "name": "Power Query",
+    "description": null
+  },
+  {
+    "id": "skill_power_bi",
+    "slug": "power-bi",
+    "name": "Power BI",
+    "description": null
+  },
+  {
+    "id": "skill_kpis",
+    "slug": "kpis",
+    "name": "KPIs",
+    "description": null
+  },
+  {
+    "id": "skill_business_analytics",
+    "slug": "business-analytics",
+    "name": "Business Analytics",
+    "description": null
+  },
+  {
+    "id": "skill_dashboard_design",
+    "slug": "dashboard-design",
+    "name": "Dashboard Design",
+    "description": null
   }
 ]

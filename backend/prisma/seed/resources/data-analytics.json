@@ -1,902 +1,173 @@
 [
   {
-    "id": "question_data_analytics_001",
+    "id": "resource_data_analytics_001",
     "section_id": "section_data_analytics_analytics_fundamentals_section",
-    "level_id": "level_beginner",
-    "question": "What is the main purpose of data analytics in a business context?",
-    "explanation": "Data analytics helps organizations use data to answer questions and make better-informed decisions.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_001_a",
-        "text": "Using data to answer questions and support decisions",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_001_b",
-        "text": "Storing files for long-term archival only",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_001_c",
-        "text": "Designing company logos",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_001_d",
-        "text": "Managing employee payroll exclusively",
-        "is_correct": false
-      }
-    ]
+    "title": "Microsoft Learn: Data analytics fundamentals",
+    "description": "Official Microsoft Learn module introducing core data analytics concepts.",
+    "url": "https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/",
+    "source": "Microsoft Learn",
+    "type": "official-guide"
   },
   {
-    "id": "question_data_analytics_002",
+    "id": "resource_data_analytics_002",
     "section_id": "section_data_analytics_data_cleaning_basics",
-    "level_id": "level_beginner",
-    "question": "Why is removing duplicate rows an important data cleaning step?",
-    "explanation": "Duplicates can skew analysis results, such as inflating counts or averages.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_002_a",
-        "text": "Duplicates can skew analysis results like counts or averages",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_002_b",
-        "text": "Duplicates are required for accurate reporting",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_002_c",
-        "text": "It has no effect on analysis results",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_002_d",
-        "text": "It is only relevant for text data",
-        "is_correct": false
-      }
-    ]
+    "title": "Excel: Clean data with Power Query",
+    "description": "Official Microsoft documentation on cleaning and transforming data in Excel.",
+    "url": "https://support.microsoft.com/en-us/office/using-the-power-query-editor-b3d7c47a-b6a3-4dfe-9b56-cf6c6f5e5f5c",
+    "source": "Microsoft",
+    "type": "documentation"
   },
   {
-    "id": "question_data_analytics_003",
+    "id": "resource_data_analytics_003",
     "section_id": "section_data_analytics_excel_essentials",
-    "level_id": "level_beginner",
-    "question": "What is a 'cell' in Excel?",
-    "explanation": "A cell is the intersection of a row and column where a single piece of data is entered.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_003_a",
-        "text": "The intersection of a row and column",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_003_b",
-        "text": "A separate Excel file",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_003_c",
-        "text": "A type of chart",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_003_d",
-        "text": "A saved formula template",
-        "is_correct": false
-      }
-    ]
+    "title": "Excel help & learning",
+    "description": "Official Microsoft support hub for learning core Excel features.",
+    "url": "https://support.microsoft.com/en-us/excel",
+    "source": "Microsoft",
+    "type": "official-guide"
   },
   {
-    "id": "question_data_analytics_004",
+    "id": "resource_data_analytics_004",
     "section_id": "section_data_analytics_excel_formulas_functions",
-    "level_id": "level_beginner",
-    "question": "What must every Excel formula begin with?",
-    "explanation": "Excel formulas must begin with an equals sign (=) to be recognized as a formula rather than plain text.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_004_a",
-        "text": "An equals sign (=)",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_004_b",
-        "text": "A dollar sign ($)",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_004_c",
-        "text": "A colon (:)",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_004_d",
-        "text": "A hashtag (#)",
-        "is_correct": false
-      }
-    ]
+    "title": "Overview of formulas in Excel",
+    "description": "Official Microsoft documentation covering Excel formula syntax and usage.",
+    "url": "https://support.microsoft.com/en-us/office/overview-of-formulas-in-excel-ecfdc708-9162-49e8-b993-c311f47ca173",
+    "source": "Microsoft",
+    "type": "documentation"
   },
   {
-    "id": "question_data_analytics_005",
+    "id": "resource_data_analytics_005",
     "section_id": "section_data_analytics_lookup_functions_section",
-    "level_id": "level_beginner",
-    "question": "What does the VLOOKUP function search for?",
-    "explanation": "VLOOKUP searches for a value in the first column of a range and returns a value from a specified column in the same row.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_005_a",
-        "text": "A value in the first column of a range",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_005_b",
-        "text": "A value anywhere in the entire workbook",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_005_c",
-        "text": "The last row of a table only",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_005_d",
-        "text": "A chart's title text",
-        "is_correct": false
-      }
-    ]
+    "title": "VLOOKUP function",
+    "description": "Official Microsoft reference for the VLOOKUP function.",
+    "url": "https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1",
+    "source": "Microsoft",
+    "type": "reference"
   },
   {
-    "id": "question_data_analytics_006",
+    "id": "resource_data_analytics_006",
+    "section_id": "section_data_analytics_lookup_functions_section",
+    "title": "XLOOKUP function",
+    "description": "Official Microsoft reference for the modern XLOOKUP function.",
+    "url": "https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929",
+    "source": "Microsoft",
+    "type": "reference"
+  },
+  {
+    "id": "resource_data_analytics_007",
     "section_id": "section_data_analytics_charts_basics",
-    "level_id": "level_beginner",
-    "question": "Which chart type is generally best for showing a trend over time?",
-    "explanation": "A line chart is typically best suited for showing how a value changes over a continuous period of time.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_006_a",
-        "text": "A line chart",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_006_b",
-        "text": "A pie chart",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_006_c",
-        "text": "A scatter chart with no time axis",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_006_d",
-        "text": "A single data label",
-        "is_correct": false
-      }
-    ]
+    "title": "Create a chart in Excel",
+    "description": "Official Microsoft guide to creating and formatting charts.",
+    "url": "https://support.microsoft.com/en-us/office/create-a-chart-from-start-to-finish-0baf399e-dd61-4e18-8a73-b3fd5d5680c2",
+    "source": "Microsoft",
+    "type": "documentation"
   },
   {
-    "id": "question_data_analytics_007",
-    "section_id": "section_data_analytics_data_cleaning_basics",
-    "level_id": "level_beginner",
-    "question": "What is a common sign that a dataset needs cleaning?",
-    "explanation": "Inconsistent formatting, such as mixed date formats or inconsistent capitalization, is a common sign that data needs cleaning.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_007_a",
-        "text": "Inconsistent formatting across entries",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_007_b",
-        "text": "The dataset has exactly one column",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_007_c",
-        "text": "The dataset was created recently",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_007_d",
-        "text": "The dataset is stored in Excel",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_008",
-    "section_id": "section_data_analytics_excel_essentials",
-    "level_id": "level_beginner",
-    "question": "What does sorting a range of data in Excel do?",
-    "explanation": "Sorting rearranges rows based on the values in one or more selected columns, in ascending or descending order.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_008_a",
-        "text": "Rearranges rows based on values in selected columns",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_008_b",
-        "text": "Deletes duplicate values automatically",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_008_c",
-        "text": "Converts the data into a chart",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_008_d",
-        "text": "Merges multiple worksheets into one",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_009",
-    "section_id": "section_data_analytics_analytics_fundamentals_section",
-    "level_id": "level_beginner",
-    "question": "What distinguishes descriptive analytics from predictive analytics?",
-    "explanation": "Descriptive analytics summarizes what has already happened, while predictive analytics forecasts what might happen next.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_009_a",
-        "text": "Descriptive summarizes the past; predictive forecasts the future",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_009_b",
-        "text": "They are exactly the same technique",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_009_c",
-        "text": "Descriptive analytics only works with images",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_009_d",
-        "text": "Predictive analytics requires no historical data",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_010",
-    "section_id": "section_data_analytics_charts_basics",
-    "level_id": "level_beginner",
-    "question": "Why should a pie chart generally be avoided when there are many categories?",
-    "explanation": "With too many slices, a pie chart becomes cluttered and hard to compare accurately.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_010_a",
-        "text": "Too many slices make it cluttered and hard to compare",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_010_b",
-        "text": "Pie charts cannot display percentages",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_010_c",
-        "text": "Pie charts only work with negative numbers",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_010_d",
-        "text": "Excel does not support pie charts",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_011",
+    "id": "resource_data_analytics_008",
     "section_id": "section_data_analytics_pivot_tables_section",
-    "level_id": "level_intermediate",
-    "question": "What is the main benefit of using a Pivot Table?",
-    "explanation": "Pivot Tables let you quickly summarize, group, and reorganize large datasets interactively without writing formulas.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_011_a",
-        "text": "Quickly summarizing and reorganizing large datasets interactively",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_011_b",
-        "text": "Automatically translating text into other languages",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_011_c",
-        "text": "Permanently deleting unused rows",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_011_d",
-        "text": "Sending automatic emails to stakeholders",
-        "is_correct": false
-      }
-    ]
+    "title": "Create a PivotTable to analyze data",
+    "description": "Official Microsoft guide to building and using PivotTables.",
+    "url": "https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576",
+    "source": "Microsoft",
+    "type": "official-guide"
   },
   {
-    "id": "question_data_analytics_012",
+    "id": "resource_data_analytics_009",
     "section_id": "section_data_analytics_power_query_section",
-    "level_id": "level_intermediate",
-    "question": "What is Power Query primarily used for?",
-    "explanation": "Power Query is used to connect to, transform, and clean data before loading it for analysis.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_012_a",
-        "text": "Connecting to, transforming, and cleaning data",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_012_b",
-        "text": "Designing PowerPoint slide layouts",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_012_c",
-        "text": "Writing DAX measures exclusively",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_012_d",
-        "text": "Compiling VBA macros",
-        "is_correct": false
-      }
-    ]
+    "title": "Power Query documentation",
+    "description": "Official Microsoft documentation for Power Query data transformation.",
+    "url": "https://learn.microsoft.com/en-us/power-query/",
+    "source": "Microsoft Learn",
+    "type": "documentation"
   },
   {
-    "id": "question_data_analytics_013",
+    "id": "resource_data_analytics_010",
     "section_id": "section_data_analytics_power_bi_fundamentals",
-    "level_id": "level_intermediate",
-    "question": "What is the typical first step when building a report in Power BI?",
-    "explanation": "The typical first step is importing or connecting to a data source.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_013_a",
-        "text": "Importing or connecting to a data source",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_013_b",
-        "text": "Publishing the report to the web",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_013_c",
-        "text": "Writing a DAX time-intelligence formula",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_013_d",
-        "text": "Deleting all existing visuals",
-        "is_correct": false
-      }
-    ]
+    "title": "Power BI documentation",
+    "description": "Official Microsoft documentation for getting started with Power BI.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/",
+    "source": "Microsoft Learn",
+    "type": "official-guide"
   },
   {
-    "id": "question_data_analytics_014",
+    "id": "resource_data_analytics_011",
     "section_id": "section_data_analytics_dax_fundamentals",
-    "level_id": "level_intermediate",
-    "question": "What is the difference between a calculated column and a measure in DAX?",
-    "explanation": "A calculated column is computed and stored per row, while a measure is calculated dynamically based on the current filter context.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_014_a",
-        "text": "A column is computed per row; a measure is calculated dynamically",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_014_b",
-        "text": "They are identical in every respect",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_014_c",
-        "text": "Measures can only be used in Excel, never Power BI",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_014_d",
-        "text": "Calculated columns cannot use DAX functions",
-        "is_correct": false
-      }
-    ]
+    "title": "DAX basics in Power BI Desktop",
+    "description": "Official Microsoft guide introducing DAX formulas.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-quickstart-learn-dax-basics",
+    "source": "Microsoft Learn",
+    "type": "documentation"
   },
   {
-    "id": "question_data_analytics_015",
-    "section_id": "section_data_analytics_dax_fundamentals",
-    "level_id": "level_intermediate",
-    "question": "Which DAX function is commonly used to sum values with a specified condition?",
-    "explanation": "SUMIF-style conditional aggregation in DAX is commonly performed using CALCULATE combined with SUM.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_015_a",
-        "text": "CALCULATE combined with SUM",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_015_b",
-        "text": "VLOOKUP",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_015_c",
-        "text": "INDEX",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_015_d",
-        "text": "CONCATENATE",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_016",
+    "id": "resource_data_analytics_012",
     "section_id": "section_data_analytics_kpis_business_analytics",
-    "level_id": "level_intermediate",
-    "question": "What is the difference between a leading and a lagging indicator?",
-    "explanation": "A leading indicator predicts future performance, while a lagging indicator reflects past performance already achieved.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_016_a",
-        "text": "A leading indicator predicts the future; a lagging indicator reflects the past",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_016_b",
-        "text": "They mean exactly the same thing",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_016_c",
-        "text": "Leading indicators can only be financial metrics",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_016_d",
-        "text": "Lagging indicators are always more useful than leading ones",
-        "is_correct": false
-      }
-    ]
+    "title": "Microsoft Learn: Data analytics fundamentals",
+    "description": "Official Microsoft Learn content relevant to defining and tracking KPIs.",
+    "url": "https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/",
+    "source": "Microsoft Learn",
+    "type": "official-guide"
   },
   {
-    "id": "question_data_analytics_017",
+    "id": "resource_data_analytics_013",
     "section_id": "section_data_analytics_advanced_charts_visualization",
-    "level_id": "level_intermediate",
-    "question": "Why might a combo chart (combining a bar and line) be useful?",
-    "explanation": "A combo chart lets you compare two different metrics, like volume and a rate, on the same visual with different scales.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_017_a",
-        "text": "It lets you compare two different metrics with different scales",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_017_b",
-        "text": "It automatically improves data accuracy",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_017_c",
-        "text": "It removes the need for axis labels",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_017_d",
-        "text": "It only works with a single data series",
-        "is_correct": false
-      }
-    ]
+    "title": "Visualization types in Power BI",
+    "description": "Official Microsoft documentation covering advanced visualization options.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-report-visualizations",
+    "source": "Microsoft Learn",
+    "type": "documentation"
   },
   {
-    "id": "question_data_analytics_018",
-    "section_id": "section_data_analytics_power_query_section",
-    "level_id": "level_intermediate",
-    "question": "What does 'appending' two queries in Power Query typically do?",
-    "explanation": "Appending stacks the rows of two queries with matching columns into a single combined table.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_018_a",
-        "text": "Stacks the rows of two queries into one combined table",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_018_b",
-        "text": "Merges columns from two tables side-by-side based on a key",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_018_c",
-        "text": "Deletes one of the two queries entirely",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_018_d",
-        "text": "Converts the query into a chart",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_019",
-    "section_id": "section_data_analytics_pivot_tables_section",
-    "level_id": "level_intermediate",
-    "question": "What can a Pivot Chart do that a regular Pivot Table alone cannot?",
-    "explanation": "A Pivot Chart provides a visual representation of the summarized data, making trends easier to see at a glance.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_019_a",
-        "text": "Visually represent the summarized data",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_019_b",
-        "text": "Automatically clean raw source data",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_019_c",
-        "text": "Replace the need for any data source",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_019_d",
-        "text": "Write DAX formulas automatically",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_020",
-    "section_id": "section_data_analytics_power_bi_fundamentals",
-    "level_id": "level_intermediate",
-    "question": "What is the purpose of publishing a Power BI report to the Power BI service?",
-    "explanation": "Publishing makes the report accessible online so it can be shared with and viewed by other stakeholders.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_020_a",
-        "text": "Making the report accessible online for sharing with stakeholders",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_020_b",
-        "text": "Permanently deleting the local copy of the report",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_020_c",
-        "text": "Converting the report into an Excel file automatically",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_020_d",
-        "text": "It has no effect on report accessibility",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_021",
+    "id": "resource_data_analytics_014",
     "section_id": "section_data_analytics_advanced_dax",
-    "level_id": "level_advanced",
-    "question": "What is 'filter context' in DAX?",
-    "explanation": "Filter context refers to the set of filters currently applied that determine which rows are considered when a measure is evaluated.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_021_a",
-        "text": "The set of active filters affecting a measure's evaluation",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_021_b",
-        "text": "A fixed value stored in every DAX formula",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_021_c",
-        "text": "The visual formatting applied to a report",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_021_d",
-        "text": "A type of Excel chart",
-        "is_correct": false
-      }
-    ]
+    "title": "DAX function reference",
+    "description": "Official Microsoft reference documentation for all DAX functions.",
+    "url": "https://learn.microsoft.com/en-us/dax/dax-function-reference",
+    "source": "Microsoft Learn",
+    "type": "reference"
   },
   {
-    "id": "question_data_analytics_022",
-    "section_id": "section_data_analytics_advanced_dax",
-    "level_id": "level_advanced",
-    "question": "What is the purpose of the CALCULATE function in DAX?",
-    "explanation": "CALCULATE evaluates an expression while modifying the filter context it is evaluated in.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_022_a",
-        "text": "Evaluating an expression under a modified filter context",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_022_b",
-        "text": "Formatting numbers as currency",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_022_c",
-        "text": "Creating a new table from scratch",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_022_d",
-        "text": "Connecting to an external data source",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_023",
+    "id": "resource_data_analytics_015",
     "section_id": "section_data_analytics_dashboard_design_section",
-    "level_id": "level_advanced",
-    "question": "Why is it important to design a dashboard around its intended audience?",
-    "explanation": "Different audiences need different levels of detail and different metrics to make their specific decisions effectively.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_023_a",
-        "text": "Different audiences need different detail and metrics for their decisions",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_023_b",
-        "text": "All dashboards should look identical regardless of audience",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_023_c",
-        "text": "Audience has no impact on effective dashboard design",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_023_d",
-        "text": "Only executives ever use dashboards",
-        "is_correct": false
-      }
-    ]
+    "title": "Power BI dashboard design best practices",
+    "description": "Official Microsoft guidance on designing effective dashboards.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards",
+    "source": "Microsoft Learn",
+    "type": "official-guide"
   },
   {
-    "id": "question_data_analytics_024",
+    "id": "resource_data_analytics_016",
     "section_id": "section_data_analytics_advanced_power_query_modeling",
-    "level_id": "level_advanced",
-    "question": "What is a 'star schema' in data modeling?",
-    "explanation": "A star schema organizes data into a central fact table connected to surrounding dimension tables, optimized for analytics.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_024_a",
-        "text": "A central fact table connected to dimension tables",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_024_b",
-        "text": "A single flat table with all data combined",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_024_c",
-        "text": "A schema used only for transactional systems",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_024_d",
-        "text": "A type of Excel chart layout",
-        "is_correct": false
-      }
-    ]
+    "title": "Data modeling in Power BI Desktop",
+    "description": "Official Microsoft documentation on building relationships and data models.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand",
+    "source": "Microsoft Learn",
+    "type": "documentation"
   },
   {
-    "id": "question_data_analytics_025",
+    "id": "resource_data_analytics_017",
     "section_id": "section_data_analytics_advanced_business_analytics",
-    "level_id": "level_advanced",
-    "question": "What is the purpose of segmenting data into cohorts for analysis?",
-    "explanation": "Cohort analysis helps identify patterns and differences in behavior between distinct groups over time.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_025_a",
-        "text": "Identifying behavior patterns and differences between groups over time",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_025_b",
-        "text": "Making all data points identical",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_025_c",
-        "text": "Removing the need for any visualization",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_025_d",
-        "text": "Replacing the need for KPIs entirely",
-        "is_correct": false
-      }
-    ]
+    "title": "Microsoft Learn: Data analytics fundamentals",
+    "description": "Official Microsoft Learn content relevant to advanced analytical reasoning.",
+    "url": "https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/",
+    "source": "Microsoft Learn",
+    "type": "official-guide"
   },
   {
-    "id": "question_data_analytics_026",
-    "section_id": "section_data_analytics_advanced_business_analytics",
-    "level_id": "level_advanced",
-    "question": "When a KPI shifts unexpectedly, what is a reasonable first analytical step?",
-    "explanation": "Investigating potential root causes, such as segment-level changes or external factors, is a reasonable first step.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_026_a",
-        "text": "Investigating potential root causes behind the shift",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_026_b",
-        "text": "Immediately changing the KPI's definition",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_026_c",
-        "text": "Ignoring the shift since KPIs fluctuate randomly",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_026_d",
-        "text": "Deleting the historical data for that KPI",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_027",
+    "id": "resource_data_analytics_018",
     "section_id": "section_data_analytics_analytics_at_scale",
-    "level_id": "level_advanced",
-    "question": "Why is scheduling a regular data refresh important for a shared report at scale?",
-    "explanation": "It ensures stakeholders are viewing current data rather than outdated information as the underlying data source changes.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_027_a",
-        "text": "It ensures stakeholders see current, not outdated, data",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_027_b",
-        "text": "It permanently deletes the report's cached data",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_027_c",
-        "text": "It removes the need for a data source entirely",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_027_d",
-        "text": "It is only relevant for single-user reports",
-        "is_correct": false
-      }
-    ]
+    "title": "Power BI: Manage your data",
+    "description": "Official Microsoft documentation on scaling datasets and refresh in Power BI.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data",
+    "source": "Microsoft Learn",
+    "type": "documentation"
   },
   {
-    "id": "question_data_analytics_028",
+    "id": "resource_data_analytics_019",
     "section_id": "section_data_analytics_production_reporting_practices",
-    "level_id": "level_advanced",
-    "question": "Why is version control or documentation important for reports used in ongoing business operations?",
-    "explanation": "It helps track changes over time and gives stakeholders confidence in what a report currently reflects.",
-    "display_order": 1,
-    "options": [
-      {
-        "id": "opt_data_analytics_028_a",
-        "text": "It tracks changes over time and builds stakeholder confidence",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_028_b",
-        "text": "It is only useful for reports that are never updated",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_028_c",
-        "text": "It replaces the need for data validation",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_028_d",
-        "text": "It automatically fixes broken formulas",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_029",
-    "section_id": "section_data_analytics_dashboard_design_section",
-    "level_id": "level_advanced",
-    "question": "Why is reducing visual clutter generally important in dashboard design?",
-    "explanation": "Excess clutter increases cognitive load and makes it harder for users to quickly identify the most important insights.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_029_a",
-        "text": "It reduces cognitive load and helps users find key insights quickly",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_029_b",
-        "text": "Clutter always improves how professional a dashboard looks",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_029_c",
-        "text": "It has no effect on how a dashboard is used",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_029_d",
-        "text": "More visuals always communicate more information effectively",
-        "is_correct": false
-      }
-    ]
-  },
-  {
-    "id": "question_data_analytics_030",
-    "section_id": "section_data_analytics_advanced_power_query_modeling",
-    "level_id": "level_advanced",
-    "question": "Why might complex Power Query transformation steps hurt report performance if left unoptimized?",
-    "explanation": "Each transformation step must be re-evaluated on refresh, so inefficient or redundant steps can slow down data loading significantly.",
-    "display_order": 2,
-    "options": [
-      {
-        "id": "opt_data_analytics_030_a",
-        "text": "Each step is re-evaluated on refresh, so inefficiency slows loading",
-        "is_correct": true
-      },
-      {
-        "id": "opt_data_analytics_030_b",
-        "text": "Power Query steps have no effect on refresh performance",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_030_c",
-        "text": "Adding more steps always makes refreshes faster",
-        "is_correct": false
-      },
-      {
-        "id": "opt_data_analytics_030_d",
-        "text": "Transformation steps only affect the report's visual formatting",
-        "is_correct": false
-      }
-    ]
+    "title": "Power BI deployment pipelines",
+    "description": "Official Microsoft documentation on managing report lifecycle and deployment.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-overview",
+    "source": "Microsoft Learn",
+    "type": "official-guide"
   }
 ]

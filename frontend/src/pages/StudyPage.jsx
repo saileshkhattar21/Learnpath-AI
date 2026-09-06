@@ -102,11 +102,7 @@ export default function StudyPage() {
     return <LoadingScreen label="Preparing your learning path…" />;
 
   if (loading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center bg-[var(--ink)] text-sm text-[var(--text-muted)]">
-        Loading your path…
-      </div>
-    );
+    return <LoadingScreen message="Loading your path…" />;
   }
 
   if (error) {
@@ -170,15 +166,23 @@ export default function StudyPage() {
         </div>
 
         <div className="flex items-center gap-3">
-          <button onClick={() => setShowPath(true)} className="rounded-md border border-[var(--line)] bg-[var(--ink-raised)] px-4 py-2.5 text-sm font-medium text-[var(--text-ink-strong)] hover:border-[var(--waypoint)]">
+          <button
+            onClick={() => setShowPath(true)}
+            className="rounded-md border border-[var(--line)] bg-[var(--ink-raised)] px-4 py-2.5 text-sm font-medium text-[var(--text-ink-strong)] hover:border-[var(--waypoint)]"
+          >
             See my path
           </button>
-          <button onClick={handleReassess} className="text-sm font-medium text-[var(--waypoint)] hover:text-[var(--waypoint-strong)]">
+          <button
+            onClick={handleReassess}
+            className="text-sm font-medium text-[var(--waypoint)] hover:text-[var(--waypoint-strong)]"
+          >
             Reassess path →
           </button>
         </div>
       </div>
-      {showPath && <LearningPathModal path={path} onClose={() => setShowPath(false)} />}
+      {showPath && (
+        <LearningPathModal path={path} onClose={() => setShowPath(false)} />
+      )}
 
       <div className="mx-auto grid max-w-6xl grid-cols-[1fr_260px] gap-8 px-8 py-10">
         {/* Section content */}

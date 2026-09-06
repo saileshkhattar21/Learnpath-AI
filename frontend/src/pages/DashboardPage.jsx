@@ -69,63 +69,73 @@ export default function DashboardPage() {
               Your adaptive learning workspace
             </p>
             <h1 className="mt-3 font-display text-3xl font-medium text-[var(--text-ink-strong)] sm:text-4xl">
-          Welcome, {user?.firstName || "there"}.
+              Welcome, {user?.firstName || "there"}.
             </h1>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-[#bab8cf]">
-              Choose a direction and let AI shape a learning path around what you already know.
+              Choose a direction and let AI shape a learning path around what
+              you already know.
             </p>
           </div>
         </section>
-
         <div className="mt-10 flex items-end justify-between gap-4">
           <div>
-            <h2 className="font-display text-xl font-medium text-[var(--text-ink-strong)]">Explore your next skill</h2>
-            <p className="mt-1 text-sm text-[var(--text-muted)]">Start with a track that matches your goals.</p>
+            <h2 className="font-display text-xl font-medium text-[var(--text-ink-strong)]">
+              Explore your next skill
+            </h2>
+            <p className="mt-1 text-sm text-[var(--text-muted)]">
+              Start with a track that matches your goals.
+            </p>
           </div>
           <span className="hidden rounded-full border border-[var(--line)] bg-[var(--ink-raised)] px-3 py-1.5 text-xs text-[var(--text-muted)] sm:block">
             {tracks.length} learning tracks
           </span>
         </div>
-
-        {loading && (
-          <p className="mt-10 text-sm text-[var(--text-muted)]">
-            Loading tracks…
-          </p>
-        )}
-
+        if (loading) return <LoadingScreen message="Loading tracks…" />;
         {error && (
           <p className="mt-10 text-sm text-[#e08a8a]">
             Couldn't load tracks: {error}
           </p>
         )}
-
         {!loading && !error && (
           <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {tracks.map((track, index) => {
               const style = CARD_STYLES[index % CARD_STYLES.length];
               return (
-              <button
-                key={track.id}
-                onClick={() => navigate(`/tracks/${track.slug}${track.hasLearningPath ? "/study" : ""}`)}
-                style={{ borderColor: style.border, boxShadow: `inset 0 1px 0 rgba(255,255,255,.05), 0 14px 32px ${style.glow}` }}
-                className="group flex min-h-56 flex-col items-start rounded-xl border bg-[var(--ink-raised)] p-6 text-left transition duration-200 hover:-translate-y-1 hover:bg-[#272d41]"
-              >
-                <span style={{ color: style.tag }} className="rounded-full bg-black/15 px-2.5 py-1 text-[11px] font-medium uppercase tracking-wide">
-                  AI-guided track
-                </span>
-                <h2 className="mt-4 font-display text-lg font-medium text-[var(--text-ink-strong)]">
-                  {track.name}
-                </h2>
-                <p className="mt-2 text-sm leading-relaxed text-[var(--text-muted)] text-justify">
-                  {track.description}
-                </p>
-                <span className="mt-4 text-xs text-[var(--text-muted)]">
-                  {track._count?.courses ?? 0} course levels
-                </span>
-                <span style={{ color: style.tag }} className="mt-auto pt-5 text-sm font-medium">
-                  Build my path →
-                </span>
-              </button>
+                <button
+                  key={track.id}
+                  onClick={() =>
+                    navigate(
+                      `/tracks/${track.slug}${track.hasLearningPath ? "/study" : ""}`,
+                    )
+                  }
+                  style={{
+                    borderColor: style.border,
+                    boxShadow: `inset 0 1px 0 rgba(255,255,255,.05), 0 8px 18px ${style.glow}`,
+                  }}
+                  className="group flex min-h-56 flex-col items-start rounded-xl border bg-[var(--ink-raised)] p-6 text-left transition duration-200 hover:-translate-y-1 hover:bg-[#272d41]"
+                >
+                  <span
+                    style={{ color: style.tag }}
+                    className="rounded-full bg-black/15 px-2.5 py-1 text-[11px] font-medium uppercase tracking-wide"
+                  >
+                    AI-guided track
+                  </span>
+                  <h2 className="mt-4 font-display text-lg font-medium text-[var(--text-ink-strong)]">
+                    {track.name}
+                  </h2>
+                  <p className="mt-2 text-sm leading-relaxed text-[var(--text-muted)] text-justify">
+                    {track.description}
+                  </p>
+                  <span className="mt-4 text-xs text-[var(--text-muted)]">
+                    {track._count?.courses ?? 0} course levels
+                  </span>
+                  <span
+                    style={{ color: style.tag }}
+                    className="mt-auto pt-5 text-sm font-medium"
+                  >
+                    Build my path →
+                  </span>
+                </button>
               );
             })}
           </div>

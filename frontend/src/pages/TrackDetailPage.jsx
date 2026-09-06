@@ -90,13 +90,9 @@ export default function TrackDetailPage() {
       setGenerating(false);
     }
   };
-  if (!isLoaded || !isSignedIn || !userId) return <LoadingScreen label="Preparing your track…" />;
-  if (loading)
-    return (
-      <div className="min-h-screen bg-[var(--ink)] px-8 py-16 text-sm text-[var(--text-muted)]">
-        Loading track…
-      </div>
-    );
+  if (!isLoaded || !isSignedIn || !userId)
+    return <LoadingScreen label="Preparing your track…" />;
+  if (loading) return <LoadingScreen message="Loading track…" />;
   if (!track)
     return (
       <div className="min-h-screen bg-[var(--ink)] px-8 py-16 text-sm text-[#e08a8a]">

@@ -125,7 +125,7 @@
   },
   {
     "section_id": "section_backend_async_javascript_backend",
-    "skill_id": "skill_async_javascript"
+    "skill_id": "skill_async_js"
   },
   {
     "section_id": "section_backend_event_loop_concurrency",
@@ -165,7 +165,7 @@
   },
   {
     "section_id": "section_backend_database_integration_orm",
-    "skill_id": "skill_database_integration"
+    "skill_id": "skill_db_integration"
   },
   {
     "section_id": "section_backend_middleware_error_handling",
@@ -205,7 +205,7 @@
   },
   {
     "section_id": "section_backend_advanced_database_patterns",
-    "skill_id": "skill_database_integration"
+    "skill_id": "skill_db_integration"
   },
   {
     "section_id": "section_backend_production_readiness",
@@ -277,7 +277,7 @@
   },
   {
     "section_id": "section_devops_cloud_monitoring_logging_intro",
-    "skill_id": "skill_monitoring_logging"
+    "skill_id": "skill_monitoring"
   },
   {
     "section_id": "section_devops_cloud_production_infrastructure_architecture",
@@ -305,7 +305,7 @@
   },
   {
     "section_id": "section_devops_cloud_advanced_monitoring_observability",
-    "skill_id": "skill_monitoring_logging"
+    "skill_id": "skill_monitoring"
   },
   {
     "section_id": "section_devops_cloud_cloud_security_networking",
@@ -325,7 +325,7 @@
   },
   {
     "section_id": "section_relational_databases_database_fundamentals_section",
-    "skill_id": "skill_database_fundamentals"
+    "skill_id": "skill_db_fundamentals"
   },
   {
     "section_id": "section_relational_databases_relational_modeling_basics",
@@ -417,7 +417,7 @@
   },
   {
     "section_id": "section_relational_databases_production_database_considerations",
-    "skill_id": "skill_database_fundamentals"
+    "skill_id": "skill_db_fundamentals"
   },
   {
     "section_id": "section_relational_databases_production_database_considerations",
@@ -509,7 +509,7 @@
   },
   {
     "section_id": "section_data_analytics_analytics_fundamentals_section",
-    "skill_id": "skill_analytics_fundamentals"
+    "skill_id": "skill_analytics_basics"
   },
   {
     "section_id": "section_data_analytics_data_cleaning_basics",
@@ -585,7 +585,7 @@
   },
   {
     "section_id": "section_data_analytics_analytics_at_scale",
-    "skill_id": "skill_analytics_fundamentals"
+    "skill_id": "skill_analytics_basics"
   },
   {
     "section_id": "section_data_analytics_analytics_at_scale",

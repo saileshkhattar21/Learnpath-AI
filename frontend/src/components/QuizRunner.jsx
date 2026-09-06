@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import LoadingScreen from "./LoadingScreen";
 
 export default function QuizRunner({
   fetchQuestions,
@@ -64,11 +65,7 @@ export default function QuizRunner({
   };
 
   if (loading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center bg-[var(--ink)] text-sm text-[var(--text-muted)]">
-        Loading quiz…
-      </div>
-    );
+    return <LoadingScreen message="Loading quiz…" />;
   }
 
   if (error) {
