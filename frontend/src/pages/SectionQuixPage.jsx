@@ -2,11 +2,14 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useAuth } from "@clerk/clerk-react";
 import { getSectionQuiz, submitSectionQuiz } from "../lib/api";
 import QuizRunner from "../components/QuizRunner";
+import LoadingScreen from "../components/LoadingScreen";
 
 export default function SectionQuizPage() {
   const { slug, sectionId } = useParams();
-  const { getToken } = useAuth();
+  const { getToken, isLoaded, isSignedIn, userId } = useAuth();
   const navigate = useNavigate();
+
+  if (!isLoaded || !isSignedIn || !userId) return <LoadingScreen label="Preparing your assessment…" />;
 
   return (
     <QuizRunner

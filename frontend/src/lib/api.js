@@ -5,21 +5,24 @@ export async function apiRequest(
   path,
   { method = "GET", body, getToken } = {},
 ) {
-  const headers = { "Content-Type": "application/json" };
+  if (!getToken) throw new Error("This request requires an authenticated session.");
 
-  if (getToken) {
-    const token = await getToken();
-    console.log("[api] token:", token ? token.slice(0, 20) + "…" : token);
-    if (token) headers.Authorization = `Bearer ${token}`;
-  }
-
-  const res = await fetch(`${API_BASE_URL}${path}`, {
+  const requestWithToken = (token) => fetch(`${API_BASE_URL}${path}`, {
     method,
-    headers,
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
     body: body ? JSON.stringify(body) : undefined,
   });
 
-  console.log("[api] response status:", res.status, path);
+  let token = await getToken();
+  if (!token) throw new Error("Your secure session is still loading. Please try again in a moment.");
+  let res = await requestWithToken(token);
+
+  // A restored session can briefly expose a token the API has not accepted.
+  // Mint one fresh token and retry once; genuine 401 responses still surface.
+  if (res.status === 401) {
+    token = await getToken({ skipCache: true });
+    if (token) res = await requestWithToken(token);
+  }
 
   const isJson = res.headers.get("content-type")?.includes("application/json");
   const data = isJson ? await res.json() : null;

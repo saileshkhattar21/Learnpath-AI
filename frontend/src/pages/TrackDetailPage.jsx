@@ -6,83 +6,12 @@ import {
   getTrack,
   saveTrackSkillRatings,
 } from "../lib/api";
-
-function PathModal({ path, close, study }) {
-  if (!path) return null;
-  return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
-      role="dialog"
-      aria-modal="true"
-    >
-      <div className="max-h-[85vh] w-full max-w-2xl overflow-y-auto rounded-md border border-[var(--line)] bg-[var(--ink-raised)] p-6 shadow-2xl">
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <p className="text-xs uppercase tracking-[.18em] text-[var(--waypoint)]">
-              Your AI learning path
-            </p>
-            <h2 className="mt-2 font-display text-2xl font-medium text-[var(--text-ink-strong)]">
-              A focused route forward
-            </h2>
-          </div>
-          <button
-            onClick={close}
-            aria-label="Close path"
-            className="text-lg text-[var(--text-muted)]"
-          >
-            ×
-          </button>
-        </div>
-        {path.summary && (
-          <p className="mt-4 text-sm leading-relaxed text-[var(--text-muted)]">
-            {path.summary}
-          </p>
-        )}
-        <button
-          onClick={study}
-          className="mt-6 w-full rounded-md bg-[var(--waypoint)] px-5 py-3 text-sm font-medium text-[#1c1a12] hover:bg-[var(--waypoint-strong)]"
-        >
-          Start studying →
-        </button>
-        {path.recommendedStartingPoint && (
-          <p className="mt-4 rounded-md border border-[var(--line)] p-3 text-sm text-[var(--text-ink-strong)]">
-            Start with:{" "}
-            <span className="text-[var(--waypoint)]">
-              {path.recommendedStartingPoint}
-            </span>
-          </p>
-        )}
-        <ol className="mt-6 space-y-3">
-          {path.items.map((item) => (
-            <li
-              key={item.id}
-              className="rounded-md border border-[var(--line)] p-4"
-            >
-              <p className="text-xs text-[var(--waypoint)]">
-                Step {item.position} · {item.course?.level?.name}
-              </p>
-              <h3 className="mt-1 text-sm font-medium text-[var(--text-ink-strong)]">
-                {item.section?.title || item.course?.title}
-              </h3>
-              {item.section && (
-                <p className="mt-1 text-xs text-[var(--text-muted)]">
-                  {item.course?.title}
-                </p>
-              )}
-              <p className="mt-2 text-sm leading-relaxed text-[var(--text-muted)]">
-                {item.reason}
-              </p>
-            </li>
-          ))}
-        </ol>
-      </div>
-    </div>
-  );
-}
+import LoadingScreen from "../components/LoadingScreen";
+import LearningPathModal from "../components/LearningPathModal";
 
 export default function TrackDetailPage() {
   const { slug } = useParams();
-  const { getToken } = useAuth();
+  const { getToken, isLoaded, isSignedIn, userId } = useAuth();
   const navigate = useNavigate();
   const [track, setTrack] = useState(null);
   const [ratings, setRatings] = useState({});
@@ -97,6 +26,7 @@ export default function TrackDetailPage() {
   useEffect(() => {
     let canceled = false;
     (async () => {
+      if (!isLoaded || !isSignedIn || !userId) return;
       try {
         const data = await getTrack(slug, getToken);
         if (canceled) return;
@@ -119,7 +49,7 @@ export default function TrackDetailPage() {
     return () => {
       canceled = true;
     };
-  }, [slug, getToken]);
+  }, [slug, getToken, isLoaded, isSignedIn, userId]);
   const save = async () => {
     try {
       setSaving(true);
@@ -160,6 +90,7 @@ export default function TrackDetailPage() {
       setGenerating(false);
     }
   };
+  if (!isLoaded || !isSignedIn || !userId) return <LoadingScreen label="Preparing your track…" />;
   if (loading)
     return (
       <div className="min-h-screen bg-[var(--ink)] px-8 py-16 text-sm text-[var(--text-muted)]">
@@ -274,7 +205,7 @@ export default function TrackDetailPage() {
               {generating
                 ? "Generating your path…"
                 : hasQuiz
-                  ? "Generate my path"
+                  ? "Generate my path with AI"
                   : "Complete quiz to generate"}
             </button>
           )}
@@ -286,10 +217,10 @@ export default function TrackDetailPage() {
         )}
       </main>
       {showPath && (
-        <PathModal
+        <LearningPathModal
           path={path}
-          close={() => setShowPath(false)}
-          study={() => navigate(`/tracks/${slug}/study`)}
+          onClose={() => setShowPath(false)}
+          onStartStudying={() => navigate(`/tracks/${slug}/study`)}
         />
       )}
     </div>

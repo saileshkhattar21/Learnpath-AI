@@ -18,6 +18,9 @@ export const findLearningPath = ({ userId, trackId }) =>
     include: pathInclude,
   });
 
+export const findLearningPathTrackIds = (userId) =>
+  prisma.learningPath.findMany({ where: { userId }, select: { trackId: true } });
+
 export const createLearningPath = ({
   userId,
   trackId,

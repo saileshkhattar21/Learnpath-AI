@@ -20,7 +20,7 @@ export default function LandingPage() {
             </h1>
             <p className="mt-5 max-w-md text-base leading-relaxed text-[var(--text-muted)]">
               Pick a track, tell us what you already know, and get a path
-              built from real course material — not a generic syllabus.
+              built from real course material and shaped by AI — not a generic syllabus.
             </p>
             <div className="mt-8 flex gap-4">
               <Link

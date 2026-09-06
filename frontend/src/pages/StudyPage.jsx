@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useAuth, UserButton } from "@clerk/clerk-react";
+import { useAuth } from "@clerk/clerk-react";
 import { getTrackStudy } from "../lib/api";
+import LoadingScreen from "../components/LoadingScreen";
+import LearningPathModal from "../components/LearningPathModal";
 
 function YoutubeCard({ video }) {
   if (!video.youtubeId) {
@@ -50,10 +52,12 @@ function YoutubeCard({ video }) {
 
 export default function StudyPage() {
   const { slug } = useParams();
-  const { getToken } = useAuth();
+  const { getToken, isLoaded, isSignedIn, userId } = useAuth();
   const navigate = useNavigate();
 
   const [study, setStudy] = useState(null);
+  const [path, setPath] = useState(null);
+  const [showPath, setShowPath] = useState(false);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -61,6 +65,7 @@ export default function StudyPage() {
   const [activeItemId, setActiveItemId] = useState(null);
 
   const loadStudy = async () => {
+    if (!isLoaded || !isSignedIn || !userId) return;
     try {
       console.log("[study] fetching study view:", slug);
       const data = await getTrackStudy(slug, getToken);
@@ -69,6 +74,7 @@ export default function StudyPage() {
         data.study.levels.map((l) => l.levelName),
       );
       setStudy(data.study);
+      setPath(data.path);
 
       const firstUnlocked =
         data.study.levels.find((l) => l.unlocked) ?? data.study.levels[0];
@@ -85,12 +91,15 @@ export default function StudyPage() {
   useEffect(() => {
     loadStudy();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
+  }, [slug, isLoaded, isSignedIn, userId]);
 
   const handleReassess = () => {
     console.log("[study] sending user to retake diagnostic before reassessing");
     navigate(`/tracks/${slug}/quiz?reassess=1`);
   };
+
+  if (!isLoaded || !isSignedIn || !userId)
+    return <LoadingScreen label="Preparing your learning path…" />;
 
   if (loading) {
     return (
@@ -131,8 +140,8 @@ export default function StudyPage() {
       </header>
 
       {/* Level tabs */}
-      <div className="flex justify-between">
-        <div className="flex gap-2 border-b border-[var(--line)] px-8 pt-6">
+      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-[var(--line)] px-6 py-4 sm:px-8">
+        <div className="flex max-w-full gap-2 overflow-x-auto">
           {study.levels.map((level) => (
             <button
               key={level.rank}
@@ -160,13 +169,16 @@ export default function StudyPage() {
           ))}
         </div>
 
-        <button
-          onClick={handleReassess}
-          className="rounded-md bg-[var(--waypoint)] px-5 py-2.5 text-sm font-medium text-[#1c1a12] hover:bg-[var(--waypoint-strong)]"
-        >
-          Reassess my path
-        </button>
+        <div className="flex items-center gap-3">
+          <button onClick={() => setShowPath(true)} className="rounded-md border border-[var(--line)] bg-[var(--ink-raised)] px-4 py-2.5 text-sm font-medium text-[var(--text-ink-strong)] hover:border-[var(--waypoint)]">
+            See my path
+          </button>
+          <button onClick={handleReassess} className="text-sm font-medium text-[var(--waypoint)] hover:text-[var(--waypoint-strong)]">
+            Reassess path →
+          </button>
+        </div>
       </div>
+      {showPath && <LearningPathModal path={path} onClose={() => setShowPath(false)} />}
 
       <div className="mx-auto grid max-w-6xl grid-cols-[1fr_260px] gap-8 px-8 py-10">
         {/* Section content */}

@@ -7,16 +7,19 @@ import {
   regenerateLearningPath,
 } from "../lib/api";
 import QuizRunner from "../components/QuizRunner";
+import LoadingScreen from "../components/LoadingScreen";
 
 export default function QuizPage() {
   const { slug } = useParams();
-  const { getToken } = useAuth();
+  const { getToken, isLoaded, isSignedIn, userId } = useAuth();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const isReassess = searchParams.get("reassess") === "1";
 
   const [regenerating, setRegenerating] = useState(false);
   const [regenError, setRegenError] = useState(null);
+
+  if (!isLoaded || !isSignedIn || !userId) return <LoadingScreen label="Preparing your assessment…" />;
 
   const handleUpdatePath = async () => {
     try {

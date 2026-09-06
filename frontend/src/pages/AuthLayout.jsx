@@ -11,7 +11,7 @@ export default function AuthLayout({ title, subtitle, children }) {
             LearnPath AI
           </span>
           <p className="mt-3 max-w-[240px] text-sm leading-relaxed text-[var(--text-muted)]">
-            Six tracks, one path built around what you already know.
+            A focused, AI-guided path built around what you already know.
           </p>
         </div>
         <div className="flex-1 py-8">

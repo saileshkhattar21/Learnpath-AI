@@ -5,6 +5,7 @@ import { buildAiContext } from "./ai-context.service.js";
 import {
   createLearningPath,
   findLearningPath,
+  findLearningPathTrackIds,
 } from "../models/learning-path.model.js";
 import { findLatestAttemptForUserTrack } from "../models/track-assessment.model.js";
 import { deleteLearningPath } from "../models/learning-path.model.js";
@@ -69,6 +70,8 @@ function validateCatalogReferences(plan, catalog) {
 
 export const getLearningPathForTrack = ({ userId, trackId }) =>
   findLearningPath({ userId, trackId });
+
+export { findLearningPathTrackIds };
 
 export const generateLearningPath = async ({ userId, slug, trackId }) => {
   const existing = await findLearningPath({ userId, trackId });

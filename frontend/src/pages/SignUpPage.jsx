@@ -4,7 +4,7 @@ import { clerkAppearance } from "../lib/clerkAppearance";
 
 export default function SignUpPage() {
   return (
-    <AuthLayout title="Start your path" subtitle="Tell us what you know, and we'll take it from there.">
+    <AuthLayout title="Start your path" subtitle="Tell us what you know, and AI will help shape what comes next.">
       <SignUp
         routing="path"
         path="/sign-up"

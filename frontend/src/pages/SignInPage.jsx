@@ -4,7 +4,7 @@ import { clerkAppearance } from "../lib/clerkAppearance";
 
 export default function SignInPage() {
   return (
-    <AuthLayout title="Welcome back" subtitle="Sign in to pick up your path.">
+    <AuthLayout title="Welcome back" subtitle="Sign in to continue your AI-guided learning path.">
       <SignIn
         routing="path"
         path="/sign-in"

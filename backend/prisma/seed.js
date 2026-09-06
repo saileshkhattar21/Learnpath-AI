@@ -23,15 +23,12 @@ const TRACK_FILES = [
 // several seed files aren't filled in yet and that shouldn't block the rest.
 async function readJsonSafe(relativePath) {
   const fullPath = path.join(seedDir, relativePath);
-
   try {
     const raw = await fs.readFile(fullPath, "utf8");
-
     if (!raw.trim()) {
       console.log(`[seed] ${relativePath} is empty, skipping`);
       return [];
     }
-
     return JSON.parse(raw);
   } catch (err) {
     if (err.code === "ENOENT") {
@@ -39,7 +36,6 @@ async function readJsonSafe(relativePath) {
     } else {
       console.warn(`[seed] couldn't parse ${relativePath}:`, err.message);
     }
-
     return [];
   }
 }
@@ -48,17 +44,32 @@ async function seedLevels() {
   const levels = await readJsonSafe("levels.json");
   console.log(`[seed] levels: ${levels.length}`);
 
+  const seenSlugs = new Map();
+  const seenRanks = new Map();
   for (const level of levels) {
-    await prisma.level.upsert({
-      where: { slug: level.slug },
+    if (seenSlugs.has(level.slug)) {
+      console.error(
+        `[seed] DUPLICATE LEVEL SLUG "${level.slug}": ${seenSlugs.get(level.slug)} and ${level.id} both use it. Skipping ${level.id}.`,
+      );
+      continue;
+    }
+    if (seenRanks.has(level.rank)) {
+      console.error(
+        `[seed] DUPLICATE LEVEL RANK ${level.rank}: ${seenRanks.get(level.rank)} and ${level.id} both use it. Skipping ${level.id}.`,
+      );
+      continue;
+    }
+    seenSlugs.set(level.slug, level.id);
+    seenRanks.set(level.rank, level.id);
 
+    await prisma.level.upsert({
+      where: { id: level.id },
       update: {
         slug: level.slug,
         name: level.name,
         rank: level.rank,
         description: level.description ?? null,
       },
-
       create: {
         id: level.id,
         slug: level.slug,
@@ -68,7 +79,6 @@ async function seedLevels() {
       },
     });
   }
-
   console.log("[seed] levels done");
 }
 
@@ -76,16 +86,23 @@ async function seedSkills() {
   const skills = await readJsonSafe("skills.json");
   console.log(`[seed] skills: ${skills.length}`);
 
+  const seenSlugs = new Map();
   for (const skill of skills) {
-    await prisma.skill.upsert({
-      where: { slug: skill.slug },
+    if (seenSlugs.has(skill.slug)) {
+      console.error(
+        `[seed] DUPLICATE SLUG "${skill.slug}": ${seenSlugs.get(skill.slug)} and ${skill.id} both use it. Skipping ${skill.id}.`,
+      );
+      continue;
+    }
+    seenSlugs.set(skill.slug, skill.id);
 
+    await prisma.skill.upsert({
+      where: { id: skill.id },
       update: {
         slug: skill.slug,
         name: skill.name,
         description: skill.description ?? null,
       },
-
       create: {
         id: skill.id,
         slug: skill.slug,
@@ -94,7 +111,6 @@ async function seedSkills() {
       },
     });
   }
-
   console.log("[seed] skills done");
 }
 
@@ -102,17 +118,24 @@ async function seedTracks() {
   const tracks = await readJsonSafe("tracks.json");
   console.log(`[seed] tracks: ${tracks.length}`);
 
+  const seenSlugs = new Map();
   for (const track of tracks) {
-    await prisma.track.upsert({
-      where: { slug: track.slug },
+    if (seenSlugs.has(track.slug)) {
+      console.error(
+        `[seed] DUPLICATE TRACK SLUG "${track.slug}": ${seenSlugs.get(track.slug)} and ${track.id} both use it. Skipping ${track.id}.`,
+      );
+      continue;
+    }
+    seenSlugs.set(track.slug, track.id);
 
+    await prisma.track.upsert({
+      where: { id: track.id },
       update: {
         slug: track.slug,
         name: track.name,
         description: track.description ?? null,
         displayOrder: track.display_order,
       },
-
       create: {
         id: track.id,
         slug: track.slug,
@@ -122,52 +145,31 @@ async function seedTracks() {
       },
     });
   }
-
   console.log("[seed] tracks done");
 }
 
 async function seedTrackSkills() {
   const trackSkills = await readJsonSafe("track-skills.json");
   console.log(`[seed] track-skills: ${trackSkills.length}`);
-
   for (const ts of trackSkills) {
     await prisma.trackSkill.upsert({
       where: {
-        trackId_skillId: {
-          trackId: ts.track_id,
-          skillId: ts.skill_id,
-        },
+        trackId_skillId: { trackId: ts.track_id, skillId: ts.skill_id },
       },
-
       update: {},
-
-      create: {
-        trackId: ts.track_id,
-        skillId: ts.skill_id,
-      },
+      create: { trackId: ts.track_id, skillId: ts.skill_id },
     });
   }
-
   console.log("[seed] track-skills done");
 }
 
 async function seedTrackPrerequisites() {
   const prereqs = await readJsonSafe("track-prerequisites.json");
   console.log(`[seed] track-prerequisites: ${prereqs.length}`);
-
   for (const p of prereqs) {
     await prisma.trackPrerequisite.upsert({
-      where: {
-        trackId_skillId: {
-          trackId: p.track_id,
-          skillId: p.skill_id,
-        },
-      },
-
-      update: {
-        importance: p.importance,
-      },
-
+      where: { trackId_skillId: { trackId: p.track_id, skillId: p.skill_id } },
+      update: { importance: p.importance },
       create: {
         trackId: p.track_id,
         skillId: p.skill_id,
@@ -175,20 +177,32 @@ async function seedTrackPrerequisites() {
       },
     });
   }
-
   console.log("[seed] track-prerequisites done");
 }
 
 async function seedCoursesAndSections() {
+  // Declared outside the per-file loop on purpose — duplicates can happen
+  // ACROSS track files too (e.g. the same course/section slug typo'd into
+  // both frontend.json and backend.json), so the dedupe needs to span the
+  // whole function, not reset for every file.
+  const seenCourseSlugs = new Map();
+  const seenSectionSlugs = new Map(); // key: `${courseId}:${slug}`
+
   for (const trackKey of TRACK_FILES) {
     const courses = await readJsonSafe(`courses/${trackKey}.json`);
-
     console.log(`[seed] courses/${trackKey}.json: ${courses.length} courses`);
 
     for (const course of courses) {
-      await prisma.course.upsert({
-        where: { slug: course.slug },
+      if (seenCourseSlugs.has(course.slug)) {
+        console.error(
+          `[seed] DUPLICATE COURSE SLUG "${course.slug}": ${seenCourseSlugs.get(course.slug)} and ${course.id} both use it. Skipping ${course.id}.`,
+        );
+        continue;
+      }
+      seenCourseSlugs.set(course.slug, course.id);
 
+      await prisma.course.upsert({
+        where: { id: course.id },
         update: {
           trackId: course.track_id,
           levelId: course.level_id,
@@ -197,7 +211,6 @@ async function seedCoursesAndSections() {
           description: course.description ?? null,
           displayOrder: course.display_order,
         },
-
         create: {
           id: course.id,
           trackId: course.track_id,
@@ -210,16 +223,18 @@ async function seedCoursesAndSections() {
       });
 
       const sections = course.sections ?? [];
-
       for (const section of sections) {
-        await prisma.section.upsert({
-          where: {
-            courseId_slug: {
-              courseId: section.course_id,
-              slug: section.slug,
-            },
-          },
+        const key = `${section.course_id}:${section.slug}`;
+        if (seenSectionSlugs.has(key)) {
+          console.error(
+            `[seed] DUPLICATE SECTION SLUG "${section.slug}" in course ${section.course_id}: ${seenSectionSlugs.get(key)} and ${section.id} both use it. Skipping ${section.id}.`,
+          );
+          continue;
+        }
+        seenSectionSlugs.set(key, section.id);
 
+        await prisma.section.upsert({
+          where: { id: section.id },
           update: {
             courseId: section.course_id,
             title: section.title,
@@ -228,7 +243,6 @@ async function seedCoursesAndSections() {
             displayOrder: section.display_order,
             learningObjectives: section.learning_objectives ?? undefined,
           },
-
           create: {
             id: section.id,
             courseId: section.course_id,
@@ -242,39 +256,27 @@ async function seedCoursesAndSections() {
       }
     }
   }
-
   console.log("[seed] courses & sections done");
 }
 
 async function seedSectionSkills() {
   const sectionSkills = await readJsonSafe("section-skills.json");
   console.log(`[seed] section-skills: ${sectionSkills.length}`);
-
   for (const ss of sectionSkills) {
     await prisma.sectionSkill.upsert({
       where: {
-        sectionId_skillId: {
-          sectionId: ss.section_id,
-          skillId: ss.skill_id,
-        },
+        sectionId_skillId: { sectionId: ss.section_id, skillId: ss.skill_id },
       },
-
       update: {},
-
-      create: {
-        sectionId: ss.section_id,
-        skillId: ss.skill_id,
-      },
+      create: { sectionId: ss.section_id, skillId: ss.skill_id },
     });
   }
-
   console.log("[seed] section-skills done");
 }
 
 async function seedQuestions() {
   for (const trackKey of TRACK_FILES) {
     const questions = await readJsonSafe(`questions/${trackKey}.json`);
-
     console.log(
       `[seed] questions/${trackKey}.json: ${questions.length} questions`,
     );
@@ -282,7 +284,6 @@ async function seedQuestions() {
     for (const q of questions) {
       await prisma.question.upsert({
         where: { id: q.id },
-
         update: {
           sectionId: q.section_id,
           levelId: q.level_id,
@@ -290,7 +291,6 @@ async function seedQuestions() {
           explanation: q.explanation ?? null,
           displayOrder: q.display_order,
         },
-
         create: {
           id: q.id,
           sectionId: q.section_id,
@@ -302,17 +302,14 @@ async function seedQuestions() {
       });
 
       const options = q.options ?? [];
-
       for (const opt of options) {
         await prisma.questionOption.upsert({
           where: { id: opt.id },
-
           update: {
             questionId: q.id,
             text: opt.text,
             isCorrect: opt.is_correct,
           },
-
           create: {
             id: opt.id,
             questionId: q.id,
@@ -323,20 +320,17 @@ async function seedQuestions() {
       }
     }
   }
-
   console.log("[seed] questions & options done");
 }
 
 async function seedVideos() {
   for (const trackKey of TRACK_FILES) {
     const videos = await readJsonSafe(`videos/${trackKey}.json`);
-
     console.log(`[seed] videos/${trackKey}.json: ${videos.length} videos`);
 
     for (const v of videos) {
       await prisma.video.upsert({
         where: { id: v.id },
-
         update: {
           sectionId: v.section_id,
           title: v.title,
@@ -344,7 +338,6 @@ async function seedVideos() {
           url: v.url,
           channel: v.channel,
         },
-
         create: {
           id: v.id,
           sectionId: v.section_id,
@@ -356,14 +349,12 @@ async function seedVideos() {
       });
     }
   }
-
   console.log("[seed] videos done");
 }
 
 async function seedResources() {
   for (const trackKey of TRACK_FILES) {
     const resources = await readJsonSafe(`resources/${trackKey}.json`);
-
     console.log(
       `[seed] resources/${trackKey}.json: ${resources.length} resources`,
     );
@@ -371,7 +362,6 @@ async function seedResources() {
     for (const r of resources) {
       await prisma.resource.upsert({
         where: { id: r.id },
-
         update: {
           sectionId: r.section_id,
           title: r.title,
@@ -380,7 +370,6 @@ async function seedResources() {
           source: r.source,
           type: r.type,
         },
-
         create: {
           id: r.id,
           sectionId: r.section_id,
@@ -393,7 +382,6 @@ async function seedResources() {
       });
     }
   }
-
   console.log("[seed] resources done");
 }
 

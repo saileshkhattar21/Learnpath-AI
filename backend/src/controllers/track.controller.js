@@ -9,13 +9,22 @@ import {
   generateLearningPath,
   getLearningPathForTrack,
   regenerateLearningPath,
+  findLearningPathTrackIds,
 } from "../services/learning-path.service.js";
 import { findLatestAttemptForUserTrack } from "../models/track-assessment.model.js";
 
 export const getTracks = async (req, res) => {
   try {
     const tracks = await listTracks();
-    res.json({ tracks });
+    const user = await findOrCreateUser(getAuth(req).userId);
+    const paths = await findLearningPathTrackIds(user.id);
+    const trackIdsWithPaths = new Set(paths.map((path) => path.trackId));
+    res.json({
+      tracks: tracks.map((track) => ({
+        ...track,
+        hasLearningPath: trackIdsWithPaths.has(track.id),
+      })),
+    });
   } catch (err) {
     console.error("[GET /tracks] failed:", err);
     res.status(500).json({ error: err.message });
