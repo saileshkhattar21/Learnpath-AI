@@ -1,0 +1,146 @@
+[
+  {
+    "id": "video_frontend_001",
+    "section_id": "section_frontend_html_foundations",
+    "title": "Learn HTML \u2013 Full Course for Beginners",
+    "description": "A full beginner course covering HTML structure, elements, forms, and semantic tags.",
+    "url": "https://www.youtube.com/watch?v=kUMe1FH4CHE",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_002",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "title": "Full CSS Course - Includes Flexbox and CSS Grid",
+    "description": "A complete beginner course covering CSS fundamentals, Flexbox, and CSS Grid.",
+    "url": "https://www.youtube.com/watch?v=ieTHC78giGQ",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_003",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "title": "Learn JavaScript - Full Course for Beginners",
+    "description": "A complete beginner course covering JavaScript syntax, functions, and control flow.",
+    "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_004",
+    "section_id": "section_frontend_dom_browser_apis",
+    "title": "Learn JavaScript - Full Course for Beginners",
+    "description": "Includes sections on the DOM and browser interaction relevant to this topic.",
+    "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_005",
+    "section_id": "section_frontend_http_api_basics",
+    "title": "Learn JavaScript - Full Course for Beginners",
+    "description": "Includes foundational JavaScript needed to work with fetch and HTTP requests.",
+    "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_006",
+    "section_id": "section_frontend_accessibility_basics",
+    "title": "How to Make Your Web Sites Accessible",
+    "description": "A full course covering WCAG guidelines, semantic HTML, and ARIA for accessibility.",
+    "url": "https://www.youtube.com/watch?v=e2nkq3h1P68",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_007",
+    "section_id": "section_frontend_react_fundamentals",
+    "title": "Learn React - Full Course for Beginners",
+    "description": "A full course covering JSX, components, and props in React.",
+    "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_008",
+    "section_id": "section_frontend_react_state_hooks",
+    "title": "Learn React - Full Course for Beginners",
+    "description": "Covers state, lifecycle, and hooks as part of the full React course.",
+    "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_009",
+    "section_id": "section_frontend_component_composition",
+    "title": "Learn React - Full Course for Beginners",
+    "description": "Covers component structure and composition patterns in React.",
+    "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_010",
+    "section_id": "section_frontend_consuming_apis_react",
+    "title": "Learn React - Full Course for Beginners",
+    "description": "Covers fetching data from an API inside a React application.",
+    "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_011",
+    "section_id": "section_frontend_frontend_testing_basics",
+    "title": "How to Test React Applications",
+    "description": "A course covering component testing with React Testing Library and Jest.",
+    "url": "https://www.youtube.com/watch?v=8vfQ6SWBZ-U",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_012",
+    "section_id": "section_frontend_state_management_patterns",
+    "title": "Learn React - Full Course for Beginners",
+    "description": "Covers state and prop patterns that underlie state management in React.",
+    "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_013",
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "title": "Learn React - Full Course for Beginners",
+    "description": "Foundational React concepts that inform larger-scale component architecture.",
+    "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_014",
+    "section_id": "section_frontend_web_performance_optimization",
+    "title": "Full CSS Course - Includes Flexbox and CSS Grid",
+    "description": "Covers layout techniques relevant to rendering performance.",
+    "url": "https://www.youtube.com/watch?v=ieTHC78giGQ",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_015",
+    "section_id": "section_frontend_advanced_accessibility",
+    "title": "How to Make Your Web Sites Accessible",
+    "description": "Covers ARIA and advanced accessibility techniques used in complex UI.",
+    "url": "https://www.youtube.com/watch?v=e2nkq3h1P68",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_016",
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "title": "How to Test React Applications",
+    "description": "Covers unit, component, and end-to-end testing strategy for React apps.",
+    "url": "https://www.youtube.com/watch?v=8vfQ6SWBZ-U",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_017",
+    "section_id": "section_frontend_production_frontend_concerns",
+    "title": "How to Test React Applications",
+    "description": "Covers CI pipelines and production deployment testing relevant to production concerns.",
+    "url": "https://www.youtube.com/watch?v=8vfQ6SWBZ-U",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_frontend_018",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "title": "Learn React - Full Course for Beginners",
+    "description": "Core React concepts that underlie advanced hook and component patterns.",
+    "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+    "channel": "freeCodeCamp.org"
+  }
+]

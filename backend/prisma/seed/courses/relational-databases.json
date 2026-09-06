@@ -1,0 +1,269 @@
+[
+  {
+    "id": "course_relational_databases_beginner",
+    "track_id": "track_relational_databases",
+    "level_id": "level_beginner",
+    "slug": "relational-databases-beginner",
+    "title": "Relational Databases \u2014 Beginner",
+    "description": "Learn the fundamentals of relational databases and core SQL.",
+    "display_order": 1,
+    "sections": [
+      {
+        "id": "section_relational_databases_database_fundamentals_section",
+        "course_id": "course_relational_databases_beginner",
+        "title": "Database Fundamentals",
+        "slug": "database-fundamentals-section",
+        "description": "Understand what relational databases are and why they matter.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Explain what a relational database is",
+          "Understand tables, rows, and columns",
+          "Compare relational and non-relational storage at a high level"
+        ]
+      },
+      {
+        "id": "section_relational_databases_relational_modeling_basics",
+        "course_id": "course_relational_databases_beginner",
+        "title": "Relational Modeling Basics",
+        "slug": "relational-modeling-basics",
+        "description": "Model data using related tables and keys.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Identify entities and relationships",
+          "Use primary and foreign keys",
+          "Draw a basic entity-relationship diagram"
+        ]
+      },
+      {
+        "id": "section_relational_databases_sql_fundamentals",
+        "course_id": "course_relational_databases_beginner",
+        "title": "SQL Fundamentals",
+        "slug": "sql-fundamentals",
+        "description": "Write basic SQL statements to query data.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Write SELECT statements with filtering and sorting",
+          "Perform INSERT, UPDATE, and DELETE operations",
+          "Use basic WHERE conditions"
+        ]
+      },
+      {
+        "id": "section_relational_databases_joins_basics",
+        "course_id": "course_relational_databases_beginner",
+        "title": "Joins",
+        "slug": "joins-basics",
+        "description": "Combine data from multiple related tables.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Use INNER and LEFT JOIN",
+          "Combine three or more tables",
+          "Avoid common join pitfalls"
+        ]
+      },
+      {
+        "id": "section_relational_databases_aggregations_basics",
+        "course_id": "course_relational_databases_beginner",
+        "title": "Aggregations",
+        "slug": "aggregations-basics",
+        "description": "Summarize data using aggregate functions and grouping.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Use COUNT, SUM, and AVG",
+          "Group results with GROUP BY",
+          "Filter groups with HAVING"
+        ]
+      },
+      {
+        "id": "section_relational_databases_constraints_basics",
+        "course_id": "course_relational_databases_beginner",
+        "title": "Constraints",
+        "slug": "constraints-basics",
+        "description": "Enforce data integrity using database constraints.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Apply primary key and foreign key constraints",
+          "Use unique and not-null constraints",
+          "Understand default values"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_relational_databases_intermediate",
+    "track_id": "track_relational_databases",
+    "level_id": "level_intermediate",
+    "slug": "relational-databases-intermediate",
+    "title": "Relational Databases \u2014 Intermediate",
+    "description": "Design normalized schemas and work with transactions.",
+    "display_order": 2,
+    "sections": [
+      {
+        "id": "section_relational_databases_normalization_deep_dive",
+        "course_id": "course_relational_databases_intermediate",
+        "title": "Normalization",
+        "slug": "normalization-deep-dive",
+        "description": "Organize schemas to reduce redundancy and anomalies.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Apply 1NF, 2NF, and 3NF",
+          "Identify normalization violations",
+          "Balance normalization with practical design needs"
+        ]
+      },
+      {
+        "id": "section_relational_databases_schema_design_practice",
+        "course_id": "course_relational_databases_intermediate",
+        "title": "Schema Design",
+        "slug": "schema-design-practice",
+        "description": "Design relational schemas for real-world applications.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Design a schema from requirements",
+          "Model many-to-many relationships",
+          "Evolve a schema with migrations"
+        ]
+      },
+      {
+        "id": "section_relational_databases_advanced_sql_queries",
+        "course_id": "course_relational_databases_intermediate",
+        "title": "Advanced SQL Queries",
+        "slug": "advanced-sql-queries",
+        "description": "Write more complex SQL using subqueries and set operations.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Write subqueries and correlated subqueries",
+          "Use set operations like UNION",
+          "Apply window functions at a basic level"
+        ]
+      },
+      {
+        "id": "section_relational_databases_transactions_intro",
+        "course_id": "course_relational_databases_intermediate",
+        "title": "Transactions",
+        "slug": "transactions-intro",
+        "description": "Group operations into atomic units of work.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Use BEGIN/COMMIT/ROLLBACK",
+          "Explain why transactions matter",
+          "Identify operations that must be transactional"
+        ]
+      },
+      {
+        "id": "section_relational_databases_acid_properties",
+        "course_id": "course_relational_databases_intermediate",
+        "title": "ACID Properties",
+        "slug": "acid-properties",
+        "description": "Understand the guarantees relational databases provide.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Explain atomicity, consistency, isolation, and durability",
+          "Relate ACID properties to real failure scenarios",
+          "Reason about isolation levels at a conceptual level"
+        ]
+      },
+      {
+        "id": "section_relational_databases_indexes_intro",
+        "course_id": "course_relational_databases_intermediate",
+        "title": "Indexes",
+        "slug": "indexes-intro",
+        "description": "Use indexes to improve query performance.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Explain how indexes speed up queries",
+          "Choose appropriate columns to index",
+          "Understand the write-cost trade-off of indexes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_relational_databases_advanced",
+    "track_id": "track_relational_databases",
+    "level_id": "level_advanced",
+    "slug": "relational-databases-advanced",
+    "title": "Relational Databases \u2014 Advanced",
+    "description": "Optimize queries and design databases for concurrency and production scale.",
+    "display_order": 3,
+    "sections": [
+      {
+        "id": "section_relational_databases_query_optimization_deep_dive",
+        "course_id": "course_relational_databases_advanced",
+        "title": "Query Optimization",
+        "slug": "query-optimization-deep-dive",
+        "description": "Analyze and improve slow queries.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Read a query execution plan",
+          "Identify and fix slow query patterns",
+          "Apply indexing strategy to optimize queries"
+        ]
+      },
+      {
+        "id": "section_relational_databases_concurrency_control_deep_dive",
+        "course_id": "course_relational_databases_advanced",
+        "title": "Concurrency Control",
+        "slug": "concurrency-control-deep-dive",
+        "description": "Manage simultaneous access to data safely.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Explain locking and isolation levels in depth",
+          "Diagnose deadlocks",
+          "Design for high-concurrency workloads"
+        ]
+      },
+      {
+        "id": "section_relational_databases_advanced_transactions",
+        "course_id": "course_relational_databases_advanced",
+        "title": "Advanced Transaction Design",
+        "slug": "advanced-transactions",
+        "description": "Apply advanced transactional patterns in application design.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Design multi-step transactional workflows",
+          "Handle partial failure scenarios",
+          "Apply optimistic vs pessimistic concurrency strategies"
+        ]
+      },
+      {
+        "id": "section_relational_databases_advanced_schema_design",
+        "course_id": "course_relational_databases_advanced",
+        "title": "Advanced Schema Design",
+        "slug": "advanced-schema-design",
+        "description": "Design schemas for large, evolving production systems.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Design schemas for high-scale applications",
+          "Apply denormalization trade-offs deliberately",
+          "Plan zero-downtime schema migrations"
+        ]
+      },
+      {
+        "id": "section_relational_databases_indexing_strategy_production",
+        "course_id": "course_relational_databases_advanced",
+        "title": "Production Indexing Strategy",
+        "slug": "indexing-strategy-production",
+        "description": "Apply advanced indexing strategies in production databases.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Design composite and covering indexes",
+          "Monitor index usage and bloat",
+          "Balance index count against write performance"
+        ]
+      },
+      {
+        "id": "section_relational_databases_production_database_considerations",
+        "course_id": "course_relational_databases_advanced",
+        "title": "Production Database Considerations",
+        "slug": "production-database-considerations",
+        "description": "Address the realities of operating databases in production.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Plan backup and recovery strategies",
+          "Reason about replication and consistency trade-offs",
+          "Plan capacity for a growing dataset"
+        ]
+      }
+    ]
+  }
+]

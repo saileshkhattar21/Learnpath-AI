@@ -1,0 +1,282 @@
+[
+  {
+    "id": "course_backend_beginner",
+    "track_id": "track_backend",
+    "level_id": "level_beginner",
+    "slug": "backend-beginner",
+    "title": "Backend Development \u2014 Beginner",
+    "description": "Learn Node.js fundamentals and build your first Express applications.",
+    "display_order": 1,
+    "sections": [
+      {
+        "id": "section_backend_node_fundamentals",
+        "course_id": "course_backend_beginner",
+        "title": "Node.js Fundamentals",
+        "slug": "node-fundamentals",
+        "description": "Understand what Node.js is and how it executes JavaScript outside the browser.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Explain the Node.js runtime and V8 engine",
+          "Run scripts with Node",
+          "Use core modules"
+        ]
+      },
+      {
+        "id": "section_backend_npm_modules",
+        "course_id": "course_backend_beginner",
+        "title": "npm & Modules",
+        "slug": "npm-modules",
+        "description": "Manage dependencies and organize code using modules.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Install and manage packages with npm",
+          "Understand semantic versioning",
+          "Use CommonJS/ES modules"
+        ]
+      },
+      {
+        "id": "section_backend_async_javascript_backend",
+        "course_id": "course_backend_beginner",
+        "title": "Asynchronous JavaScript",
+        "slug": "async-javascript-backend",
+        "description": "Learn callbacks, Promises, and async/await for non-blocking code.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Use Promises and async/await",
+          "Avoid callback hell",
+          "Handle asynchronous errors"
+        ]
+      },
+      {
+        "id": "section_backend_event_loop_concurrency",
+        "course_id": "course_backend_beginner",
+        "title": "Event Loop & Concurrency",
+        "slug": "event-loop-concurrency",
+        "description": "Understand how Node.js handles concurrency on a single thread.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Explain the phases of the event loop",
+          "Reason about blocking vs non-blocking code",
+          "Understand the call stack and task queue"
+        ]
+      },
+      {
+        "id": "section_backend_express_basics",
+        "course_id": "course_backend_beginner",
+        "title": "Express Basics",
+        "slug": "express-basics",
+        "description": "Build your first web server using Express.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Set up an Express application",
+          "Handle basic requests and responses",
+          "Serve JSON data"
+        ]
+      },
+      {
+        "id": "section_backend_routing_middleware_intro",
+        "course_id": "course_backend_beginner",
+        "title": "Routing & Middleware",
+        "slug": "routing-middleware-intro",
+        "description": "Organize routes and use middleware for shared logic.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Define routes for multiple HTTP methods",
+          "Write and apply custom middleware",
+          "Use built-in and third-party middleware"
+        ]
+      },
+      {
+        "id": "section_backend_api_fundamentals",
+        "course_id": "course_backend_beginner",
+        "title": "API Fundamentals",
+        "slug": "api-fundamentals",
+        "description": "Learn the basics of designing simple JSON APIs.",
+        "display_order": 7,
+        "learning_objectives": [
+          "Design basic RESTful endpoints",
+          "Return appropriate status codes",
+          "Structure JSON responses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_backend_intermediate",
+    "track_id": "track_backend",
+    "level_id": "level_intermediate",
+    "slug": "backend-intermediate",
+    "title": "Backend Development \u2014 Intermediate",
+    "description": "Build real REST APIs with authentication, database integration, and solid architecture.",
+    "display_order": 2,
+    "sections": [
+      {
+        "id": "section_backend_rest_api_design",
+        "course_id": "course_backend_intermediate",
+        "title": "REST API Design",
+        "slug": "rest-api-design",
+        "description": "Design well-structured, resource-oriented REST APIs.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Apply REST conventions and resource naming",
+          "Version and structure APIs",
+          "Handle pagination and filtering"
+        ]
+      },
+      {
+        "id": "section_backend_authentication_authorization",
+        "course_id": "course_backend_intermediate",
+        "title": "Authentication & Authorization",
+        "slug": "authentication-authorization",
+        "description": "Implement login flows and control access to resources.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Implement token-based authentication",
+          "Hash and verify passwords securely",
+          "Enforce role-based access control"
+        ]
+      },
+      {
+        "id": "section_backend_database_integration_orm",
+        "course_id": "course_backend_intermediate",
+        "title": "Database Integration",
+        "slug": "database-integration-orm",
+        "description": "Connect Express applications to a database using an ORM.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Model data with an ORM",
+          "Perform CRUD operations from an API",
+          "Manage database connections and migrations"
+        ]
+      },
+      {
+        "id": "section_backend_middleware_error_handling",
+        "course_id": "course_backend_intermediate",
+        "title": "Middleware & Error Handling",
+        "slug": "middleware-error-handling",
+        "description": "Apply middleware patterns for validation, logging, and centralized error handling.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Centralize error handling",
+          "Validate request input",
+          "Chain middleware effectively"
+        ]
+      },
+      {
+        "id": "section_backend_backend_architecture_patterns",
+        "course_id": "course_backend_intermediate",
+        "title": "Backend Architecture Patterns",
+        "slug": "backend-architecture-patterns",
+        "description": "Structure backend applications using layered architecture.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Separate controllers, services, and data access",
+          "Apply dependency injection basics",
+          "Organize a scalable project structure"
+        ]
+      },
+      {
+        "id": "section_backend_backend_testing_intro",
+        "course_id": "course_backend_intermediate",
+        "title": "Backend Testing",
+        "slug": "backend-testing-intro",
+        "description": "Write unit and integration tests for API endpoints.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Write unit tests for business logic",
+          "Write integration tests for API routes",
+          "Use mocks for external dependencies"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_backend_advanced",
+    "track_id": "track_backend",
+    "level_id": "level_advanced",
+    "slug": "backend-advanced",
+    "title": "Backend Development \u2014 Advanced",
+    "description": "Design secure, scalable backend systems and handle production-grade concerns.",
+    "display_order": 3,
+    "sections": [
+      {
+        "id": "section_backend_scalable_backend_architecture",
+        "course_id": "course_backend_advanced",
+        "title": "Scalable Backend Architecture",
+        "slug": "scalable-backend-architecture",
+        "description": "Design backend systems that scale under load.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Design for horizontal scalability",
+          "Apply caching strategies",
+          "Manage stateless service design"
+        ]
+      },
+      {
+        "id": "section_backend_advanced_security",
+        "course_id": "course_backend_advanced",
+        "title": "Backend Security",
+        "slug": "advanced-security",
+        "description": "Protect Express applications from common vulnerabilities.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Mitigate injection and XSS-style risks in APIs",
+          "Apply secure session and token handling",
+          "Harden HTTP headers and CORS policy"
+        ]
+      },
+      {
+        "id": "section_backend_performance_scaling_nodejs",
+        "course_id": "course_backend_advanced",
+        "title": "Node.js Performance & Scaling",
+        "slug": "performance-scaling-nodejs",
+        "description": "Diagnose and resolve performance bottlenecks in Node.js services.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Profile Node.js applications",
+          "Avoid blocking the event loop",
+          "Apply clustering and load balancing concepts"
+        ]
+      },
+      {
+        "id": "section_backend_advanced_database_patterns",
+        "course_id": "course_backend_advanced",
+        "title": "Advanced Database Integration Patterns",
+        "slug": "advanced-database-patterns",
+        "description": "Apply advanced patterns for reliable database-backed services.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Manage transactions from application code",
+          "Design for data consistency under concurrency",
+          "Apply connection pooling effectively"
+        ]
+      },
+      {
+        "id": "section_backend_production_readiness",
+        "course_id": "course_backend_advanced",
+        "title": "Production Readiness",
+        "slug": "production-readiness",
+        "description": "Prepare backend services for real-world production operation.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Implement structured logging",
+          "Design health checks",
+          "Plan graceful shutdown and error recovery"
+        ]
+      },
+      {
+        "id": "section_backend_advanced_testing_backend",
+        "course_id": "course_backend_advanced",
+        "title": "Advanced Testing & Reliability",
+        "slug": "advanced-testing-backend",
+        "description": "Apply advanced testing strategies to ensure backend reliability.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Design a test strategy across unit/integration/e2e",
+          "Test failure and edge-case scenarios",
+          "Apply contract testing concepts for APIs"
+        ]
+      }
+    ]
+  }
+]

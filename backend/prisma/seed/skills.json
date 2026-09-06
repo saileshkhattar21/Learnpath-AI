@@ -1,0 +1,506 @@
+[
+  {
+    "id": "skill_html",
+    "slug": "html",
+    "name": "HTML",
+    "description": "The standard markup language for structuring content on the web."
+  },
+  {
+    "id": "skill_css",
+    "slug": "css",
+    "name": "CSS",
+    "description": "The stylesheet language used to control the presentation and layout of HTML documents."
+  },
+  {
+    "id": "skill_responsive_design",
+    "slug": "responsive-design",
+    "name": "Responsive Design",
+    "description": "Techniques for building layouts that adapt to different screen sizes and devices."
+  },
+  {
+    "id": "skill_javascript",
+    "slug": "javascript",
+    "name": "JavaScript",
+    "description": "A high-level, dynamic programming language used for web page interactivity and, via Node.js, server-side logic."
+  },
+  {
+    "id": "skill_dom",
+    "slug": "dom",
+    "name": "DOM",
+    "description": "The Document Object Model, a programming interface for HTML/XML documents that scripts use to read and manipulate pages."
+  },
+  {
+    "id": "skill_browser_apis",
+    "slug": "browser-apis",
+    "name": "Browser APIs",
+    "description": "Built-in browser interfaces such as fetch, localStorage, and the History API used by client-side JavaScript."
+  },
+  {
+    "id": "skill_http",
+    "slug": "http",
+    "name": "HTTP",
+    "description": "The application-layer protocol used for communication between clients and servers on the web."
+  },
+  {
+    "id": "skill_react",
+    "slug": "react",
+    "name": "React",
+    "description": "A JavaScript library for building component-based user interfaces."
+  },
+  {
+    "id": "skill_react_hooks",
+    "slug": "react-hooks",
+    "name": "React Hooks",
+    "description": "Functions such as useState and useEffect that let function components manage state and side effects."
+  },
+  {
+    "id": "skill_component_architecture",
+    "slug": "component-architecture",
+    "name": "Component Architecture",
+    "description": "Principles for structuring UIs as composable, reusable components."
+  },
+  {
+    "id": "skill_frontend_testing",
+    "slug": "frontend-testing",
+    "name": "Frontend Testing",
+    "description": "Techniques and tools for testing UI components, interactions, and rendering behavior."
+  },
+  {
+    "id": "skill_web_performance",
+    "slug": "web-performance",
+    "name": "Web Performance",
+    "description": "Techniques for optimizing load time, rendering speed, and runtime responsiveness of web applications."
+  },
+  {
+    "id": "skill_accessibility",
+    "slug": "accessibility",
+    "name": "Accessibility",
+    "description": "Practices for making web applications usable by people with disabilities (a11y)."
+  },
+  {
+    "id": "skill_nodejs",
+    "slug": "nodejs",
+    "name": "Node.js",
+    "description": "A JavaScript runtime built on Chrome's V8 engine that allows JavaScript to run outside the browser."
+  },
+  {
+    "id": "skill_npm",
+    "slug": "npm",
+    "name": "npm / Modules",
+    "description": "Node's package manager and module system used to share and consume reusable code."
+  },
+  {
+    "id": "skill_async_javascript",
+    "slug": "async-javascript",
+    "name": "Asynchronous JavaScript",
+    "description": "Patterns such as callbacks, Promises, and async/await used to handle non-blocking operations."
+  },
+  {
+    "id": "skill_event_loop",
+    "slug": "event-loop",
+    "name": "Event Loop & Concurrency",
+    "description": "The mechanism Node.js uses to handle asynchronous operations on a single thread."
+  },
+  {
+    "id": "skill_express",
+    "slug": "express",
+    "name": "Express",
+    "description": "A minimal, flexible Node.js web application framework used to build APIs and web servers."
+  },
+  {
+    "id": "skill_routing",
+    "slug": "routing",
+    "name": "Routing",
+    "description": "The mechanism for mapping HTTP requests to handler logic based on URL path and method."
+  },
+  {
+    "id": "skill_middleware",
+    "slug": "middleware",
+    "name": "Middleware",
+    "description": "Functions that execute during the request/response cycle to handle cross-cutting concerns like logging, auth, and error handling."
+  },
+  {
+    "id": "skill_rest_api",
+    "slug": "rest-api",
+    "name": "REST APIs",
+    "description": "An architectural style for designing networked applications around stateless, resource-oriented HTTP endpoints."
+  },
+  {
+    "id": "skill_authentication",
+    "slug": "authentication",
+    "name": "Authentication",
+    "description": "The process of verifying the identity of a user or system."
+  },
+  {
+    "id": "skill_authorization",
+    "slug": "authorization",
+    "name": "Authorization",
+    "description": "The process of determining what an authenticated user or system is permitted to do."
+  },
+  {
+    "id": "skill_database_integration",
+    "slug": "database-integration",
+    "name": "Database Integration",
+    "description": "Techniques for connecting backend applications to databases, including ORMs and query builders."
+  },
+  {
+    "id": "skill_backend_architecture",
+    "slug": "backend-architecture",
+    "name": "Backend Architecture",
+    "description": "Principles for structuring server-side applications for maintainability, scalability, and separation of concerns."
+  },
+  {
+    "id": "skill_backend_security",
+    "slug": "backend-security",
+    "name": "Backend Security",
+    "description": "Practices for protecting server-side applications from common vulnerabilities and attacks."
+  },
+  {
+    "id": "skill_backend_testing",
+    "slug": "backend-testing",
+    "name": "Backend Testing",
+    "description": "Techniques for unit, integration, and API testing of server-side applications."
+  },
+  {
+    "id": "skill_linux",
+    "slug": "linux",
+    "name": "Linux",
+    "description": "The open-source operating system family widely used to run servers and containers."
+  },
+  {
+    "id": "skill_git",
+    "slug": "git",
+    "name": "Git",
+    "description": "A distributed version control system used to track changes in source code."
+  },
+  {
+    "id": "skill_networking",
+    "slug": "networking",
+    "name": "Networking Fundamentals",
+    "description": "Core concepts such as IP addressing, DNS, ports, and protocols that underlie distributed systems."
+  },
+  {
+    "id": "skill_cloud_computing",
+    "slug": "cloud-computing",
+    "name": "Cloud Computing",
+    "description": "The on-demand delivery of compute, storage, and other IT resources over the internet."
+  },
+  {
+    "id": "skill_aws",
+    "slug": "aws",
+    "name": "AWS Core Services",
+    "description": "Amazon Web Services offerings such as EC2, S3, RDS, and IAM commonly used to run cloud applications."
+  },
+  {
+    "id": "skill_docker",
+    "slug": "docker",
+    "name": "Docker",
+    "description": "A platform for packaging applications and their dependencies into portable containers."
+  },
+  {
+    "id": "skill_containerization",
+    "slug": "containerization",
+    "name": "Containerization",
+    "description": "The practice of packaging software with its dependencies so it runs reliably across environments."
+  },
+  {
+    "id": "skill_cicd",
+    "slug": "cicd",
+    "name": "CI/CD",
+    "description": "Continuous Integration and Continuous Delivery/Deployment practices for automating build, test, and release pipelines."
+  },
+  {
+    "id": "skill_github_actions",
+    "slug": "github-actions",
+    "name": "GitHub Actions",
+    "description": "A CI/CD platform built into GitHub for automating workflows such as testing and deployment."
+  },
+  {
+    "id": "skill_deployment",
+    "slug": "deployment",
+    "name": "Deployment",
+    "description": "The process and strategies for releasing application changes to production environments."
+  },
+  {
+    "id": "skill_monitoring_logging",
+    "slug": "monitoring-logging",
+    "name": "Monitoring & Logging",
+    "description": "Practices and tools for observing system health, performance, and behavior in production."
+  },
+  {
+    "id": "skill_infrastructure",
+    "slug": "infrastructure",
+    "name": "Infrastructure Concepts",
+    "description": "Foundational ideas about servers, networks, and infrastructure-as-code that support running applications."
+  },
+  {
+    "id": "skill_database_fundamentals",
+    "slug": "database-fundamentals",
+    "name": "Database Fundamentals",
+    "description": "Core concepts of what databases are and why structured data storage matters."
+  },
+  {
+    "id": "skill_relational_modeling",
+    "slug": "relational-modeling",
+    "name": "Relational Modeling",
+    "description": "The practice of representing data as related tables with keys and constraints."
+  },
+  {
+    "id": "skill_sql",
+    "slug": "sql",
+    "name": "SQL",
+    "description": "Structured Query Language, used to define, query, and manipulate relational data."
+  },
+  {
+    "id": "skill_crud",
+    "slug": "crud",
+    "name": "CRUD Operations",
+    "description": "Create, Read, Update, and Delete \u2014 the fundamental operations performed on stored data."
+  },
+  {
+    "id": "skill_joins",
+    "slug": "joins",
+    "name": "Joins",
+    "description": "SQL operations that combine rows from two or more tables based on related columns."
+  },
+  {
+    "id": "skill_aggregations",
+    "slug": "aggregations",
+    "name": "Aggregations",
+    "description": "SQL operations such as SUM, COUNT, and GROUP BY used to summarize data."
+  },
+  {
+    "id": "skill_normalization",
+    "slug": "normalization",
+    "name": "Normalization",
+    "description": "The process of organizing relational data to reduce redundancy and improve integrity."
+  },
+  {
+    "id": "skill_schema_design",
+    "slug": "schema-design",
+    "name": "Schema Design",
+    "description": "The practice of designing tables, relationships, and constraints for a database."
+  },
+  {
+    "id": "skill_constraints",
+    "slug": "constraints",
+    "name": "Constraints",
+    "description": "Rules such as primary keys, foreign keys, and unique constraints that enforce data integrity."
+  },
+  {
+    "id": "skill_transactions",
+    "slug": "transactions",
+    "name": "Transactions",
+    "description": "Units of work that group multiple database operations so they succeed or fail together."
+  },
+  {
+    "id": "skill_acid",
+    "slug": "acid",
+    "name": "ACID",
+    "description": "Atomicity, Consistency, Isolation, and Durability \u2014 the guarantees relational transactions provide."
+  },
+  {
+    "id": "skill_indexes",
+    "slug": "indexes",
+    "name": "Indexes",
+    "description": "Database structures that speed up data retrieval at the cost of additional storage and write overhead."
+  },
+  {
+    "id": "skill_query_optimization",
+    "slug": "query-optimization",
+    "name": "Query Optimization",
+    "description": "Techniques for analyzing and improving the performance of database queries."
+  },
+  {
+    "id": "skill_concurrency_control",
+    "slug": "concurrency-control",
+    "name": "Concurrency Control",
+    "description": "Mechanisms databases use to manage simultaneous access to data safely."
+  },
+  {
+    "id": "skill_ai_ml_fundamentals",
+    "slug": "ai-ml-fundamentals",
+    "name": "AI/ML Fundamentals",
+    "description": "Foundational concepts distinguishing AI, machine learning, and deep learning, and how ML systems learn from data."
+  },
+  {
+    "id": "skill_python",
+    "slug": "python",
+    "name": "Python",
+    "description": "A high-level programming language widely used for data science and machine learning."
+  },
+  {
+    "id": "skill_numpy",
+    "slug": "numpy",
+    "name": "NumPy",
+    "description": "A Python library for efficient numerical computing with multi-dimensional arrays."
+  },
+  {
+    "id": "skill_pandas",
+    "slug": "pandas",
+    "name": "Pandas",
+    "description": "A Python library for data manipulation and analysis using DataFrames."
+  },
+  {
+    "id": "skill_statistics_probability",
+    "slug": "statistics-probability",
+    "name": "Statistics & Probability",
+    "description": "Mathematical foundations for reasoning about data, uncertainty, and inference used throughout ML."
+  },
+  {
+    "id": "skill_supervised_learning",
+    "slug": "supervised-learning",
+    "name": "Supervised Learning",
+    "description": "ML approaches that learn a mapping from inputs to known output labels."
+  },
+  {
+    "id": "skill_unsupervised_learning",
+    "slug": "unsupervised-learning",
+    "name": "Unsupervised Learning",
+    "description": "ML approaches that find structure or patterns in unlabeled data."
+  },
+  {
+    "id": "skill_classical_ml_algorithms",
+    "slug": "classical-ml-algorithms",
+    "name": "Classical ML Algorithms",
+    "description": "Traditional algorithms such as linear/logistic regression, decision trees, and k-means."
+  },
+  {
+    "id": "skill_model_evaluation",
+    "slug": "model-evaluation",
+    "name": "Model Evaluation",
+    "description": "Techniques and metrics for assessing how well a model performs and generalizes."
+  },
+  {
+    "id": "skill_feature_engineering",
+    "slug": "feature-engineering",
+    "name": "Feature Engineering",
+    "description": "The process of creating, transforming, and selecting input variables to improve model performance."
+  },
+  {
+    "id": "skill_overfitting",
+    "slug": "overfitting",
+    "name": "Overfitting & Generalization",
+    "description": "The phenomenon where a model fits training data too closely and fails to generalize, and techniques to prevent it."
+  },
+  {
+    "id": "skill_deep_learning",
+    "slug": "deep-learning",
+    "name": "Deep Learning",
+    "description": "A subfield of ML using multi-layer neural networks to learn representations from data."
+  },
+  {
+    "id": "skill_neural_networks",
+    "slug": "neural-networks",
+    "name": "Neural Networks",
+    "description": "Computational models inspired by the brain, composed of layers of interconnected units."
+  },
+  {
+    "id": "skill_transformers",
+    "slug": "transformers",
+    "name": "Transformers",
+    "description": "A neural network architecture based on self-attention that underlies most modern language models."
+  },
+  {
+    "id": "skill_llms",
+    "slug": "llms",
+    "name": "Large Language Models",
+    "description": "Transformer-based models trained on large text corpora to generate and understand language."
+  },
+  {
+    "id": "skill_embeddings",
+    "slug": "embeddings",
+    "name": "Embeddings",
+    "description": "Dense vector representations of data used to capture semantic similarity."
+  },
+  {
+    "id": "skill_rag",
+    "slug": "rag",
+    "name": "Retrieval-Augmented Generation",
+    "description": "An architecture that combines information retrieval with generative models to ground LLM outputs in external data."
+  },
+  {
+    "id": "skill_ai_app_architecture",
+    "slug": "ai-app-architecture",
+    "name": "AI Application Architecture",
+    "description": "Patterns for building production applications powered by ML models and LLMs."
+  },
+  {
+    "id": "skill_analytics_fundamentals",
+    "slug": "analytics-fundamentals",
+    "name": "Analytics Fundamentals",
+    "description": "Foundational concepts of how data is used to answer business questions and support decisions."
+  },
+  {
+    "id": "skill_data_cleaning",
+    "slug": "data-cleaning",
+    "name": "Data Cleaning",
+    "description": "Techniques for identifying and correcting errors, duplicates, and inconsistencies in data."
+  },
+  {
+    "id": "skill_excel",
+    "slug": "excel",
+    "name": "Excel",
+    "description": "A spreadsheet application widely used for data entry, calculation, and analysis."
+  },
+  {
+    "id": "skill_excel_formulas",
+    "slug": "excel-formulas",
+    "name": "Excel Formulas & Functions",
+    "description": "Built-in Excel functions such as SUM, IF, and lookup functions used to calculate and transform data."
+  },
+  {
+    "id": "skill_lookup_functions",
+    "slug": "lookup-functions",
+    "name": "Lookup Functions",
+    "description": "Excel functions such as VLOOKUP, INDEX/MATCH, and XLOOKUP used to retrieve matching data across ranges."
+  },
+  {
+    "id": "skill_pivot_tables",
+    "slug": "pivot-tables",
+    "name": "Pivot Tables",
+    "description": "An Excel feature for summarizing, grouping, and aggregating large datasets interactively."
+  },
+  {
+    "id": "skill_charts_data_viz",
+    "slug": "charts-data-viz",
+    "name": "Charts & Data Visualization",
+    "description": "Techniques for representing data visually to reveal trends and support decisions."
+  },
+  {
+    "id": "skill_power_query",
+    "slug": "power-query",
+    "name": "Power Query",
+    "description": "A data connection and transformation tool used in Excel and Power BI for ETL workflows."
+  },
+  {
+    "id": "skill_power_bi",
+    "slug": "power-bi",
+    "name": "Power BI",
+    "description": "A business analytics tool for building interactive reports and dashboards."
+  },
+  {
+    "id": "skill_dax",
+    "slug": "dax",
+    "name": "DAX",
+    "description": "Data Analysis Expressions, the formula language used in Power BI and Power Pivot for calculations."
+  },
+  {
+    "id": "skill_kpis",
+    "slug": "kpis",
+    "name": "KPIs",
+    "description": "Key Performance Indicators used to measure progress toward business objectives."
+  },
+  {
+    "id": "skill_business_analytics",
+    "slug": "business-analytics",
+    "name": "Business Analytics",
+    "description": "The practice of using data analysis to drive business decisions and strategy."
+  },
+  {
+    "id": "skill_dashboard_design",
+    "slug": "dashboard-design",
+    "name": "Dashboard Design",
+    "description": "Principles for designing clear, effective, and actionable data dashboards."
+  }
+]

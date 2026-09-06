@@ -1,0 +1,602 @@
+[
+  {
+    "section_id": "section_frontend_html_foundations",
+    "skill_id": "skill_html"
+  },
+  {
+    "section_id": "section_frontend_css_foundations_responsive",
+    "skill_id": "skill_css"
+  },
+  {
+    "section_id": "section_frontend_css_foundations_responsive",
+    "skill_id": "skill_responsive_design"
+  },
+  {
+    "section_id": "section_frontend_javascript_fundamentals",
+    "skill_id": "skill_javascript"
+  },
+  {
+    "section_id": "section_frontend_dom_browser_apis",
+    "skill_id": "skill_dom"
+  },
+  {
+    "section_id": "section_frontend_dom_browser_apis",
+    "skill_id": "skill_browser_apis"
+  },
+  {
+    "section_id": "section_frontend_http_api_basics",
+    "skill_id": "skill_http"
+  },
+  {
+    "section_id": "section_frontend_http_api_basics",
+    "skill_id": "skill_javascript"
+  },
+  {
+    "section_id": "section_frontend_accessibility_basics",
+    "skill_id": "skill_accessibility"
+  },
+  {
+    "section_id": "section_frontend_accessibility_basics",
+    "skill_id": "skill_html"
+  },
+  {
+    "section_id": "section_frontend_react_fundamentals",
+    "skill_id": "skill_react"
+  },
+  {
+    "section_id": "section_frontend_react_fundamentals",
+    "skill_id": "skill_component_architecture"
+  },
+  {
+    "section_id": "section_frontend_react_state_hooks",
+    "skill_id": "skill_react_hooks"
+  },
+  {
+    "section_id": "section_frontend_react_state_hooks",
+    "skill_id": "skill_react"
+  },
+  {
+    "section_id": "section_frontend_component_composition",
+    "skill_id": "skill_component_architecture"
+  },
+  {
+    "section_id": "section_frontend_consuming_apis_react",
+    "skill_id": "skill_http"
+  },
+  {
+    "section_id": "section_frontend_consuming_apis_react",
+    "skill_id": "skill_browser_apis"
+  },
+  {
+    "section_id": "section_frontend_consuming_apis_react",
+    "skill_id": "skill_react_hooks"
+  },
+  {
+    "section_id": "section_frontend_frontend_testing_basics",
+    "skill_id": "skill_frontend_testing"
+  },
+  {
+    "section_id": "section_frontend_state_management_patterns",
+    "skill_id": "skill_react_hooks"
+  },
+  {
+    "section_id": "section_frontend_state_management_patterns",
+    "skill_id": "skill_component_architecture"
+  },
+  {
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "skill_id": "skill_component_architecture"
+  },
+  {
+    "section_id": "section_frontend_web_performance_optimization",
+    "skill_id": "skill_web_performance"
+  },
+  {
+    "section_id": "section_frontend_advanced_accessibility",
+    "skill_id": "skill_accessibility"
+  },
+  {
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "skill_id": "skill_frontend_testing"
+  },
+  {
+    "section_id": "section_frontend_production_frontend_concerns",
+    "skill_id": "skill_web_performance"
+  },
+  {
+    "section_id": "section_frontend_production_frontend_concerns",
+    "skill_id": "skill_component_architecture"
+  },
+  {
+    "section_id": "section_frontend_advanced_react_patterns",
+    "skill_id": "skill_react"
+  },
+  {
+    "section_id": "section_frontend_advanced_react_patterns",
+    "skill_id": "skill_react_hooks"
+  },
+  {
+    "section_id": "section_backend_node_fundamentals",
+    "skill_id": "skill_nodejs"
+  },
+  {
+    "section_id": "section_backend_npm_modules",
+    "skill_id": "skill_npm"
+  },
+  {
+    "section_id": "section_backend_async_javascript_backend",
+    "skill_id": "skill_async_javascript"
+  },
+  {
+    "section_id": "section_backend_event_loop_concurrency",
+    "skill_id": "skill_event_loop"
+  },
+  {
+    "section_id": "section_backend_express_basics",
+    "skill_id": "skill_express"
+  },
+  {
+    "section_id": "section_backend_routing_middleware_intro",
+    "skill_id": "skill_routing"
+  },
+  {
+    "section_id": "section_backend_routing_middleware_intro",
+    "skill_id": "skill_middleware"
+  },
+  {
+    "section_id": "section_backend_api_fundamentals",
+    "skill_id": "skill_rest_api"
+  },
+  {
+    "section_id": "section_backend_rest_api_design",
+    "skill_id": "skill_rest_api"
+  },
+  {
+    "section_id": "section_backend_rest_api_design",
+    "skill_id": "skill_routing"
+  },
+  {
+    "section_id": "section_backend_authentication_authorization",
+    "skill_id": "skill_authentication"
+  },
+  {
+    "section_id": "section_backend_authentication_authorization",
+    "skill_id": "skill_authorization"
+  },
+  {
+    "section_id": "section_backend_database_integration_orm",
+    "skill_id": "skill_database_integration"
+  },
+  {
+    "section_id": "section_backend_middleware_error_handling",
+    "skill_id": "skill_middleware"
+  },
+  {
+    "section_id": "section_backend_middleware_error_handling",
+    "skill_id": "skill_backend_architecture"
+  },
+  {
+    "section_id": "section_backend_backend_architecture_patterns",
+    "skill_id": "skill_backend_architecture"
+  },
+  {
+    "section_id": "section_backend_backend_testing_intro",
+    "skill_id": "skill_backend_testing"
+  },
+  {
+    "section_id": "section_backend_scalable_backend_architecture",
+    "skill_id": "skill_backend_architecture"
+  },
+  {
+    "section_id": "section_backend_advanced_security",
+    "skill_id": "skill_backend_security"
+  },
+  {
+    "section_id": "section_backend_advanced_security",
+    "skill_id": "skill_authorization"
+  },
+  {
+    "section_id": "section_backend_performance_scaling_nodejs",
+    "skill_id": "skill_event_loop"
+  },
+  {
+    "section_id": "section_backend_performance_scaling_nodejs",
+    "skill_id": "skill_backend_architecture"
+  },
+  {
+    "section_id": "section_backend_advanced_database_patterns",
+    "skill_id": "skill_database_integration"
+  },
+  {
+    "section_id": "section_backend_production_readiness",
+    "skill_id": "skill_backend_architecture"
+  },
+  {
+    "section_id": "section_backend_advanced_testing_backend",
+    "skill_id": "skill_backend_testing"
+  },
+  {
+    "section_id": "section_devops_cloud_linux_fundamentals",
+    "skill_id": "skill_linux"
+  },
+  {
+    "section_id": "section_devops_cloud_git_version_control",
+    "skill_id": "skill_git"
+  },
+  {
+    "section_id": "section_devops_cloud_networking_fundamentals",
+    "skill_id": "skill_networking"
+  },
+  {
+    "section_id": "section_devops_cloud_cloud_fundamentals",
+    "skill_id": "skill_cloud_computing"
+  },
+  {
+    "section_id": "section_devops_cloud_aws_core_services",
+    "skill_id": "skill_aws"
+  },
+  {
+    "section_id": "section_devops_cloud_docker_intro",
+    "skill_id": "skill_docker"
+  },
+  {
+    "section_id": "section_devops_cloud_docker_intro",
+    "skill_id": "skill_containerization"
+  },
+  {
+    "section_id": "section_devops_cloud_containerization_deep_dive",
+    "skill_id": "skill_containerization"
+  },
+  {
+    "section_id": "section_devops_cloud_containerization_deep_dive",
+    "skill_id": "skill_docker"
+  },
+  {
+    "section_id": "section_devops_cloud_cicd_fundamentals",
+    "skill_id": "skill_cicd"
+  },
+  {
+    "section_id": "section_devops_cloud_github_actions_pipelines",
+    "skill_id": "skill_github_actions"
+  },
+  {
+    "section_id": "section_devops_cloud_github_actions_pipelines",
+    "skill_id": "skill_cicd"
+  },
+  {
+    "section_id": "section_devops_cloud_deployment_strategies",
+    "skill_id": "skill_deployment"
+  },
+  {
+    "section_id": "section_devops_cloud_cloud_infrastructure_practices",
+    "skill_id": "skill_infrastructure"
+  },
+  {
+    "section_id": "section_devops_cloud_cloud_infrastructure_practices",
+    "skill_id": "skill_aws"
+  },
+  {
+    "section_id": "section_devops_cloud_monitoring_logging_intro",
+    "skill_id": "skill_monitoring_logging"
+  },
+  {
+    "section_id": "section_devops_cloud_production_infrastructure_architecture",
+    "skill_id": "skill_infrastructure"
+  },
+  {
+    "section_id": "section_devops_cloud_production_infrastructure_architecture",
+    "skill_id": "skill_cloud_computing"
+  },
+  {
+    "section_id": "section_devops_cloud_advanced_cicd_pipelines",
+    "skill_id": "skill_cicd"
+  },
+  {
+    "section_id": "section_devops_cloud_advanced_cicd_pipelines",
+    "skill_id": "skill_github_actions"
+  },
+  {
+    "section_id": "section_devops_cloud_container_orchestration_concepts",
+    "skill_id": "skill_containerization"
+  },
+  {
+    "section_id": "section_devops_cloud_container_orchestration_concepts",
+    "skill_id": "skill_docker"
+  },
+  {
+    "section_id": "section_devops_cloud_advanced_monitoring_observability",
+    "skill_id": "skill_monitoring_logging"
+  },
+  {
+    "section_id": "section_devops_cloud_cloud_security_networking",
+    "skill_id": "skill_networking"
+  },
+  {
+    "section_id": "section_devops_cloud_cloud_security_networking",
+    "skill_id": "skill_aws"
+  },
+  {
+    "section_id": "section_devops_cloud_production_deployment_operations",
+    "skill_id": "skill_deployment"
+  },
+  {
+    "section_id": "section_devops_cloud_production_deployment_operations",
+    "skill_id": "skill_infrastructure"
+  },
+  {
+    "section_id": "section_relational_databases_database_fundamentals_section",
+    "skill_id": "skill_database_fundamentals"
+  },
+  {
+    "section_id": "section_relational_databases_relational_modeling_basics",
+    "skill_id": "skill_relational_modeling"
+  },
+  {
+    "section_id": "section_relational_databases_sql_fundamentals",
+    "skill_id": "skill_sql"
+  },
+  {
+    "section_id": "section_relational_databases_sql_fundamentals",
+    "skill_id": "skill_crud"
+  },
+  {
+    "section_id": "section_relational_databases_joins_basics",
+    "skill_id": "skill_joins"
+  },
+  {
+    "section_id": "section_relational_databases_aggregations_basics",
+    "skill_id": "skill_aggregations"
+  },
+  {
+    "section_id": "section_relational_databases_constraints_basics",
+    "skill_id": "skill_constraints"
+  },
+  {
+    "section_id": "section_relational_databases_normalization_deep_dive",
+    "skill_id": "skill_normalization"
+  },
+  {
+    "section_id": "section_relational_databases_schema_design_practice",
+    "skill_id": "skill_schema_design"
+  },
+  {
+    "section_id": "section_relational_databases_schema_design_practice",
+    "skill_id": "skill_relational_modeling"
+  },
+  {
+    "section_id": "section_relational_databases_advanced_sql_queries",
+    "skill_id": "skill_sql"
+  },
+  {
+    "section_id": "section_relational_databases_advanced_sql_queries",
+    "skill_id": "skill_aggregations"
+  },
+  {
+    "section_id": "section_relational_databases_transactions_intro",
+    "skill_id": "skill_transactions"
+  },
+  {
+    "section_id": "section_relational_databases_acid_properties",
+    "skill_id": "skill_acid"
+  },
+  {
+    "section_id": "section_relational_databases_indexes_intro",
+    "skill_id": "skill_indexes"
+  },
+  {
+    "section_id": "section_relational_databases_query_optimization_deep_dive",
+    "skill_id": "skill_query_optimization"
+  },
+  {
+    "section_id": "section_relational_databases_concurrency_control_deep_dive",
+    "skill_id": "skill_concurrency_control"
+  },
+  {
+    "section_id": "section_relational_databases_advanced_transactions",
+    "skill_id": "skill_transactions"
+  },
+  {
+    "section_id": "section_relational_databases_advanced_transactions",
+    "skill_id": "skill_acid"
+  },
+  {
+    "section_id": "section_relational_databases_advanced_schema_design",
+    "skill_id": "skill_schema_design"
+  },
+  {
+    "section_id": "section_relational_databases_advanced_schema_design",
+    "skill_id": "skill_normalization"
+  },
+  {
+    "section_id": "section_relational_databases_indexing_strategy_production",
+    "skill_id": "skill_indexes"
+  },
+  {
+    "section_id": "section_relational_databases_indexing_strategy_production",
+    "skill_id": "skill_query_optimization"
+  },
+  {
+    "section_id": "section_relational_databases_production_database_considerations",
+    "skill_id": "skill_database_fundamentals"
+  },
+  {
+    "section_id": "section_relational_databases_production_database_considerations",
+    "skill_id": "skill_acid"
+  },
+  {
+    "section_id": "section_ai_ml_ai_ml_fundamentals_section",
+    "skill_id": "skill_ai_ml_fundamentals"
+  },
+  {
+    "section_id": "section_ai_ml_python_for_ml",
+    "skill_id": "skill_python"
+  },
+  {
+    "section_id": "section_ai_ml_numpy_fundamentals",
+    "skill_id": "skill_numpy"
+  },
+  {
+    "section_id": "section_ai_ml_pandas_fundamentals",
+    "skill_id": "skill_pandas"
+  },
+  {
+    "section_id": "section_ai_ml_statistics_probability_basics",
+    "skill_id": "skill_statistics_probability"
+  },
+  {
+    "section_id": "section_ai_ml_intro_supervised_learning",
+    "skill_id": "skill_supervised_learning"
+  },
+  {
+    "section_id": "section_ai_ml_classical_ml_algorithms_section",
+    "skill_id": "skill_classical_ml_algorithms"
+  },
+  {
+    "section_id": "section_ai_ml_unsupervised_learning_section",
+    "skill_id": "skill_unsupervised_learning"
+  },
+  {
+    "section_id": "section_ai_ml_model_evaluation_section",
+    "skill_id": "skill_model_evaluation"
+  },
+  {
+    "section_id": "section_ai_ml_feature_engineering_section",
+    "skill_id": "skill_feature_engineering"
+  },
+  {
+    "section_id": "section_ai_ml_overfitting_generalization",
+    "skill_id": "skill_overfitting"
+  },
+  {
+    "section_id": "section_ai_ml_deep_learning_intro",
+    "skill_id": "skill_deep_learning"
+  },
+  {
+    "section_id": "section_ai_ml_deep_learning_intro",
+    "skill_id": "skill_neural_networks"
+  },
+  {
+    "section_id": "section_ai_ml_neural_networks_deep_dive",
+    "skill_id": "skill_neural_networks"
+  },
+  {
+    "section_id": "section_ai_ml_neural_networks_deep_dive",
+    "skill_id": "skill_deep_learning"
+  },
+  {
+    "section_id": "section_ai_ml_transformers_section",
+    "skill_id": "skill_transformers"
+  },
+  {
+    "section_id": "section_ai_ml_llms_section",
+    "skill_id": "skill_llms"
+  },
+  {
+    "section_id": "section_ai_ml_embeddings_section",
+    "skill_id": "skill_embeddings"
+  },
+  {
+    "section_id": "section_ai_ml_rag_section",
+    "skill_id": "skill_rag"
+  },
+  {
+    "section_id": "section_ai_ml_rag_section",
+    "skill_id": "skill_embeddings"
+  },
+  {
+    "section_id": "section_ai_ml_ai_app_architecture_section",
+    "skill_id": "skill_ai_app_architecture"
+  },
+  {
+    "section_id": "section_data_analytics_analytics_fundamentals_section",
+    "skill_id": "skill_analytics_fundamentals"
+  },
+  {
+    "section_id": "section_data_analytics_data_cleaning_basics",
+    "skill_id": "skill_data_cleaning"
+  },
+  {
+    "section_id": "section_data_analytics_excel_essentials",
+    "skill_id": "skill_excel"
+  },
+  {
+    "section_id": "section_data_analytics_excel_formulas_functions",
+    "skill_id": "skill_excel_formulas"
+  },
+  {
+    "section_id": "section_data_analytics_lookup_functions_section",
+    "skill_id": "skill_lookup_functions"
+  },
+  {
+    "section_id": "section_data_analytics_charts_basics",
+    "skill_id": "skill_charts_data_viz"
+  },
+  {
+    "section_id": "section_data_analytics_pivot_tables_section",
+    "skill_id": "skill_pivot_tables"
+  },
+  {
+    "section_id": "section_data_analytics_power_query_section",
+    "skill_id": "skill_power_query"
+  },
+  {
+    "section_id": "section_data_analytics_power_bi_fundamentals",
+    "skill_id": "skill_power_bi"
+  },
+  {
+    "section_id": "section_data_analytics_dax_fundamentals",
+    "skill_id": "skill_dax"
+  },
+  {
+    "section_id": "section_data_analytics_kpis_business_analytics",
+    "skill_id": "skill_kpis"
+  },
+  {
+    "section_id": "section_data_analytics_kpis_business_analytics",
+    "skill_id": "skill_business_analytics"
+  },
+  {
+    "section_id": "section_data_analytics_advanced_charts_visualization",
+    "skill_id": "skill_charts_data_viz"
+  },
+  {
+    "section_id": "section_data_analytics_advanced_dax",
+    "skill_id": "skill_dax"
+  },
+  {
+    "section_id": "section_data_analytics_dashboard_design_section",
+    "skill_id": "skill_dashboard_design"
+  },
+  {
+    "section_id": "section_data_analytics_advanced_power_query_modeling",
+    "skill_id": "skill_power_query"
+  },
+  {
+    "section_id": "section_data_analytics_advanced_power_query_modeling",
+    "skill_id": "skill_power_bi"
+  },
+  {
+    "section_id": "section_data_analytics_advanced_business_analytics",
+    "skill_id": "skill_business_analytics"
+  },
+  {
+    "section_id": "section_data_analytics_advanced_business_analytics",
+    "skill_id": "skill_kpis"
+  },
+  {
+    "section_id": "section_data_analytics_analytics_at_scale",
+    "skill_id": "skill_analytics_fundamentals"
+  },
+  {
+    "section_id": "section_data_analytics_analytics_at_scale",
+    "skill_id": "skill_data_cleaning"
+  },
+  {
+    "section_id": "section_data_analytics_production_reporting_practices",
+    "skill_id": "skill_dashboard_design"
+  },
+  {
+    "section_id": "section_data_analytics_production_reporting_practices",
+    "skill_id": "skill_power_bi"
+  }
+]

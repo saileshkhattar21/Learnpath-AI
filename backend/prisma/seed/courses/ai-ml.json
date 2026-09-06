@@ -1,0 +1,269 @@
+[
+  {
+    "id": "course_ai_ml_beginner",
+    "track_id": "track_ai_ml",
+    "level_id": "level_beginner",
+    "slug": "ai-ml-beginner",
+    "title": "AI & Machine Learning \u2014 Beginner",
+    "description": "Learn the foundations of AI/ML, Python for data work, and basic statistics.",
+    "display_order": 1,
+    "sections": [
+      {
+        "id": "section_ai_ml_ai_ml_fundamentals_section",
+        "course_id": "course_ai_ml_beginner",
+        "title": "AI/ML Fundamentals",
+        "slug": "ai-ml-fundamentals-section",
+        "description": "Understand what AI and machine learning are and how they relate.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Distinguish AI, ML, and deep learning",
+          "Explain the general ML workflow",
+          "Identify problems suited to ML"
+        ]
+      },
+      {
+        "id": "section_ai_ml_python_for_ml",
+        "course_id": "course_ai_ml_beginner",
+        "title": "Python for ML",
+        "slug": "python-for-ml",
+        "description": "Learn the Python fundamentals needed for data science work.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Write Python functions and control flow",
+          "Work with lists, dicts, and comprehensions",
+          "Use Python in a notebook environment"
+        ]
+      },
+      {
+        "id": "section_ai_ml_numpy_fundamentals",
+        "course_id": "course_ai_ml_beginner",
+        "title": "NumPy Fundamentals",
+        "slug": "numpy-fundamentals",
+        "description": "Perform efficient numerical computing with NumPy arrays.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Create and manipulate NumPy arrays",
+          "Apply vectorized operations",
+          "Use broadcasting"
+        ]
+      },
+      {
+        "id": "section_ai_ml_pandas_fundamentals",
+        "course_id": "course_ai_ml_beginner",
+        "title": "Pandas Fundamentals",
+        "slug": "pandas-fundamentals",
+        "description": "Load, explore, and manipulate tabular data with Pandas.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Load data into a DataFrame",
+          "Filter and transform DataFrames",
+          "Handle missing data"
+        ]
+      },
+      {
+        "id": "section_ai_ml_statistics_probability_basics",
+        "course_id": "course_ai_ml_beginner",
+        "title": "Statistics & Probability Basics",
+        "slug": "statistics-probability-basics",
+        "description": "Learn the statistical foundations used throughout ML.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Compute measures of central tendency and spread",
+          "Understand basic probability concepts",
+          "Interpret a distribution"
+        ]
+      },
+      {
+        "id": "section_ai_ml_intro_supervised_learning",
+        "course_id": "course_ai_ml_beginner",
+        "title": "Introduction to Supervised Learning",
+        "slug": "intro-supervised-learning",
+        "description": "Understand the basic idea of learning from labeled data.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Distinguish regression from classification",
+          "Explain training vs test data",
+          "Train a simple supervised model"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_ai_ml_intermediate",
+    "track_id": "track_ai_ml",
+    "level_id": "level_intermediate",
+    "slug": "ai-ml-intermediate",
+    "title": "AI & Machine Learning \u2014 Intermediate",
+    "description": "Apply classical ML algorithms and evaluate models properly.",
+    "display_order": 2,
+    "sections": [
+      {
+        "id": "section_ai_ml_classical_ml_algorithms_section",
+        "course_id": "course_ai_ml_intermediate",
+        "title": "Classical ML Algorithms",
+        "slug": "classical-ml-algorithms-section",
+        "description": "Apply widely-used classical machine learning algorithms.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Apply linear and logistic regression",
+          "Use decision trees",
+          "Apply k-means clustering"
+        ]
+      },
+      {
+        "id": "section_ai_ml_unsupervised_learning_section",
+        "course_id": "course_ai_ml_intermediate",
+        "title": "Unsupervised Learning",
+        "slug": "unsupervised-learning-section",
+        "description": "Find structure in unlabeled data.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Apply clustering techniques",
+          "Understand dimensionality reduction at a conceptual level",
+          "Interpret unsupervised learning results"
+        ]
+      },
+      {
+        "id": "section_ai_ml_model_evaluation_section",
+        "course_id": "course_ai_ml_intermediate",
+        "title": "Model Evaluation",
+        "slug": "model-evaluation-section",
+        "description": "Assess how well a model performs and generalizes.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Use accuracy, precision, and recall appropriately",
+          "Apply train/validation/test splits",
+          "Use cross-validation"
+        ]
+      },
+      {
+        "id": "section_ai_ml_feature_engineering_section",
+        "course_id": "course_ai_ml_intermediate",
+        "title": "Feature Engineering",
+        "slug": "feature-engineering-section",
+        "description": "Create and transform features to improve model performance.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Encode categorical variables",
+          "Scale and normalize features",
+          "Create derived features"
+        ]
+      },
+      {
+        "id": "section_ai_ml_overfitting_generalization",
+        "course_id": "course_ai_ml_intermediate",
+        "title": "Overfitting & Generalization",
+        "slug": "overfitting-generalization",
+        "description": "Understand and mitigate overfitting.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Diagnose overfitting vs underfitting",
+          "Apply regularization concepts",
+          "Use validation curves to guide model complexity"
+        ]
+      },
+      {
+        "id": "section_ai_ml_deep_learning_intro",
+        "course_id": "course_ai_ml_intermediate",
+        "title": "Introduction to Deep Learning",
+        "slug": "deep-learning-intro",
+        "description": "Learn the basics of neural networks and deep learning.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Explain the structure of a neural network",
+          "Understand forward and backward propagation conceptually",
+          "Train a simple neural network"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_ai_ml_advanced",
+    "track_id": "track_ai_ml",
+    "level_id": "level_advanced",
+    "slug": "ai-ml-advanced",
+    "title": "AI & Machine Learning \u2014 Advanced",
+    "description": "Work with deep learning, transformers, and modern LLM/RAG application architecture.",
+    "display_order": 3,
+    "sections": [
+      {
+        "id": "section_ai_ml_neural_networks_deep_dive",
+        "course_id": "course_ai_ml_advanced",
+        "title": "Neural Networks Deep Dive",
+        "slug": "neural-networks-deep-dive",
+        "description": "Understand advanced neural network architectures and training dynamics.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Explain activation functions and their trade-offs",
+          "Understand optimizers and learning rate schedules",
+          "Diagnose training instability"
+        ]
+      },
+      {
+        "id": "section_ai_ml_transformers_section",
+        "course_id": "course_ai_ml_advanced",
+        "title": "Transformers",
+        "slug": "transformers-section",
+        "description": "Understand the architecture behind modern language models.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Explain the self-attention mechanism",
+          "Understand encoder/decoder architectures",
+          "Explain why transformers scale well"
+        ]
+      },
+      {
+        "id": "section_ai_ml_llms_section",
+        "course_id": "course_ai_ml_advanced",
+        "title": "Large Language Models",
+        "slug": "llms-section",
+        "description": "Understand how LLMs are trained and used.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Explain pretraining and fine-tuning",
+          "Understand prompting and in-context learning",
+          "Recognize LLM limitations and failure modes"
+        ]
+      },
+      {
+        "id": "section_ai_ml_embeddings_section",
+        "course_id": "course_ai_ml_advanced",
+        "title": "Embeddings",
+        "slug": "embeddings-section",
+        "description": "Use embeddings to represent and compare data semantically.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Explain how embeddings capture semantic similarity",
+          "Use embeddings for search and clustering",
+          "Choose an embedding strategy for a task"
+        ]
+      },
+      {
+        "id": "section_ai_ml_rag_section",
+        "course_id": "course_ai_ml_advanced",
+        "title": "Retrieval-Augmented Generation",
+        "slug": "rag-section",
+        "description": "Build systems that ground LLM responses in external data.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Explain the RAG architecture",
+          "Design a retrieval pipeline",
+          "Evaluate and improve RAG system quality"
+        ]
+      },
+      {
+        "id": "section_ai_ml_ai_app_architecture_section",
+        "course_id": "course_ai_ml_advanced",
+        "title": "AI Application Architecture",
+        "slug": "ai-app-architecture-section",
+        "description": "Design production applications powered by ML models and LLMs.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Design an AI-enhanced application architecture",
+          "Separate structured logic from model calls",
+          "Plan for evaluation, cost, and latency in AI features"
+        ]
+      }
+    ]
+  }
+]

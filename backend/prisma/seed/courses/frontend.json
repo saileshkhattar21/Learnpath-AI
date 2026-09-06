@@ -1,0 +1,269 @@
+[
+  {
+    "id": "course_frontend_beginner",
+    "track_id": "track_frontend",
+    "level_id": "level_beginner",
+    "slug": "frontend-beginner",
+    "title": "Frontend Development \u2014 Beginner",
+    "description": "Learn the foundations of the web: HTML structure, CSS styling and layout, and core JavaScript.",
+    "display_order": 1,
+    "sections": [
+      {
+        "id": "section_frontend_html_foundations",
+        "course_id": "course_frontend_beginner",
+        "title": "HTML Foundations",
+        "slug": "html-foundations",
+        "description": "Learn to structure web content using semantic HTML elements.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Write valid, semantic HTML documents",
+          "Use forms, lists, and tables correctly",
+          "Understand document structure and metadata"
+        ]
+      },
+      {
+        "id": "section_frontend_css_foundations_responsive",
+        "course_id": "course_frontend_beginner",
+        "title": "CSS Foundations & Responsive Design",
+        "slug": "css-foundations-responsive",
+        "description": "Style web pages and build layouts that adapt to different screen sizes.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Apply the CSS box model",
+          "Build layouts with Flexbox and Grid",
+          "Use media queries for responsive design"
+        ]
+      },
+      {
+        "id": "section_frontend_javascript_fundamentals",
+        "course_id": "course_frontend_beginner",
+        "title": "JavaScript Fundamentals",
+        "slug": "javascript-fundamentals",
+        "description": "Learn core JavaScript syntax, data types, and control flow.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Use variables, functions, and control structures",
+          "Work with arrays and objects",
+          "Understand scope and basic ES6+ syntax"
+        ]
+      },
+      {
+        "id": "section_frontend_dom_browser_apis",
+        "course_id": "course_frontend_beginner",
+        "title": "The DOM & Browser APIs",
+        "slug": "dom-browser-apis",
+        "description": "Manipulate web pages dynamically using the DOM and browser APIs.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Select and modify DOM elements",
+          "Handle user events",
+          "Use browser storage APIs"
+        ]
+      },
+      {
+        "id": "section_frontend_http_api_basics",
+        "course_id": "course_frontend_beginner",
+        "title": "Working with HTTP & APIs",
+        "slug": "http-api-basics",
+        "description": "Understand how browsers communicate with servers and how to consume data.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Explain the request/response cycle",
+          "Use fetch to retrieve data",
+          "Handle JSON responses"
+        ]
+      },
+      {
+        "id": "section_frontend_accessibility_basics",
+        "course_id": "course_frontend_beginner",
+        "title": "Accessibility Basics",
+        "slug": "accessibility-basics",
+        "description": "Build web pages that are usable by people with disabilities.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Use semantic HTML for accessibility",
+          "Apply ARIA attributes appropriately",
+          "Test with keyboard navigation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_frontend_intermediate",
+    "track_id": "track_frontend",
+    "level_id": "level_intermediate",
+    "slug": "frontend-intermediate",
+    "title": "Frontend Development \u2014 Intermediate",
+    "description": "Build interactive, component-based applications using React.",
+    "display_order": 2,
+    "sections": [
+      {
+        "id": "section_frontend_react_fundamentals",
+        "course_id": "course_frontend_intermediate",
+        "title": "React Fundamentals",
+        "slug": "react-fundamentals",
+        "description": "Learn the core concepts of building UIs with React components.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Create functional components",
+          "Understand JSX",
+          "Pass and use props"
+        ]
+      },
+      {
+        "id": "section_frontend_react_state_hooks",
+        "course_id": "course_frontend_intermediate",
+        "title": "React State & Hooks",
+        "slug": "react-state-hooks",
+        "description": "Manage component state and side effects using React hooks.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Use useState and useEffect",
+          "Manage derived and lifted state",
+          "Avoid common hook pitfalls"
+        ]
+      },
+      {
+        "id": "section_frontend_component_composition",
+        "course_id": "course_frontend_intermediate",
+        "title": "Component Architecture & Composition",
+        "slug": "component-composition",
+        "description": "Design reusable, composable component hierarchies.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Apply composition over inheritance",
+          "Design reusable component APIs",
+          "Structure a component-based codebase"
+        ]
+      },
+      {
+        "id": "section_frontend_consuming_apis_react",
+        "course_id": "course_frontend_intermediate",
+        "title": "Consuming APIs in React",
+        "slug": "consuming-apis-react",
+        "description": "Fetch and manage remote data inside React applications.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Fetch data inside effects",
+          "Handle loading and error states",
+          "Manage asynchronous data flow"
+        ]
+      },
+      {
+        "id": "section_frontend_frontend_testing_basics",
+        "course_id": "course_frontend_intermediate",
+        "title": "Frontend Testing Basics",
+        "slug": "frontend-testing-basics",
+        "description": "Write tests for components and user interactions.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Write unit tests for components",
+          "Test user interactions",
+          "Understand test doubles and mocking"
+        ]
+      },
+      {
+        "id": "section_frontend_state_management_patterns",
+        "course_id": "course_frontend_intermediate",
+        "title": "State Management Patterns",
+        "slug": "state-management-patterns",
+        "description": "Apply patterns for managing state across larger applications.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Lift state appropriately",
+          "Use context for shared state",
+          "Recognize when a state library is warranted"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_frontend_advanced",
+    "track_id": "track_frontend",
+    "level_id": "level_advanced",
+    "slug": "frontend-advanced",
+    "title": "Frontend Development \u2014 Advanced",
+    "description": "Architect, optimize, and harden production frontend applications.",
+    "display_order": 3,
+    "sections": [
+      {
+        "id": "section_frontend_frontend_architecture_scale",
+        "course_id": "course_frontend_advanced",
+        "title": "Frontend Architecture at Scale",
+        "slug": "frontend-architecture-scale",
+        "description": "Structure large frontend codebases for maintainability.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Design scalable folder/module structures",
+          "Apply separation of concerns",
+          "Manage cross-cutting concerns"
+        ]
+      },
+      {
+        "id": "section_frontend_web_performance_optimization",
+        "course_id": "course_frontend_advanced",
+        "title": "Performance Optimization",
+        "slug": "web-performance-optimization",
+        "description": "Diagnose and fix performance bottlenecks in web applications.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Measure Core Web Vitals",
+          "Apply code-splitting and lazy loading",
+          "Optimize rendering performance"
+        ]
+      },
+      {
+        "id": "section_frontend_advanced_accessibility",
+        "course_id": "course_frontend_advanced",
+        "title": "Advanced Accessibility",
+        "slug": "advanced-accessibility",
+        "description": "Apply advanced accessibility patterns and auditing techniques.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Audit applications with accessibility tools",
+          "Implement complex ARIA patterns",
+          "Design for assistive technologies"
+        ]
+      },
+      {
+        "id": "section_frontend_advanced_testing_strategies",
+        "course_id": "course_frontend_advanced",
+        "title": "Advanced Testing Strategies",
+        "slug": "advanced-testing-strategies",
+        "description": "Apply end-to-end and integration testing strategies at scale.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Design a testing pyramid for a frontend app",
+          "Write integration and e2e tests",
+          "Test asynchronous UI flows"
+        ]
+      },
+      {
+        "id": "section_frontend_production_frontend_concerns",
+        "course_id": "course_frontend_advanced",
+        "title": "Production Frontend Concerns",
+        "slug": "production-frontend-concerns",
+        "description": "Address the realities of shipping and operating frontend apps in production.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Handle error boundaries and monitoring",
+          "Manage environment configuration",
+          "Plan safe rollouts of UI changes"
+        ]
+      },
+      {
+        "id": "section_frontend_advanced_react_patterns",
+        "course_id": "course_frontend_advanced",
+        "title": "Advanced React Patterns",
+        "slug": "advanced-react-patterns",
+        "description": "Apply advanced component and hook patterns for complex UIs.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Build custom hooks",
+          "Apply render patterns for flexible components",
+          "Optimize re-renders"
+        ]
+      }
+    ]
+  }
+]

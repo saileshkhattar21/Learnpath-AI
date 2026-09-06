@@ -1,0 +1,44 @@
+[
+  {
+    "id": "track_frontend",
+    "slug": "frontend-development",
+    "name": "Frontend Development",
+    "description": "Build modern, accessible, performant user interfaces for the web using HTML, CSS, JavaScript, and React.",
+    "display_order": 1
+  },
+  {
+    "id": "track_backend",
+    "slug": "backend-development-nodejs-express",
+    "name": "Backend Development \u2014 Node.js & Express",
+    "description": "Design and build server-side applications, REST APIs, and backend architecture using Node.js and Express.",
+    "display_order": 2
+  },
+  {
+    "id": "track_devops_cloud",
+    "slug": "devops-cloud",
+    "name": "DevOps & Cloud",
+    "description": "Learn Linux, Git, containerization, CI/CD, and cloud fundamentals to build, deploy, and operate production systems.",
+    "display_order": 3
+  },
+  {
+    "id": "track_relational_databases",
+    "slug": "relational-databases",
+    "name": "Relational Databases",
+    "description": "Master relational data modeling, SQL, normalization, transactions, and production database design.",
+    "display_order": 4
+  },
+  {
+    "id": "track_ai_ml",
+    "slug": "ai-machine-learning",
+    "name": "AI & Machine Learning",
+    "description": "Learn the mathematical foundations, classical algorithms, deep learning, and modern LLM/RAG application patterns.",
+    "display_order": 5
+  },
+  {
+    "id": "track_data_analytics",
+    "slug": "data-analytics",
+    "name": "Data Analytics \u2014 Excel, Power BI & Analytics",
+    "description": "Learn to clean, analyze, visualize, and communicate data using Excel, Power Query, Power BI, and DAX.",
+    "display_order": 6
+  }
+]

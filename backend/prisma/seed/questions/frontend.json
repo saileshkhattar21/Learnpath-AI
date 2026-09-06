@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "question_frontend_001",
+    "section_id": "section_frontend_html_foundations",
+    "level_id": "level_beginner",
+    "question": "What does HTML stand for?",
+    "explanation": "HTML stands for HyperText Markup Language, the standard language for structuring content on the web.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_001_a",
+        "text": "HyperText Markup Language",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_001_b",
+        "text": "HighText Machine Language",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_001_c",
+        "text": "Hyperlink Text Markup Language",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_001_d",
+        "text": "HyperTransfer Markup Language",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_002",
+    "section_id": "section_frontend_html_foundations",
+    "level_id": "level_beginner",
+    "question": "Which HTML element is used to define the main heading of a page?",
+    "explanation": "The <h1> element defines the most important, top-level heading on a page.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_002_a",
+        "text": "<h1>",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_002_b",
+        "text": "<head>",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_002_c",
+        "text": "<title>",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_002_d",
+        "text": "<header>",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_003",
+    "section_id": "section_frontend_html_foundations",
+    "level_id": "level_beginner",
+    "question": "Which attribute is required on an <img> element for accessibility?",
+    "explanation": "The alt attribute provides alternative text describing the image for screen readers and when the image fails to load.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_003_a",
+        "text": "alt",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_003_b",
+        "text": "title",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_003_c",
+        "text": "src",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_003_d",
+        "text": "longdesc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_004",
+    "section_id": "section_frontend_html_foundations",
+    "level_id": "level_beginner",
+    "question": "Which element should be used to group related form inputs with a caption?",
+    "explanation": "<fieldset> groups related form controls, and <legend> provides a caption for the group.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_004_a",
+        "text": "<fieldset>",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_004_b",
+        "text": "<section>",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_004_c",
+        "text": "<group>",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_004_d",
+        "text": "<label>",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_005",
+    "section_id": "section_frontend_html_foundations",
+    "level_id": "level_beginner",
+    "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+    "explanation": "It tells the browser to render the page using the modern HTML5 standards mode rather than a legacy quirks mode.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_005_a",
+        "text": "It tells the browser to use standards mode for rendering",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_005_b",
+        "text": "It imports the HTML5 CSS stylesheet",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_005_c",
+        "text": "It links the document to an external HTML template",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_005_d",
+        "text": "It declares the page's character encoding",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_006",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "level_id": "level_beginner",
+    "question": "In the CSS box model, what does the 'padding' property control?",
+    "explanation": "Padding controls the space between an element's content and its border.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_006_a",
+        "text": "Space between content and the border",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_006_b",
+        "text": "Space outside the border",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_006_c",
+        "text": "The width of the border itself",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_006_d",
+        "text": "The color behind the content",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_007",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "level_id": "level_beginner",
+    "question": "Which CSS property is used to create a flex container?",
+    "explanation": "Setting display: flex on a container makes it a flex container, enabling flexbox layout for its children.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_007_a",
+        "text": "display: flex",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_007_b",
+        "text": "position: flex",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_007_c",
+        "text": "layout: flex",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_007_d",
+        "text": "flex: container",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_008",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "level_id": "level_beginner",
+    "question": "What is the purpose of a CSS media query?",
+    "explanation": "Media queries apply CSS rules conditionally based on characteristics like viewport width, enabling responsive design.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_008_a",
+        "text": "To apply styles conditionally based on device characteristics",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_008_b",
+        "text": "To load external stylesheets asynchronously",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_008_c",
+        "text": "To define reusable CSS variables",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_008_d",
+        "text": "To animate elements automatically",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_009",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "level_id": "level_beginner",
+    "question": "Which selector has higher specificity: a class selector or an element selector?",
+    "explanation": "Class selectors have higher specificity than element (type) selectors in CSS's specificity hierarchy.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_009_a",
+        "text": "A class selector",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_009_b",
+        "text": "An element selector",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_009_c",
+        "text": "They are always equal",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_009_d",
+        "text": "It depends on the browser",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_010",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "level_id": "level_beginner",
+    "question": "Which CSS unit is relative to the font size of the root element?",
+    "explanation": "The 'rem' unit is relative to the font size of the root (html) element, making it useful for consistent scaling.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_010_a",
+        "text": "rem",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_010_b",
+        "text": "px",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_010_c",
+        "text": "vh",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_010_d",
+        "text": "em",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_011",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "level_id": "level_beginner",
+    "question": "Which keyword declares a block-scoped variable that can be reassigned?",
+    "explanation": "'let' declares a block-scoped variable whose value can be reassigned, unlike 'const'.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_011_a",
+        "text": "let",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_011_b",
+        "text": "var",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_011_c",
+        "text": "const",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_011_d",
+        "text": "static",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_012",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "level_id": "level_beginner",
+    "question": "What does the strict equality operator (===) check that (==) does not?",
+    "explanation": "The === operator checks both value and type without performing type coercion, unlike ==.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_012_a",
+        "text": "It checks type as well as value, without coercion",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_012_b",
+        "text": "It only checks type, ignoring value",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_012_c",
+        "text": "It checks reference equality for all types",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_012_d",
+        "text": "It is identical in behavior to ==",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_013",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "level_id": "level_beginner",
+    "question": "What will typeof [] return in JavaScript?",
+    "explanation": "typeof an array returns 'object', since arrays are a specialized type of object in JavaScript.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_013_a",
+        "text": "'object'",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_013_b",
+        "text": "'array'",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_013_c",
+        "text": "'list'",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_013_d",
+        "text": "'undefined'",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_014",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "level_id": "level_beginner",
+    "question": "Which array method creates a new array by transforming each element?",
+    "explanation": "Array.prototype.map() returns a new array containing the results of calling a function on every element.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_014_a",
+        "text": "map()",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_014_b",
+        "text": "forEach()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_014_c",
+        "text": "filter()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_014_d",
+        "text": "reduce()",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_015",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "level_id": "level_beginner",
+    "question": "What is the result of the expression '5' + 3 in JavaScript?",
+    "explanation": "When a string is used with the + operator, JavaScript coerces the number to a string and concatenates, yielding '53'.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_015_a",
+        "text": "'53'",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_015_b",
+        "text": "8",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_015_c",
+        "text": "'8'",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_015_d",
+        "text": "NaN",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_016",
+    "section_id": "section_frontend_dom_browser_apis",
+    "level_id": "level_beginner",
+    "question": "Which method selects the first element that matches a CSS selector?",
+    "explanation": "document.querySelector() returns the first element matching the given CSS selector, or null if none match.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_016_a",
+        "text": "document.querySelector()",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_016_b",
+        "text": "document.getElementsByClassName()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_016_c",
+        "text": "document.selectElement()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_016_d",
+        "text": "document.getElementsByTagName()",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_017",
+    "section_id": "section_frontend_dom_browser_apis",
+    "level_id": "level_beginner",
+    "question": "Which method attaches an event handler to a DOM element?",
+    "explanation": "addEventListener() registers a function to be called whenever the specified event occurs on the element.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_017_a",
+        "text": "addEventListener()",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_017_b",
+        "text": "onEvent()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_017_c",
+        "text": "bindEvent()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_017_d",
+        "text": "attachHandler()",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_018",
+    "section_id": "section_frontend_dom_browser_apis",
+    "level_id": "level_beginner",
+    "question": "What does the DOM represent?",
+    "explanation": "The DOM is a tree-like programming interface representing the structure of an HTML or XML document.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_018_a",
+        "text": "A tree structure representing the page's elements",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_018_b",
+        "text": "A database storing page content on the server",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_018_c",
+        "text": "A compiled binary version of the HTML file",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_018_d",
+        "text": "A style sheet used to render the page",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_019",
+    "section_id": "section_frontend_dom_browser_apis",
+    "level_id": "level_beginner",
+    "question": "Which browser storage API persists data even after the browser is closed?",
+    "explanation": "localStorage persists data with no expiration date, even after the browser is closed and reopened.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_019_a",
+        "text": "localStorage",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_019_b",
+        "text": "sessionStorage",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_019_c",
+        "text": "cookies only",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_019_d",
+        "text": "in-memory variables",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_020",
+    "section_id": "section_frontend_dom_browser_apis",
+    "level_id": "level_beginner",
+    "question": "What does event.preventDefault() do?",
+    "explanation": "It stops the browser's default action for that event, such as preventing a form from submitting normally.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_020_a",
+        "text": "Stops the browser's default action for the event",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_020_b",
+        "text": "Removes the event listener permanently",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_020_c",
+        "text": "Stops the event from being logged to the console",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_020_d",
+        "text": "Pauses JavaScript execution",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_021",
+    "section_id": "section_frontend_http_api_basics",
+    "level_id": "level_beginner",
+    "question": "Which HTTP method is typically used to retrieve data without modifying it?",
+    "explanation": "GET requests are used to retrieve data from a server and should not modify server state.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_021_a",
+        "text": "GET",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_021_b",
+        "text": "POST",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_021_c",
+        "text": "DELETE",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_021_d",
+        "text": "PUT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_022",
+    "section_id": "section_frontend_http_api_basics",
+    "level_id": "level_beginner",
+    "question": "What does a 404 HTTP status code indicate?",
+    "explanation": "A 404 status code means the requested resource could not be found on the server.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_022_a",
+        "text": "The requested resource was not found",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_022_b",
+        "text": "The request succeeded",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_022_c",
+        "text": "The server encountered an internal error",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_022_d",
+        "text": "The request was forbidden",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_023",
+    "section_id": "section_frontend_http_api_basics",
+    "level_id": "level_beginner",
+    "question": "Which JavaScript function is commonly used to make an HTTP request from the browser?",
+    "explanation": "The fetch() function provides a modern, promise-based interface for making HTTP requests.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_023_a",
+        "text": "fetch()",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_023_b",
+        "text": "request()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_023_c",
+        "text": "http()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_023_d",
+        "text": "load()",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_024",
+    "section_id": "section_frontend_http_api_basics",
+    "level_id": "level_beginner",
+    "question": "What format does fetch's response.json() return?",
+    "explanation": "response.json() parses the response body and returns a Promise that resolves to a JavaScript object.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_024_a",
+        "text": "A Promise that resolves to a parsed JavaScript object",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_024_b",
+        "text": "A raw string of unparsed text",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_024_c",
+        "text": "An XML document",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_024_d",
+        "text": "A binary buffer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_025",
+    "section_id": "section_frontend_http_api_basics",
+    "level_id": "level_beginner",
+    "question": "In the HTTP request/response cycle, what does the client send first?",
+    "explanation": "The client initiates communication by sending an HTTP request to the server, which then returns a response.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_025_a",
+        "text": "A request",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_025_b",
+        "text": "A response",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_025_c",
+        "text": "A cookie",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_025_d",
+        "text": "A socket handshake only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_026",
+    "section_id": "section_frontend_accessibility_basics",
+    "level_id": "level_beginner",
+    "question": "Why is semantic HTML important for accessibility?",
+    "explanation": "Semantic elements convey meaning and structure to assistive technologies like screen readers, improving navigation.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_026_a",
+        "text": "It helps assistive technologies understand page structure and meaning",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_026_b",
+        "text": "It makes the page load faster in all cases",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_026_c",
+        "text": "It is required for CSS to apply correctly",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_026_d",
+        "text": "It replaces the need for alt text",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_027",
+    "section_id": "section_frontend_accessibility_basics",
+    "level_id": "level_beginner",
+    "question": "What is the purpose of an ARIA role?",
+    "explanation": "ARIA roles describe the type and purpose of an element to assistive technologies when semantics aren't otherwise clear.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_027_a",
+        "text": "To describe an element's purpose to assistive technologies",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_027_b",
+        "text": "To apply CSS styling rules",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_027_c",
+        "text": "To validate HTML syntax",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_027_d",
+        "text": "To improve SEO ranking only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_028",
+    "section_id": "section_frontend_accessibility_basics",
+    "level_id": "level_beginner",
+    "question": "Which of these is a key principle of keyboard accessibility?",
+    "explanation": "All interactive elements should be reachable and operable using only the keyboard, without requiring a mouse.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_028_a",
+        "text": "All interactive elements should be operable via keyboard",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_028_b",
+        "text": "Keyboard navigation should be disabled on mobile",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_028_c",
+        "text": "Only forms need to support keyboard input",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_028_d",
+        "text": "Tab order does not matter for accessibility",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_029",
+    "section_id": "section_frontend_accessibility_basics",
+    "level_id": "level_beginner",
+    "question": "What does sufficient color contrast primarily help with?",
+    "explanation": "Sufficient contrast between text and background helps users with low vision or color blindness read content.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_029_a",
+        "text": "Readability for users with low vision or color blindness",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_029_b",
+        "text": "Faster page load times",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_029_c",
+        "text": "Better search engine indexing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_029_d",
+        "text": "Reduced JavaScript bundle size",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_030",
+    "section_id": "section_frontend_accessibility_basics",
+    "level_id": "level_beginner",
+    "question": "Why should alt text describe the content or function of an image?",
+    "explanation": "Descriptive alt text conveys the image's meaning to users relying on screen readers who cannot see the image.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_030_a",
+        "text": "It conveys the image's meaning to screen reader users",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_030_b",
+        "text": "It is required for the image to load",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_030_c",
+        "text": "It automatically resizes the image",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_030_d",
+        "text": "It replaces the need for a title attribute",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_031",
+    "section_id": "section_frontend_react_fundamentals",
+    "level_id": "level_intermediate",
+    "question": "What is JSX?",
+    "explanation": "JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside JavaScript code.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_031_a",
+        "text": "A syntax extension that lets you write HTML-like markup in JavaScript",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_031_b",
+        "text": "A separate templating language compiled by the browser",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_031_c",
+        "text": "A CSS preprocessor",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_031_d",
+        "text": "A state management library",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_032",
+    "section_id": "section_frontend_react_fundamentals",
+    "level_id": "level_intermediate",
+    "question": "In React, how is data passed from a parent component to a child component?",
+    "explanation": "Data flows from parent to child via props, which are read-only inputs to a component.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_032_a",
+        "text": "Via props",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_032_b",
+        "text": "Via global variables",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_032_c",
+        "text": "Via direct DOM manipulation",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_032_d",
+        "text": "Via cookies",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_033",
+    "section_id": "section_frontend_react_fundamentals",
+    "level_id": "level_intermediate",
+    "question": "What must a React functional component return?",
+    "explanation": "A functional component must return JSX (or null) describing what should appear on the screen.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_033_a",
+        "text": "JSX describing the UI (or null)",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_033_b",
+        "text": "A CSS stylesheet",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_033_c",
+        "text": "An HTTP response object",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_033_d",
+        "text": "A database query result",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_034",
+    "section_id": "section_frontend_react_fundamentals",
+    "level_id": "level_intermediate",
+    "question": "Why are props described as read-only in React?",
+    "explanation": "Props should not be modified by the component that receives them; changes should flow from the parent instead.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_034_a",
+        "text": "A component should not modify the props it receives",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_034_b",
+        "text": "Props can never change during an app's lifetime",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_034_c",
+        "text": "Props are stored in a read-only database",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_034_d",
+        "text": "Props are automatically encrypted",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_035",
+    "section_id": "section_frontend_react_fundamentals",
+    "level_id": "level_intermediate",
+    "question": "What triggers a React component to re-render?",
+    "explanation": "A component re-renders when its state changes or when it receives new props.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_035_a",
+        "text": "A change in its state or props",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_035_b",
+        "text": "Refreshing the browser only",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_035_c",
+        "text": "Restarting the development server",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_035_d",
+        "text": "Changing a CSS file",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_036",
+    "section_id": "section_frontend_react_state_hooks",
+    "level_id": "level_intermediate",
+    "question": "What does the useState hook return?",
+    "explanation": "useState returns an array containing the current state value and a function to update it.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_036_a",
+        "text": "A pair: the current state value and a setter function",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_036_b",
+        "text": "Only the current state value",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_036_c",
+        "text": "A configuration object",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_036_d",
+        "text": "A Promise that resolves to the state",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_037",
+    "section_id": "section_frontend_react_state_hooks",
+    "level_id": "level_intermediate",
+    "question": "When does a useEffect with an empty dependency array run?",
+    "explanation": "An effect with an empty dependency array runs once, after the component's initial render.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_037_a",
+        "text": "Once, after the initial render",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_037_b",
+        "text": "On every render",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_037_c",
+        "text": "Only when the component unmounts",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_037_d",
+        "text": "Never, unless manually triggered",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_038",
+    "section_id": "section_frontend_react_state_hooks",
+    "level_id": "level_intermediate",
+    "question": "Why might omitting a needed value from useEffect's dependency array cause bugs?",
+    "explanation": "The effect can then use stale values from a previous render, since it won't re-run when that value changes.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_038_a",
+        "text": "The effect may use stale values and not re-run when they change",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_038_b",
+        "text": "The component will fail to compile",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_038_c",
+        "text": "The effect will run twice on every render",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_038_d",
+        "text": "React will throw a syntax error",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_039",
+    "section_id": "section_frontend_react_state_hooks",
+    "level_id": "level_intermediate",
+    "question": "What is a common mistake when updating state based on the previous state?",
+    "explanation": "Directly using the current state variable in rapid updates can lead to stale values; an updater function should be used instead.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_039_a",
+        "text": "Not using the functional updater form when needed",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_039_b",
+        "text": "Calling useState more than once in a component",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_039_c",
+        "text": "Declaring state variables with const",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_039_d",
+        "text": "Using useState instead of useEffect",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_040",
+    "section_id": "section_frontend_react_state_hooks",
+    "level_id": "level_intermediate",
+    "question": "What does the cleanup function returned from useEffect do?",
+    "explanation": "It runs before the effect re-runs or when the component unmounts, allowing cleanup of subscriptions or timers.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_040_a",
+        "text": "Cleans up side effects like subscriptions before re-running or unmounting",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_040_b",
+        "text": "Deletes the component's state",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_040_c",
+        "text": "Forces an immediate re-render",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_040_d",
+        "text": "Cancels all future renders",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_041",
+    "section_id": "section_frontend_component_composition",
+    "level_id": "level_intermediate",
+    "question": "What does 'composition over inheritance' mean in React?",
+    "explanation": "Instead of extending components via class inheritance, React encourages building complex UIs by combining smaller components.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_041_a",
+        "text": "Building complex UIs by combining smaller components rather than extending classes",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_041_b",
+        "text": "Always using class components instead of functions",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_041_c",
+        "text": "Avoiding the use of props entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_041_d",
+        "text": "Writing all logic in a single large component",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_042",
+    "section_id": "section_frontend_component_composition",
+    "level_id": "level_intermediate",
+    "question": "What is the 'children' prop used for?",
+    "explanation": "The children prop lets a component render whatever is nested between its opening and closing tags.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_042_a",
+        "text": "Rendering content passed between a component's opening and closing tags",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_042_b",
+        "text": "Storing a component's internal state",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_042_c",
+        "text": "Defining CSS class names",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_042_d",
+        "text": "Listing a component's child routes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_043",
+    "section_id": "section_frontend_component_composition",
+    "level_id": "level_intermediate",
+    "question": "What problem does 'prop drilling' describe?",
+    "explanation": "Prop drilling refers to passing props through many intermediate components that don't need them, just to reach a deeply nested one.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_043_a",
+        "text": "Passing props through many layers of components that don't need them",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_043_b",
+        "text": "A performance bug caused by too many re-renders",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_043_c",
+        "text": "An error thrown when props are missing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_043_d",
+        "text": "A pattern for optimizing component rendering",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_044",
+    "section_id": "section_frontend_component_composition",
+    "level_id": "level_intermediate",
+    "question": "What is a benefit of designing small, reusable components?",
+    "explanation": "Small, focused components are easier to test, reason about, and reuse across different parts of an application.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_044_a",
+        "text": "They are easier to test, understand, and reuse",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_044_b",
+        "text": "They eliminate the need for props",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_044_c",
+        "text": "They automatically improve network performance",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_044_d",
+        "text": "They remove the need for state",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_045",
+    "section_id": "section_frontend_component_composition",
+    "level_id": "level_intermediate",
+    "question": "When designing a component's API, what should its props generally represent?",
+    "explanation": "Props should represent the minimal, well-defined inputs a component needs to render and behave correctly.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_045_a",
+        "text": "The minimal, well-defined inputs the component needs",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_045_b",
+        "text": "Every possible piece of application state",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_045_c",
+        "text": "Internal implementation details of the component",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_045_d",
+        "text": "CSS class names only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_046",
+    "section_id": "section_frontend_consuming_apis_react",
+    "level_id": "level_intermediate",
+    "question": "Where is data fetching typically triggered in a function component?",
+    "explanation": "Data fetching is commonly triggered inside a useEffect hook so it runs after render, in response to changes in dependencies.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_046_a",
+        "text": "Inside a useEffect hook",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_046_b",
+        "text": "Directly in the JSX return statement",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_046_c",
+        "text": "Inside the component's props definition",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_046_d",
+        "text": "In the CSS file",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_047",
+    "section_id": "section_frontend_consuming_apis_react",
+    "level_id": "level_intermediate",
+    "question": "Why is it important to handle loading and error states when fetching data?",
+    "explanation": "Without handling these states, users may see a blank or broken UI while data is pending or if the request fails.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_047_a",
+        "text": "To give users appropriate feedback while data is pending or fails",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_047_b",
+        "text": "To make the API respond faster",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_047_c",
+        "text": "Because React requires it to compile",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_047_d",
+        "text": "To reduce the size of the JavaScript bundle",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_048",
+    "section_id": "section_frontend_consuming_apis_react",
+    "level_id": "level_intermediate",
+    "question": "What is a 'race condition' in the context of fetching data in React?",
+    "explanation": "A race condition occurs when an older, slower request resolves after a newer one, overwriting fresher data with stale results.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_048_a",
+        "text": "An outdated request resolving after a newer one and overwriting fresh data",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_048_b",
+        "text": "Two components sharing the same CSS class",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_048_c",
+        "text": "A component rendering before its parent",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_048_d",
+        "text": "An error thrown when props are undefined",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_049",
+    "section_id": "section_frontend_consuming_apis_react",
+    "level_id": "level_intermediate",
+    "question": "Why might a data-fetching effect need a cleanup function?",
+    "explanation": "To ignore or cancel a stale response if the component unmounts or dependencies change before the fetch resolves.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_049_a",
+        "text": "To avoid updating state after the component has unmounted or dependencies changed",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_049_b",
+        "text": "To permanently stop the app from making further requests",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_049_c",
+        "text": "To clear the browser's HTTP cache",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_049_d",
+        "text": "To delete the fetched data from memory immediately",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_050",
+    "section_id": "section_frontend_consuming_apis_react",
+    "level_id": "level_intermediate",
+    "question": "What does the article 'You Might Not Need an Effect' generally caution against?",
+    "explanation": "It cautions against using Effects for logic that can be handled during rendering or in event handlers instead.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_050_a",
+        "text": "Overusing Effects for logic that belongs in rendering or event handlers",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_050_b",
+        "text": "Ever using useEffect in a React application",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_050_c",
+        "text": "Fetching data from external APIs",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_050_d",
+        "text": "Using props in a component",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_051",
+    "section_id": "section_frontend_frontend_testing_basics",
+    "level_id": "level_intermediate",
+    "question": "What is the guiding principle of React Testing Library?",
+    "explanation": "Tests should resemble how users actually interact with the software, rather than testing implementation details.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_051_a",
+        "text": "Tests should resemble how users interact with the software",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_051_b",
+        "text": "Tests should directly inspect a component's internal state",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_051_c",
+        "text": "Tests should only check component prop types",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_051_d",
+        "text": "Tests should avoid rendering any components",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_052",
+    "section_id": "section_frontend_frontend_testing_basics",
+    "level_id": "level_intermediate",
+    "question": "Which query does Testing Library recommend prioritizing when finding elements?",
+    "explanation": "Testing Library recommends queries that reflect how users find elements, such as by accessible role or label text.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_052_a",
+        "text": "Queries based on accessible roles or visible text",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_052_b",
+        "text": "Queries based on internal component class names",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_052_c",
+        "text": "Queries based on React component display names",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_052_d",
+        "text": "Queries based on CSS selectors targeting IDs only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_053",
+    "section_id": "section_frontend_frontend_testing_basics",
+    "level_id": "level_intermediate",
+    "question": "What is the purpose of mocking in frontend tests?",
+    "explanation": "Mocking replaces real dependencies, like network calls, with controlled substitutes so tests are fast and predictable.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_053_a",
+        "text": "Replacing real dependencies with controlled substitutes",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_053_b",
+        "text": "Making the test suite run slower for accuracy",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_053_c",
+        "text": "Permanently disabling parts of the application",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_053_d",
+        "text": "Removing the need to write assertions",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_054",
+    "section_id": "section_frontend_frontend_testing_basics",
+    "level_id": "level_intermediate",
+    "question": "What does a typical unit test assert?",
+    "explanation": "A unit test asserts that a specific piece of logic or component behaves as expected given certain inputs.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_054_a",
+        "text": "That a specific piece of logic or component behaves as expected",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_054_b",
+        "text": "That the entire application deploys successfully",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_054_c",
+        "text": "That the server database schema is valid",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_054_d",
+        "text": "That the browser renders pixels correctly",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_055",
+    "section_id": "section_frontend_frontend_testing_basics",
+    "level_id": "level_intermediate",
+    "question": "Why is testing user interactions (like clicks) valuable in component tests?",
+    "explanation": "It verifies that the component behaves correctly from the user's perspective, not just that it renders.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_055_a",
+        "text": "It verifies behavior from the user's perspective, not just rendering",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_055_b",
+        "text": "It replaces the need for any other kind of testing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_055_c",
+        "text": "It guarantees the app has no visual bugs",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_055_d",
+        "text": "It is only useful for testing CSS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_056",
+    "section_id": "section_frontend_state_management_patterns",
+    "level_id": "level_intermediate",
+    "question": "What does 'lifting state up' mean in React?",
+    "explanation": "It means moving shared state to the closest common ancestor of the components that need it.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_056_a",
+        "text": "Moving shared state to the closest common ancestor component",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_056_b",
+        "text": "Storing state in a global CSS file",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_056_c",
+        "text": "Moving state into a child component",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_056_d",
+        "text": "Removing state from a component entirely",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_057",
+    "section_id": "section_frontend_state_management_patterns",
+    "level_id": "level_intermediate",
+    "question": "What problem does React's Context API primarily help solve?",
+    "explanation": "Context lets you share data across a component tree without manually passing props through every level.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_057_a",
+        "text": "Avoiding prop drilling through many component levels",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_057_b",
+        "text": "Replacing the need for component state entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_057_c",
+        "text": "Improving the performance of CSS rendering",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_057_d",
+        "text": "Handling HTTP requests automatically",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_058",
+    "section_id": "section_frontend_state_management_patterns",
+    "level_id": "level_intermediate",
+    "question": "What is 'derived state'?",
+    "explanation": "Derived state is data computed from existing state or props rather than stored as its own separate state.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_058_a",
+        "text": "Data computed from existing state or props",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_058_b",
+        "text": "State that is fetched exclusively from an API",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_058_c",
+        "text": "State stored only in the URL",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_058_d",
+        "text": "A type of CSS variable",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_059",
+    "section_id": "section_frontend_state_management_patterns",
+    "level_id": "level_intermediate",
+    "question": "When might a dedicated state management library be warranted over Context alone?",
+    "explanation": "When state updates are frequent and complex enough that Context causes unnecessary re-renders or unclear data flow.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_059_a",
+        "text": "When state is complex and frequently updated across many components",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_059_b",
+        "text": "Whenever a component has more than one prop",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_059_c",
+        "text": "Only when using class components",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_059_d",
+        "text": "Never, Context always suffices",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_060",
+    "section_id": "section_frontend_state_management_patterns",
+    "level_id": "level_intermediate",
+    "question": "What is a risk of storing the same piece of data in multiple state variables?",
+    "explanation": "The copies can become out of sync, leading to bugs where the UI reflects inconsistent data.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_060_a",
+        "text": "The copies can become out of sync with each other",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_060_b",
+        "text": "It always improves rendering performance",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_060_c",
+        "text": "It is required for React to detect changes",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_060_d",
+        "text": "It has no meaningful downside",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_061",
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "level_id": "level_advanced",
+    "question": "Why is a clear separation of concerns important in a large frontend codebase?",
+    "explanation": "It keeps UI, business logic, and data-fetching code independently understandable, testable, and maintainable.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_061_a",
+        "text": "It keeps different responsibilities independently maintainable and testable",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_061_b",
+        "text": "It reduces the total number of files needed",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_061_c",
+        "text": "It eliminates the need for any testing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_061_d",
+        "text": "It guarantees better runtime performance automatically",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_062",
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "level_id": "level_advanced",
+    "question": "What is a common risk of a poorly structured, monolithic frontend codebase?",
+    "explanation": "Changes in one area can unintentionally break unrelated features due to tightly coupled code.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_062_a",
+        "text": "Tight coupling causes changes to unexpectedly break unrelated features",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_062_b",
+        "text": "It becomes impossible to use React",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_062_c",
+        "text": "It automatically increases bundle size",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_062_d",
+        "text": "It prevents the use of CSS entirely",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_063",
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "level_id": "level_advanced",
+    "question": "What is a benefit of organizing code by feature rather than by file type?",
+    "explanation": "Feature-based organization keeps related logic, components, and styles together, making features easier to locate and change.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_063_a",
+        "text": "Related code for a feature stays together, easing changes",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_063_b",
+        "text": "It removes the need for a build step",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_063_c",
+        "text": "It is required by the JavaScript language specification",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_063_d",
+        "text": "It automatically improves SEO",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_064",
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "level_id": "level_advanced",
+    "question": "In a scalable frontend architecture, why are shared UI primitives (e.g. buttons, inputs) often centralized?",
+    "explanation": "Centralizing primitives ensures visual and behavioral consistency and avoids duplicated implementations across the app.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_064_a",
+        "text": "To ensure consistency and avoid duplicated implementations",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_064_b",
+        "text": "To make the components load slower on purpose",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_064_c",
+        "text": "Because React requires all UI in one file",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_064_d",
+        "text": "To prevent any component from being reused",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_065",
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "level_id": "level_advanced",
+    "question": "What is a key architectural consideration when a frontend team grows significantly?",
+    "explanation": "Establishing clear module boundaries and ownership helps multiple teams work on the codebase without excessive conflicts.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_065_a",
+        "text": "Establishing clear module boundaries and ownership",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_065_b",
+        "text": "Removing all internal documentation",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_065_c",
+        "text": "Consolidating all code into a single component",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_065_d",
+        "text": "Disabling version control branching",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_066",
+    "section_id": "section_frontend_web_performance_optimization",
+    "level_id": "level_advanced",
+    "question": "What does Largest Contentful Paint (LCP) measure?",
+    "explanation": "LCP measures the time it takes for the largest visible content element to render, indicating perceived load speed.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_066_a",
+        "text": "The time for the largest visible content element to render",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_066_b",
+        "text": "The total number of HTTP requests made",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_066_c",
+        "text": "The time until the first CSS file loads",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_066_d",
+        "text": "The number of JavaScript errors thrown",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_067",
+    "section_id": "section_frontend_web_performance_optimization",
+    "level_id": "level_advanced",
+    "question": "What is the main benefit of code-splitting a frontend application?",
+    "explanation": "Code-splitting reduces the initial bundle size by loading code only when it's needed, speeding up initial load.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_067_a",
+        "text": "It reduces initial bundle size by loading code on demand",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_067_b",
+        "text": "It removes the need for a bundler entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_067_c",
+        "text": "It automatically fixes accessibility issues",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_067_d",
+        "text": "It disables caching for faster development",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_068",
+    "section_id": "section_frontend_web_performance_optimization",
+    "level_id": "level_advanced",
+    "question": "When is lazy loading a component most beneficial?",
+    "explanation": "It's most beneficial for components that are not needed immediately, such as those behind a route or modal.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_068_a",
+        "text": "For components not needed immediately, like those behind a route",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_068_b",
+        "text": "For every single component regardless of usage",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_068_c",
+        "text": "Only for CSS files",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_068_d",
+        "text": "Only in server-side rendered applications",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_069",
+    "section_id": "section_frontend_web_performance_optimization",
+    "level_id": "level_advanced",
+    "question": "What problem does memoization (e.g. useMemo) primarily address?",
+    "explanation": "It avoids re-computing expensive values on every render when the relevant inputs haven't changed.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_069_a",
+        "text": "Avoiding unnecessary recomputation of expensive values",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_069_b",
+        "text": "Reducing the number of HTTP requests made",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_069_c",
+        "text": "Fixing broken CSS layouts",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_069_d",
+        "text": "Automatically compressing images",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_070",
+    "section_id": "section_frontend_web_performance_optimization",
+    "level_id": "level_advanced",
+    "question": "Why can a large, unoptimized bundle size hurt user experience?",
+    "explanation": "It increases the time users must wait before the page becomes interactive, especially on slower networks or devices.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_070_a",
+        "text": "It increases load time before the page becomes interactive",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_070_b",
+        "text": "It always improves SEO rankings",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_070_c",
+        "text": "It has no measurable effect on users",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_070_d",
+        "text": "It only affects the developer's build tools",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_071",
+    "section_id": "section_frontend_advanced_accessibility",
+    "level_id": "level_advanced",
+    "question": "What is the purpose of an ARIA live region?",
+    "explanation": "A live region announces dynamic content changes to assistive technology users without requiring focus to move.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_071_a",
+        "text": "Announcing dynamic content changes to assistive technology",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_071_b",
+        "text": "Styling elements that update frequently",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_071_c",
+        "text": "Improving animation performance",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_071_d",
+        "text": "Preventing a page from being indexed by search engines",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_072",
+    "section_id": "section_frontend_advanced_accessibility",
+    "level_id": "level_advanced",
+    "question": "Why is focus management important in single-page applications?",
+    "explanation": "Without managing focus, keyboard and screen reader users may lose track of context after navigation or dynamic updates.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_072_a",
+        "text": "It keeps keyboard and screen reader users oriented after navigation",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_072_b",
+        "text": "It is only relevant for mouse users",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_072_c",
+        "text": "It improves the app's bundle size",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_072_d",
+        "text": "It is unrelated to accessibility",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_073",
+    "section_id": "section_frontend_advanced_accessibility",
+    "level_id": "level_advanced",
+    "question": "What is a benefit of testing an application with an actual screen reader?",
+    "explanation": "It reveals real-world usability issues that automated accessibility checkers may not catch.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_073_a",
+        "text": "It reveals real-world usability issues automated tools may miss",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_073_b",
+        "text": "It replaces the need for semantic HTML",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_073_c",
+        "text": "It automatically fixes any accessibility bugs found",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_073_d",
+        "text": "It is only useful for visual design review",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_074",
+    "section_id": "section_frontend_advanced_accessibility",
+    "level_id": "level_advanced",
+    "question": "When building a custom dropdown widget, why consult ARIA authoring practices?",
+    "explanation": "They provide established patterns for keyboard interaction and ARIA roles so custom widgets behave predictably for assistive technology.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_074_a",
+        "text": "They provide established patterns for accessible custom widget behavior",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_074_b",
+        "text": "They are required for the widget to render visually",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_074_c",
+        "text": "They eliminate the need for any JavaScript",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_074_d",
+        "text": "They only apply to native HTML elements",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_075",
+    "section_id": "section_frontend_advanced_accessibility",
+    "level_id": "level_advanced",
+    "question": "What is a common outcome of an accessibility audit using automated tools alone?",
+    "explanation": "Automated tools catch many issues but cannot detect all problems, such as illogical reading order or unclear interactions.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_075_a",
+        "text": "Some real issues are missed since automated tools have limited coverage",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_075_b",
+        "text": "All accessibility issues are guaranteed to be found",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_075_c",
+        "text": "The audit replaces the need for manual testing entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_075_d",
+        "text": "The audit only checks color choices",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_076",
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "level_id": "level_advanced",
+    "question": "In the testing pyramid, which type of test should typically be the most numerous?",
+    "explanation": "The testing pyramid favors many fast, focused unit tests, with fewer slower integration and end-to-end tests.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_076_a",
+        "text": "Unit tests",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_076_b",
+        "text": "End-to-end tests",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_076_c",
+        "text": "Manual exploratory tests",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_076_d",
+        "text": "Visual regression tests only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_077",
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "level_id": "level_advanced",
+    "question": "What is a key trade-off of end-to-end tests compared to unit tests?",
+    "explanation": "End-to-end tests provide high confidence but are typically slower and more brittle than focused unit tests.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_077_a",
+        "text": "They provide more confidence but are slower and more brittle",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_077_b",
+        "text": "They are always faster than unit tests",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_077_c",
+        "text": "They require no test environment setup",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_077_d",
+        "text": "They cannot test user-facing behavior",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_078",
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "level_id": "level_advanced",
+    "question": "Why can testing asynchronous UI updates be challenging?",
+    "explanation": "Tests must properly wait for state updates or network responses to resolve before making assertions.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_078_a",
+        "text": "Tests must wait for async updates to resolve before asserting",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_078_b",
+        "text": "Asynchronous code cannot be tested at all",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_078_c",
+        "text": "It requires disabling all React hooks",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_078_d",
+        "text": "It only affects server-side code",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_079",
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "level_id": "level_advanced",
+    "question": "What typically causes a 'flaky' test?",
+    "explanation": "Flaky tests often result from timing issues, shared state, or reliance on external systems that behave inconsistently.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_079_a",
+        "text": "Timing issues or reliance on inconsistent external state",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_079_b",
+        "text": "Using too many assertions in one test",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_079_c",
+        "text": "Writing tests in TypeScript instead of JavaScript",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_079_d",
+        "text": "Running tests in a CI environment",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_080",
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "level_id": "level_advanced",
+    "question": "What does contract testing help verify between a frontend and an API?",
+    "explanation": "Contract testing verifies that the frontend's expectations of an API's request/response shape match what the API actually provides.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_080_a",
+        "text": "That the frontend and API agree on request/response shape",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_080_b",
+        "text": "That the frontend's CSS matches a design file",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_080_c",
+        "text": "That the API has zero latency",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_080_d",
+        "text": "That the frontend has no accessibility issues",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_081",
+    "section_id": "section_frontend_production_frontend_concerns",
+    "level_id": "level_advanced",
+    "question": "What is the purpose of a React error boundary?",
+    "explanation": "An error boundary catches JavaScript errors in its child component tree and renders a fallback UI instead of crashing the app.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_081_a",
+        "text": "Catching rendering errors and showing a fallback UI",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_081_b",
+        "text": "Preventing all runtime errors from ever occurring",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_081_c",
+        "text": "Replacing the need for try/catch in event handlers",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_081_d",
+        "text": "Improving CSS load performance",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_082",
+    "section_id": "section_frontend_production_frontend_concerns",
+    "level_id": "level_advanced",
+    "question": "Why is environment-specific configuration (e.g. API URLs) important in production apps?",
+    "explanation": "It ensures the app connects to the correct services depending on whether it's running in development, staging, or production.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_082_a",
+        "text": "It ensures the app connects to the correct services per environment",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_082_b",
+        "text": "It is only needed for testing purposes",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_082_c",
+        "text": "It removes the need for a build process",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_082_d",
+        "text": "It has no effect on application behavior",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_083",
+    "section_id": "section_frontend_production_frontend_concerns",
+    "level_id": "level_advanced",
+    "question": "What is a common purpose of feature flags in production frontend deployments?",
+    "explanation": "Feature flags let teams enable or disable functionality without a full redeploy, supporting safer rollouts.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_083_a",
+        "text": "Enabling or disabling functionality without a full redeploy",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_083_b",
+        "text": "Permanently deleting unused code",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_083_c",
+        "text": "Replacing the need for automated testing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_083_d",
+        "text": "Encrypting user data in transit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_084",
+    "section_id": "section_frontend_production_frontend_concerns",
+    "level_id": "level_advanced",
+    "question": "Why should production frontend errors be monitored with a logging or error-tracking tool?",
+    "explanation": "It surfaces real-world issues affecting users that may not appear during local development or testing.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_084_a",
+        "text": "It surfaces real user-facing issues not caught during development",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_084_b",
+        "text": "It prevents any errors from occurring",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_084_c",
+        "text": "It replaces the need for error boundaries",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_084_d",
+        "text": "It is only useful for backend applications",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_085",
+    "section_id": "section_frontend_production_frontend_concerns",
+    "level_id": "level_advanced",
+    "question": "What is a benefit of a gradual (staged) rollout of a UI change?",
+    "explanation": "It limits the blast radius of potential issues by exposing the change to a small group of users before a full release.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_085_a",
+        "text": "It limits the impact of potential issues before a full release",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_085_b",
+        "text": "It guarantees the change has no bugs",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_085_c",
+        "text": "It eliminates the need for monitoring",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_085_d",
+        "text": "It is only possible for backend deployments",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_086",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "level_id": "level_advanced",
+    "question": "What is the main purpose of a custom hook in React?",
+    "explanation": "A custom hook extracts and reuses stateful logic across multiple components.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_frontend_086_a",
+        "text": "Extracting and reusing stateful logic across components",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_086_b",
+        "text": "Replacing the need for JSX",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_086_c",
+        "text": "Styling components with CSS-in-JS",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_086_d",
+        "text": "Defining routes for an application",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_087",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "level_id": "level_advanced",
+    "question": "What convention must a custom hook's function name follow?",
+    "explanation": "Custom hooks must start with 'use' so React can apply the Rules of Hooks and enable linting support.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_frontend_087_a",
+        "text": "It must start with 'use'",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_087_b",
+        "text": "It must start with 'hook'",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_087_c",
+        "text": "It must be written as a class method",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_087_d",
+        "text": "It must end with 'Component'",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_088",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "level_id": "level_advanced",
+    "question": "What problem does useCallback primarily help solve?",
+    "explanation": "It memoizes a function reference so it doesn't change on every render, which can prevent unnecessary child re-renders.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_frontend_088_a",
+        "text": "Preventing unnecessary re-creation of function references between renders",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_088_b",
+        "text": "Fetching data from an API automatically",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_088_c",
+        "text": "Replacing the need for useState",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_088_d",
+        "text": "Styling a component conditionally",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_089",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "level_id": "level_advanced",
+    "question": "What is the key difference between a controlled and an uncontrolled form input in React?",
+    "explanation": "A controlled input's value is driven by React state, while an uncontrolled input manages its own value internally via the DOM.",
+    "display_order": 4,
+    "options": [
+      {
+        "id": "opt_frontend_089_a",
+        "text": "A controlled input's value is driven by React state",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_089_b",
+        "text": "A controlled input cannot have an onChange handler",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_089_c",
+        "text": "An uncontrolled input cannot be used in forms",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_089_d",
+        "text": "There is no meaningful difference",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_frontend_090",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "level_id": "level_advanced",
+    "question": "Why might overusing useMemo and useCallback actually hurt performance?",
+    "explanation": "Memoization itself has a computational and memory cost, and overusing it for cheap operations can add overhead without benefit.",
+    "display_order": 5,
+    "options": [
+      {
+        "id": "opt_frontend_090_a",
+        "text": "Memoization has its own overhead that isn't worth it for cheap operations",
+        "is_correct": true
+      },
+      {
+        "id": "opt_frontend_090_b",
+        "text": "They are deprecated and no longer function",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_090_c",
+        "text": "They automatically disable all other hooks",
+        "is_correct": false
+      },
+      {
+        "id": "opt_frontend_090_d",
+        "text": "They prevent components from rendering at all",
+        "is_correct": false
+      }
+    ]
+  }
+]

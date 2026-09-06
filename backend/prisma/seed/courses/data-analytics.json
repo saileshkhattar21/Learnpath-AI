@@ -1,0 +1,269 @@
+[
+  {
+    "id": "course_data_analytics_beginner",
+    "track_id": "track_data_analytics",
+    "level_id": "level_beginner",
+    "slug": "data-analytics-beginner",
+    "title": "Data Analytics \u2014 Beginner",
+    "description": "Learn analytics fundamentals and core Excel skills for working with data.",
+    "display_order": 1,
+    "sections": [
+      {
+        "id": "section_data_analytics_analytics_fundamentals_section",
+        "course_id": "course_data_analytics_beginner",
+        "title": "Analytics Fundamentals",
+        "slug": "analytics-fundamentals-section",
+        "description": "Understand how data analytics supports business decisions.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Explain the role of analytics in business decisions",
+          "Distinguish descriptive, diagnostic, and predictive analytics",
+          "Identify a basic analytics workflow"
+        ]
+      },
+      {
+        "id": "section_data_analytics_data_cleaning_basics",
+        "course_id": "course_data_analytics_beginner",
+        "title": "Data Cleaning",
+        "slug": "data-cleaning-basics",
+        "description": "Identify and fix common data quality issues.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Identify duplicates, blanks, and inconsistent formats",
+          "Standardize and clean raw data",
+          "Validate cleaned data"
+        ]
+      },
+      {
+        "id": "section_data_analytics_excel_essentials",
+        "course_id": "course_data_analytics_beginner",
+        "title": "Excel Essentials",
+        "slug": "excel-essentials",
+        "description": "Learn the core Excel interface and data-entry skills.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Navigate the Excel interface",
+          "Enter and format data",
+          "Sort and filter data"
+        ]
+      },
+      {
+        "id": "section_data_analytics_excel_formulas_functions",
+        "course_id": "course_data_analytics_beginner",
+        "title": "Excel Formulas & Functions",
+        "slug": "excel-formulas-functions",
+        "description": "Use formulas and functions to calculate and transform data.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Write formulas using relative and absolute references",
+          "Use logical functions like IF",
+          "Use text and date functions"
+        ]
+      },
+      {
+        "id": "section_data_analytics_lookup_functions_section",
+        "course_id": "course_data_analytics_beginner",
+        "title": "Lookup Functions",
+        "slug": "lookup-functions-section",
+        "description": "Retrieve matching data across ranges and tables.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Use VLOOKUP and INDEX/MATCH",
+          "Use XLOOKUP for modern lookups",
+          "Handle lookup errors gracefully"
+        ]
+      },
+      {
+        "id": "section_data_analytics_charts_basics",
+        "course_id": "course_data_analytics_beginner",
+        "title": "Charts & Basic Visualization",
+        "slug": "charts-basics",
+        "description": "Create charts that communicate data clearly.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Choose an appropriate chart type",
+          "Format charts for clarity",
+          "Avoid common charting mistakes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_data_analytics_intermediate",
+    "track_id": "track_data_analytics",
+    "level_id": "level_intermediate",
+    "slug": "data-analytics-intermediate",
+    "title": "Data Analytics \u2014 Intermediate",
+    "description": "Summarize data with Pivot Tables and begin building reports in Power BI.",
+    "display_order": 2,
+    "sections": [
+      {
+        "id": "section_data_analytics_pivot_tables_section",
+        "course_id": "course_data_analytics_intermediate",
+        "title": "Pivot Tables",
+        "slug": "pivot-tables-section",
+        "description": "Summarize and explore large datasets interactively.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Build a Pivot Table from raw data",
+          "Group and summarize data fields",
+          "Create Pivot Charts"
+        ]
+      },
+      {
+        "id": "section_data_analytics_power_query_section",
+        "course_id": "course_data_analytics_intermediate",
+        "title": "Power Query",
+        "slug": "power-query-section",
+        "description": "Transform and combine data using Power Query.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Import and shape data with Power Query",
+          "Merge and append queries",
+          "Automate repeatable data transformations"
+        ]
+      },
+      {
+        "id": "section_data_analytics_power_bi_fundamentals",
+        "course_id": "course_data_analytics_intermediate",
+        "title": "Power BI Fundamentals",
+        "slug": "power-bi-fundamentals",
+        "description": "Build interactive reports using Power BI.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Import data into Power BI",
+          "Build basic visuals and reports",
+          "Publish and share a report"
+        ]
+      },
+      {
+        "id": "section_data_analytics_dax_fundamentals",
+        "course_id": "course_data_analytics_intermediate",
+        "title": "DAX Fundamentals",
+        "slug": "dax-fundamentals",
+        "description": "Write DAX formulas for calculations in Power BI.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Write basic DAX measures",
+          "Use calculated columns vs measures appropriately",
+          "Apply common aggregation DAX functions"
+        ]
+      },
+      {
+        "id": "section_data_analytics_kpis_business_analytics",
+        "course_id": "course_data_analytics_intermediate",
+        "title": "KPIs & Business Analytics",
+        "slug": "kpis-business-analytics",
+        "description": "Define and track KPIs that matter to a business.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Define meaningful KPIs for a scenario",
+          "Distinguish leading and lagging indicators",
+          "Connect KPIs to business decisions"
+        ]
+      },
+      {
+        "id": "section_data_analytics_advanced_charts_visualization",
+        "course_id": "course_data_analytics_intermediate",
+        "title": "Advanced Data Visualization",
+        "slug": "advanced-charts-visualization",
+        "description": "Apply more advanced visualization techniques.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Use combo and advanced chart types",
+          "Apply visual best practices for dashboards",
+          "Avoid misleading visualizations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_data_analytics_advanced",
+    "track_id": "track_data_analytics",
+    "level_id": "level_advanced",
+    "slug": "data-analytics-advanced",
+    "title": "Data Analytics \u2014 Advanced",
+    "description": "Design production-grade dashboards and apply advanced DAX and analytics practices.",
+    "display_order": 3,
+    "sections": [
+      {
+        "id": "section_data_analytics_advanced_dax",
+        "course_id": "course_data_analytics_advanced",
+        "title": "Advanced DAX",
+        "slug": "advanced-dax",
+        "description": "Write advanced DAX for complex business calculations.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Use time-intelligence DAX functions",
+          "Apply CALCULATE and filter context",
+          "Debug complex DAX measures"
+        ]
+      },
+      {
+        "id": "section_data_analytics_dashboard_design_section",
+        "course_id": "course_data_analytics_advanced",
+        "title": "Dashboard Design",
+        "slug": "dashboard-design-section",
+        "description": "Design clear, effective, and actionable dashboards.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Apply dashboard layout and hierarchy principles",
+          "Design for the target audience",
+          "Reduce clutter and cognitive load"
+        ]
+      },
+      {
+        "id": "section_data_analytics_advanced_power_query_modeling",
+        "course_id": "course_data_analytics_advanced",
+        "title": "Advanced Power Query & Data Modeling",
+        "slug": "advanced-power-query-modeling",
+        "description": "Build robust data models for analytics.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Design a star schema data model",
+          "Handle complex data transformations",
+          "Optimize query performance in Power Query"
+        ]
+      },
+      {
+        "id": "section_data_analytics_advanced_business_analytics",
+        "course_id": "course_data_analytics_advanced",
+        "title": "Advanced Business Analytics",
+        "slug": "advanced-business-analytics",
+        "description": "Apply advanced analytical reasoning to business problems.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Perform root-cause analysis of KPI shifts",
+          "Segment and compare cohorts",
+          "Communicate analytical findings to stakeholders"
+        ]
+      },
+      {
+        "id": "section_data_analytics_analytics_at_scale",
+        "course_id": "course_data_analytics_advanced",
+        "title": "Analytics at Scale",
+        "slug": "analytics-at-scale",
+        "description": "Apply analytics practices to larger, more complex datasets and reports.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Plan a scalable reporting structure",
+          "Apply governance to shared reports",
+          "Manage refresh and performance for large models"
+        ]
+      },
+      {
+        "id": "section_data_analytics_production_reporting_practices",
+        "course_id": "course_data_analytics_advanced",
+        "title": "Production Reporting Practices",
+        "slug": "production-reporting-practices",
+        "description": "Apply best practices for reports used in ongoing business operations.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Version and document reports",
+          "Set up scheduled refresh",
+          "Handle stakeholder feedback cycles"
+        ]
+      }
+    ]
+  }
+]

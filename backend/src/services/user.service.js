@@ -1,23 +1,14 @@
-import { clerkClient } from "@clerk/express";
-import { findByAuthProviderId, create } from "../models/user.model.js";
+import { findById, create } from "../models/user.model.js";
 
 export const findOrCreateUser = async (clerkUserId) => {
-  let user = await findByAuthProviderId(clerkUserId);
-  if (user) return user;
+  console.log("[user.service] looking up:", clerkUserId);
+  let user = await findById(clerkUserId);
 
-  // First time we've seen this Clerk session — pull profile details from
-  // Clerk so the local record isn't just a bare id.
-  const clerkUser = await clerkClient.users.getUser(clerkUserId);
-  const primaryEmail = clerkUser.emailAddresses.find(
-    (e) => e.id === clerkUser.primaryEmailAddressId,
-  )?.emailAddress;
-  const name = [clerkUser.firstName, clerkUser.lastName].filter(Boolean).join(" ") || null;
-
-  user = await create({
-    auth_provider_id: clerkUserId,
-    name,
-    email: primaryEmail,
-  });
+  if (!user) {
+    console.log("[user.service] not found, creating:", clerkUserId);
+    user = await create(clerkUserId);
+    console.log("[user.service] created:", user);
+  }
 
   return user;
 };

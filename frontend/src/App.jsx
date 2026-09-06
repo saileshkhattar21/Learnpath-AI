@@ -4,6 +4,9 @@ import SignInPage from "./pages/SignInPage";
 import SignUpPage from "./pages/SignUpPage";
 import DashboardPage from "./pages/DashboardPage";
 import ProtectedRoute from "./components/ProtectedRoute";
+import TrackDetailPage from "./pages/TrackDetailPage";
+import QuizPage from "./pages/QuizPage";
+import StudyStubPage from "./pages/StudyStubPage";
 
 export default function App() {
   return (
@@ -18,6 +21,26 @@ export default function App() {
             <DashboardPage />
           </ProtectedRoute>
         }
+      />
+      <Route
+        path="/tracks/:slug"
+        element={
+          <ProtectedRoute>
+            <TrackDetailPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/tracks/:slug/quiz"
+        element={
+          <ProtectedRoute>
+            <QuizPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/paths/:pathId/study"
+        element={<ProtectedRoute><StudyStubPage /></ProtectedRoute>}
       />
     </Routes>
   );

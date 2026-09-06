@@ -1,0 +1,571 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+// ============================================================
+// ENUMS
+// ============================================================
+
+enum PrerequisiteImportance {
+  required
+  recommended
+}
+
+
+// ============================================================
+// LEARNING STRUCTURE
+// ============================================================
+
+model Level {
+  id          String   @id
+  slug        String   @unique
+  name        String
+  rank        Int      @unique
+  description String?
+
+  courses     Course[]
+  questions   Question[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("levels")
+}
+
+model Track {
+  id          String   @id
+  slug        String   @unique
+  name        String
+  description String?
+  displayOrder Int
+
+  skills      TrackSkill[]
+  prerequisites TrackPrerequisite[]
+  courses     Course[]
+  enrollments TrackEnrollment[]
+  assessmentAttempts TrackAssessmentAttempt[]
+  learningPaths LearningPath[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+
+  @@map("tracks")
+}
+
+
+model Skill {
+  id          String   @id
+  slug        String   @unique
+  name        String
+  description String?
+
+  tracks      TrackSkill[]
+  prerequisites TrackPrerequisite[]
+  sections    SectionSkill[]
+
+  userRatings UserSkillRating[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("skills")
+}
+
+
+// ============================================================
+// TRACK ↔ SKILL
+// ============================================================
+
+model TrackSkill {
+  trackId String
+  skillId String
+
+  track   Track @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  skill   Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@id([trackId, skillId])
+  @@index([skillId])
+
+  @@map("track_skills")
+}
+
+
+// ============================================================
+// TRACK PREREQUISITES
+// ============================================================
+
+model TrackPrerequisite {
+  trackId    String
+  skillId    String
+  importance PrerequisiteImportance
+
+  track Track @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  skill Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@id([trackId, skillId])
+  @@index([skillId])
+
+  @@map("track_prerequisites")
+}
+
+
+// ============================================================
+// COURSES
+// ============================================================
+
+model Course {
+  id           String   @id
+  trackId      String
+  levelId      String
+  slug         String   @unique
+  title        String
+  description  String?
+  displayOrder Int
+
+  track   Track @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  level   Level @relation(fields: [levelId], references: [id])
+
+  sections Section[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  learningPathItems LearningPathItem[]
+
+  @@unique([trackId, levelId])
+  @@index([trackId])
+  @@index([levelId])
+
+  @@map("courses")
+}
+
+
+// ============================================================
+// SECTIONS
+// ============================================================
+
+model Section {
+  id               String   @id
+  courseId         String
+  title            String
+  slug             String
+  description      String?
+  displayOrder     Int
+  learningObjectives Json?
+
+  course           Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  skills           SectionSkill[]
+  questions        Question[]
+  resources        Resource[]
+  videos           Video[]
+
+  userProgress     UserSectionProgress[]
+  quizAttempts     QuizAttempt[]
+
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  learningPathItems LearningPathItem[]
+
+  @@unique([courseId, slug])
+  @@index([courseId])
+  @@map("sections")
+}
+
+
+// ============================================================
+// SECTION ↔ SKILL
+// ============================================================
+
+model SectionSkill {
+  sectionId String
+  skillId   String
+
+  section Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  skill   Skill   @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@id([sectionId, skillId])
+  @@index([skillId])
+
+  @@map("section_skills")
+}
+
+
+// ============================================================
+// QUESTIONS
+// ============================================================
+
+model Question {
+  id          String   @id
+  sectionId   String
+  levelId     String
+
+  question   String
+  explanation String?
+  displayOrder Int
+
+  section Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+
+  level Level @relation(fields: [levelId], references: [id])
+
+  options QuestionOption[]
+  answers QuestionAnswer[]
+  assessmentAnswers TrackAssessmentAnswer[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([sectionId])
+  @@index([levelId])
+  @@index([sectionId, levelId])
+
+  @@map("questions")
+}
+
+
+// ============================================================
+// QUESTION OPTIONS
+// ============================================================
+
+model QuestionOption {
+  id         String  @id
+  questionId String
+
+  text       String
+  isCorrect  Boolean
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  answers QuestionAnswer[]
+  assessmentAnswers TrackAssessmentAnswer[] 
+
+  @@index([questionId])
+
+  @@map("question_options")
+}
+
+
+// ============================================================
+// LEARNING RESOURCES
+// ============================================================
+
+model Resource {
+  id          String   @id
+  sectionId   String
+
+  title       String
+  description String?
+  url         String
+  source      String
+  type        String
+
+  section Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([sectionId])
+
+  @@map("resources")
+}
+
+
+// ============================================================
+// VIDEOS
+// ============================================================
+
+model Video {
+  id          String   @id
+  sectionId   String
+
+  title       String
+  description String?
+  url         String
+  channel     String
+
+  section Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([sectionId])
+
+  @@map("videos")
+}
+
+
+// ============================================================
+// USER
+// ============================================================
+
+model User {
+  id String @id
+
+  // This is the user's Clerk/OAuth user ID.
+  // We don't need to duplicate authentication data here.
+
+  skillRatings      UserSkillRating[]
+  enrollments       TrackEnrollment[]
+  sectionProgress   UserSectionProgress[]
+  quizAttempts      QuizAttempt[]
+  assessmentAttempts TrackAssessmentAttempt[]
+  learningPaths LearningPath[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+
+
+  @@map("users")
+}
+
+
+// ============================================================
+// USER SKILL SELF-ASSESSMENT
+// ============================================================
+
+model UserSkillRating {
+  id String @id @default(cuid())
+
+  userId  String
+  skillId String
+
+  // Self-reported confidence from 0 (no experience) to 10 (very confident).
+  rating Int
+
+  // Optional diagnostic score if user took the diagnostic quiz.
+  diagnosticScore Float?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skill Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, skillId])
+  @@index([skillId])
+
+  @@map("user_skill_ratings")
+}
+
+
+// ============================================================
+// TRACK ENROLLMENT
+// ============================================================
+
+model TrackEnrollment {
+  id String @id @default(cuid())
+
+  userId  String
+  trackId String
+
+  // Level selected/recommended for this user.
+  startingLevelId String?
+
+  // Useful for AI personalization.
+  // Example: "beginner"
+  currentLevelId String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  track Track @relation(fields: [trackId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, trackId])
+  @@index([trackId])
+
+  @@map("track_enrollments")
+}
+
+
+// ============================================================
+// USER SECTION PROGRESS
+// ============================================================
+
+model UserSectionProgress {
+  id String @id @default(cuid())
+
+  userId    String
+  sectionId String
+
+  completed    Boolean  @default(false)
+  unlocked    Boolean  @default(false)
+
+  bestScore    Float?
+  attempts     Int     @default(0)
+
+  completedAt DateTime?
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  section Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, sectionId])
+  @@index([sectionId])
+
+  @@map("user_section_progress")
+}
+
+
+// ============================================================
+// QUIZ ATTEMPTS
+// ============================================================
+
+model QuizAttempt {
+  id String @id @default(cuid())
+
+  userId    String
+  sectionId String
+
+  score       Float
+  totalQuestions Int
+  correctAnswers Int
+
+  passed Boolean
+
+  startedAt  DateTime @default(now())
+  completedAt DateTime?
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  section Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+
+  answers QuestionAnswer[]
+
+  @@index([userId, sectionId])
+  @@index([sectionId])
+
+  @@map("quiz_attempts")
+}
+
+
+// ============================================================
+// INDIVIDUAL QUESTION ANSWERS
+// ============================================================
+
+model QuestionAnswer {
+  id String @id @default(cuid())
+
+  attemptId  String
+  questionId String
+  optionId   String
+
+  isCorrect Boolean
+
+  attempt  QuizAttempt     @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  option   QuestionOption  @relation(fields: [optionId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([attemptId, questionId])
+  @@index([questionId])
+  @@index([optionId])
+
+  @@map("question_answers")
+}
+
+model TrackAssessmentAttempt {
+  id String @id @default(cuid())
+
+  userId  String
+  trackId String
+
+  score          Float
+  totalQuestions Int
+  correctAnswers Int
+
+  startedAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  track Track @relation(fields: [trackId], references: [id], onDelete: Cascade)
+
+  answers TrackAssessmentAnswer[]
+
+  @@index([userId, trackId])
+  @@index([trackId])
+
+  @@map("track_assessment_attempts")
+}
+
+model TrackAssessmentAnswer {
+  id String @id @default(cuid())
+
+  attemptId  String
+  questionId String
+  optionId   String
+
+  isCorrect Boolean
+
+  attempt  TrackAssessmentAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question               @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  option   QuestionOption         @relation(fields: [optionId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([attemptId, questionId])
+  @@index([questionId])
+  @@index([optionId])
+
+  @@map("track_assessment_answers")
+}
+
+
+model LearningPath {
+  id String @id @default(cuid())
+
+  userId  String
+  trackId String
+
+  status      String   @default("active") // active | archived
+  generatedBy String   @default("ai")     // ai | manual
+  generatedAt DateTime @default(now())
+  summary String?
+  recommendedStartingPoint String?
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  track Track @relation(fields: [trackId], references: [id], onDelete: Cascade)
+
+  items LearningPathItem[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, trackId])
+  @@map("learning_paths")
+}
+
+model LearningPathItem {
+  id String @id @default(cuid())
+
+  learningPathId String
+  courseId       String
+  sectionId      String?
+
+  position Int
+  status   String  @default("pending") // pending | in_progress | completed
+  reason   String?
+
+  learningPath LearningPath @relation(fields: [learningPathId], references: [id], onDelete: Cascade)
+  course       Course       @relation(fields: [courseId], references: [id])
+  section      Section?     @relation(fields: [sectionId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([learningPathId])
+  @@index([courseId])
+  @@index([sectionId])
+  @@map("learning_path_items")
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "video_devops_cloud_001",
+    "section_id": "section_devops_cloud_linux_fundamentals",
+    "title": "Learn the 50 Most-Used Linux & Terminal Commands",
+    "description": "A full course teaching the most common Linux and terminal commands.",
+    "url": "https://youtu.be/ZtqBQ68cfJc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_002",
+    "section_id": "section_devops_cloud_git_version_control",
+    "title": "Git & GitHub Crash Course for Beginners",
+    "description": "A crash course covering Git fundamentals, branching, merging, and GitHub workflows.",
+    "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_003",
+    "section_id": "section_devops_cloud_networking_fundamentals",
+    "title": "Learn the 50 Most-Used Linux & Terminal Commands",
+    "description": "Includes networking-related commands relevant to diagnosing connectivity.",
+    "url": "https://youtu.be/ZtqBQ68cfJc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_004",
+    "section_id": "section_devops_cloud_cloud_fundamentals",
+    "title": "AWS Certified Cloud Practitioner Study Course",
+    "description": "A full course covering core cloud computing concepts and service models.",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_005",
+    "section_id": "section_devops_cloud_aws_core_services",
+    "title": "AWS Certified Cloud Practitioner Study Course",
+    "description": "Covers core AWS services including EC2, S3, and IAM.",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_006",
+    "section_id": "section_devops_cloud_docker_intro",
+    "title": "Docker Full Course",
+    "description": "A complete, hands-on course covering Docker fundamentals from scratch.",
+    "url": "https://www.youtube.com/watch?v=rjjES5IsPdg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_007",
+    "section_id": "section_devops_cloud_containerization_deep_dive",
+    "title": "Docker Full Course",
+    "description": "Covers Docker Compose and multi-container application setups.",
+    "url": "https://www.youtube.com/watch?v=rjjES5IsPdg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_008",
+    "section_id": "section_devops_cloud_cicd_fundamentals",
+    "title": "GitHub Actions Certification \u2013 Full Course to PASS the Exam",
+    "description": "Covers the fundamentals of CI/CD as part of the GitHub Actions certification course.",
+    "url": "https://youtu.be/Tz7FsunBbfQ",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_009",
+    "section_id": "section_devops_cloud_github_actions_pipelines",
+    "title": "GitHub Actions Certification \u2013 Full Course to PASS the Exam",
+    "description": "A full course on building automated workflows with GitHub Actions.",
+    "url": "https://youtu.be/Tz7FsunBbfQ",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_010",
+    "section_id": "section_devops_cloud_deployment_strategies",
+    "title": "AWS Certified Cloud Practitioner Study Course",
+    "description": "Includes deployment and cloud operations concepts relevant to release strategy.",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_011",
+    "section_id": "section_devops_cloud_cloud_infrastructure_practices",
+    "title": "AWS Certified Cloud Practitioner Study Course",
+    "description": "Covers AWS infrastructure concepts and best practices.",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_012",
+    "section_id": "section_devops_cloud_monitoring_logging_intro",
+    "title": "AWS Certified Cloud Practitioner Study Course",
+    "description": "Includes AWS monitoring and governance concepts.",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_013",
+    "section_id": "section_devops_cloud_production_infrastructure_architecture",
+    "title": "AWS Certified Cloud Practitioner Study Course",
+    "description": "Foundational AWS architecture concepts relevant to production infrastructure design.",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_014",
+    "section_id": "section_devops_cloud_advanced_cicd_pipelines",
+    "title": "GitHub Actions Certification \u2013 Full Course to PASS the Exam",
+    "description": "Covers advanced workflow configuration, secrets, and environment protections.",
+    "url": "https://youtu.be/Tz7FsunBbfQ",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_015",
+    "section_id": "section_devops_cloud_container_orchestration_concepts",
+    "title": "Docker Full Course",
+    "description": "Introduces orchestration concepts including Docker Swarm as a stepping stone to Kubernetes.",
+    "url": "https://www.youtube.com/watch?v=rjjES5IsPdg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_016",
+    "section_id": "section_devops_cloud_advanced_monitoring_observability",
+    "title": "AWS Certified Cloud Practitioner Study Course",
+    "description": "Provides AWS monitoring service context relevant to observability practices.",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_017",
+    "section_id": "section_devops_cloud_cloud_security_networking",
+    "title": "AWS Certified Cloud Practitioner Study Course",
+    "description": "Covers AWS identity, security, and governance concepts.",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_devops_cloud_018",
+    "section_id": "section_devops_cloud_production_deployment_operations",
+    "title": "GitHub Actions Certification \u2013 Full Course to PASS the Exam",
+    "description": "Covers automated deployment workflows relevant to production operations.",
+    "url": "https://youtu.be/Tz7FsunBbfQ",
+    "channel": "freeCodeCamp.org"
+  }
+]

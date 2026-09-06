@@ -1,0 +1,338 @@
+[
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_html"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_css"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_responsive_design"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_javascript"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_dom"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_browser_apis"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_http"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_react"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_react_hooks"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_component_architecture"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_frontend_testing"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_web_performance"
+  },
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_accessibility"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_nodejs"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_npm"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_async_javascript"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_event_loop"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_express"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_routing"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_middleware"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_rest_api"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_authentication"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_authorization"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_database_integration"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_backend_architecture"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_backend_security"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_backend_testing"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_linux"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_git"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_networking"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_cloud_computing"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_aws"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_docker"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_containerization"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_cicd"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_github_actions"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_deployment"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_monitoring_logging"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_infrastructure"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_database_fundamentals"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_relational_modeling"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_sql"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_crud"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_joins"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_aggregations"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_normalization"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_schema_design"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_constraints"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_transactions"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_acid"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_indexes"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_query_optimization"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_concurrency_control"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_ai_ml_fundamentals"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_python"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_numpy"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_pandas"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_statistics_probability"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_supervised_learning"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_unsupervised_learning"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_classical_ml_algorithms"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_model_evaluation"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_feature_engineering"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_overfitting"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_deep_learning"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_neural_networks"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_transformers"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_llms"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_embeddings"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_rag"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_ai_app_architecture"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_analytics_fundamentals"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_data_cleaning"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_excel"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_excel_formulas"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_lookup_functions"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_pivot_tables"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_charts_data_viz"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_power_query"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_power_bi"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_dax"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_kpis"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_business_analytics"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_dashboard_design"
+  }
+]

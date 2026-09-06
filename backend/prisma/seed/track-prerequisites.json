@@ -1,0 +1,57 @@
+[
+  {
+    "track_id": "track_frontend",
+    "skill_id": "skill_javascript",
+    "importance": "recommended"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_javascript",
+    "importance": "required"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_http",
+    "importance": "recommended"
+  },
+  {
+    "track_id": "track_backend",
+    "skill_id": "skill_git",
+    "importance": "recommended"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_git",
+    "importance": "required"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_linux",
+    "importance": "recommended"
+  },
+  {
+    "track_id": "track_devops_cloud",
+    "skill_id": "skill_networking",
+    "importance": "recommended"
+  },
+  {
+    "track_id": "track_relational_databases",
+    "skill_id": "skill_javascript",
+    "importance": "recommended"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_python",
+    "importance": "recommended"
+  },
+  {
+    "track_id": "track_ai_ml",
+    "skill_id": "skill_statistics_probability",
+    "importance": "recommended"
+  },
+  {
+    "track_id": "track_data_analytics",
+    "skill_id": "skill_excel",
+    "importance": "recommended"
+  }
+]

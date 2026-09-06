@@ -1,0 +1,902 @@
+[
+  {
+    "id": "question_devops_cloud_001",
+    "section_id": "section_devops_cloud_linux_fundamentals",
+    "level_id": "level_beginner",
+    "question": "Which Linux command lists the contents of a directory?",
+    "explanation": "'ls' lists the files and directories within the current or specified directory.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_001_a",
+        "text": "ls",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_001_b",
+        "text": "cd",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_001_c",
+        "text": "rm",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_001_d",
+        "text": "cat",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_002",
+    "section_id": "section_devops_cloud_linux_fundamentals",
+    "level_id": "level_beginner",
+    "question": "Which command changes file permissions in Linux?",
+    "explanation": "'chmod' is used to change the read, write, and execute permissions on a file or directory.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_002_a",
+        "text": "chmod",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_002_b",
+        "text": "chown",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_002_c",
+        "text": "chgrp",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_002_d",
+        "text": "chperm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_003",
+    "section_id": "section_devops_cloud_git_version_control",
+    "level_id": "level_beginner",
+    "question": "Which command stages changes to be included in the next Git commit?",
+    "explanation": "'git add' stages changes in the working directory for the next commit.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_003_a",
+        "text": "git add",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_003_b",
+        "text": "git commit",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_003_c",
+        "text": "git push",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_003_d",
+        "text": "git stage",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_004",
+    "section_id": "section_devops_cloud_git_version_control",
+    "level_id": "level_beginner",
+    "question": "What does 'git clone' do?",
+    "explanation": "'git clone' creates a local copy of a remote repository, including its full history.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_004_a",
+        "text": "Creates a local copy of a remote repository",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_004_b",
+        "text": "Deletes a remote repository",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_004_c",
+        "text": "Merges two branches",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_004_d",
+        "text": "Reverts the last commit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_005",
+    "section_id": "section_devops_cloud_networking_fundamentals",
+    "level_id": "level_beginner",
+    "question": "What does DNS primarily do?",
+    "explanation": "DNS translates human-readable domain names into IP addresses that computers use to locate each other.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_005_a",
+        "text": "Translates domain names into IP addresses",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_005_b",
+        "text": "Encrypts network traffic",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_005_c",
+        "text": "Compresses data for faster transfer",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_005_d",
+        "text": "Assigns permissions to files",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_006",
+    "section_id": "section_devops_cloud_cloud_fundamentals",
+    "level_id": "level_beginner",
+    "question": "Which cloud service model gives users the most control over the underlying infrastructure?",
+    "explanation": "IaaS (Infrastructure as a Service) gives users control over virtual machines, storage, and networking.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_006_a",
+        "text": "IaaS",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_006_b",
+        "text": "SaaS",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_006_c",
+        "text": "PaaS",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_006_d",
+        "text": "FaaS only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_007",
+    "section_id": "section_devops_cloud_aws_core_services",
+    "level_id": "level_beginner",
+    "question": "What is Amazon S3 primarily used for?",
+    "explanation": "Amazon S3 is an object storage service used to store and retrieve files such as images, backups, and logs.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_007_a",
+        "text": "Object storage",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_007_b",
+        "text": "Running virtual machines",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_007_c",
+        "text": "Managing DNS records",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_007_d",
+        "text": "Sending emails",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_008",
+    "section_id": "section_devops_cloud_aws_core_services",
+    "level_id": "level_beginner",
+    "question": "What is Amazon EC2 primarily used for?",
+    "explanation": "Amazon EC2 provides resizable virtual servers (compute instances) in the cloud.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_008_a",
+        "text": "Running virtual server instances",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_008_b",
+        "text": "Storing static files",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_008_c",
+        "text": "Managing user identities only",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_008_d",
+        "text": "Hosting DNS zones only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_009",
+    "section_id": "section_devops_cloud_docker_intro",
+    "level_id": "level_beginner",
+    "question": "What is the difference between a Docker image and a Docker container?",
+    "explanation": "An image is a static blueprint; a container is a running instance created from that image.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_009_a",
+        "text": "An image is a static blueprint; a container is a running instance",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_009_b",
+        "text": "They are exactly the same thing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_009_c",
+        "text": "An image only runs on Linux, a container only on Windows",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_009_d",
+        "text": "A container is a backup of an image",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_010",
+    "section_id": "section_devops_cloud_docker_intro",
+    "level_id": "level_beginner",
+    "question": "Which file defines how a Docker image is built?",
+    "explanation": "A Dockerfile contains the instructions used to build a Docker image.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_010_a",
+        "text": "Dockerfile",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_010_b",
+        "text": "docker-compose.yml",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_010_c",
+        "text": "image.json",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_010_d",
+        "text": "build.sh",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_011",
+    "section_id": "section_devops_cloud_containerization_deep_dive",
+    "level_id": "level_intermediate",
+    "question": "What is the main purpose of Docker Compose?",
+    "explanation": "Docker Compose lets you define and run multi-container applications using a single configuration file.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_011_a",
+        "text": "Defining and running multi-container applications",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_011_b",
+        "text": "Compiling Dockerfiles into binaries",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_011_c",
+        "text": "Replacing the need for images entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_011_d",
+        "text": "Monitoring container CPU usage only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_012",
+    "section_id": "section_devops_cloud_containerization_deep_dive",
+    "level_id": "level_intermediate",
+    "question": "What is a Docker volume used for?",
+    "explanation": "Volumes provide persistent storage for container data that survives container restarts or removal.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_012_a",
+        "text": "Persisting data beyond a container's lifecycle",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_012_b",
+        "text": "Compressing container images",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_012_c",
+        "text": "Encrypting network traffic between containers",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_012_d",
+        "text": "Scheduling container restarts",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_013",
+    "section_id": "section_devops_cloud_cicd_fundamentals",
+    "level_id": "level_intermediate",
+    "question": "What is the main goal of continuous integration?",
+    "explanation": "Continuous integration aims to frequently merge and test code changes to catch integration issues early.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_013_a",
+        "text": "Frequently merging and testing code changes early",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_013_b",
+        "text": "Manually deploying code once a year",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_013_c",
+        "text": "Avoiding the use of version control",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_013_d",
+        "text": "Replacing the need for automated tests",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_014",
+    "section_id": "section_devops_cloud_github_actions_pipelines",
+    "level_id": "level_intermediate",
+    "question": "In a GitHub Actions workflow file, what does a 'job' represent?",
+    "explanation": "A job is a set of steps that execute on the same runner as part of a workflow.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_014_a",
+        "text": "A set of steps executed on the same runner",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_014_b",
+        "text": "A single line of YAML configuration",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_014_c",
+        "text": "A GitHub repository setting",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_014_d",
+        "text": "A type of Docker image",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_015",
+    "section_id": "section_devops_cloud_github_actions_pipelines",
+    "level_id": "level_intermediate",
+    "question": "What triggers a GitHub Actions workflow to run?",
+    "explanation": "Workflows are triggered by defined events, such as a push, pull request, or scheduled time.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_015_a",
+        "text": "Defined events like pushes, pull requests, or schedules",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_015_b",
+        "text": "Only manual button clicks with no other option",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_015_c",
+        "text": "Changes to the repository's README only",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_015_d",
+        "text": "Nothing; workflows run continuously at all times",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_016",
+    "section_id": "section_devops_cloud_deployment_strategies",
+    "level_id": "level_intermediate",
+    "question": "What is a key characteristic of a blue-green deployment?",
+    "explanation": "Blue-green deployment runs two environments and switches traffic to the new one, enabling quick rollback.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_016_a",
+        "text": "Running two environments and switching traffic between them",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_016_b",
+        "text": "Deploying directly to production with no testing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_016_c",
+        "text": "Deleting the old version before deploying the new one",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_016_d",
+        "text": "Deploying only on weekends",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_017",
+    "section_id": "section_devops_cloud_deployment_strategies",
+    "level_id": "level_intermediate",
+    "question": "What is the main advantage of a rolling deployment strategy?",
+    "explanation": "A rolling deployment gradually replaces instances of the old version with the new one, avoiding full downtime.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_017_a",
+        "text": "It gradually replaces old instances, avoiding full downtime",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_017_b",
+        "text": "It requires taking the entire application offline",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_017_c",
+        "text": "It skips testing entirely before release",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_017_d",
+        "text": "It can only be used for database migrations",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_018",
+    "section_id": "section_devops_cloud_cloud_infrastructure_practices",
+    "level_id": "level_intermediate",
+    "question": "What does 'infrastructure as code' generally refer to?",
+    "explanation": "Managing and provisioning infrastructure through machine-readable configuration files rather than manual processes.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_018_a",
+        "text": "Managing infrastructure through machine-readable configuration files",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_018_b",
+        "text": "Writing application code that runs on servers",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_018_c",
+        "text": "A type of database schema",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_018_d",
+        "text": "Manually configuring each server through a GUI",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_019",
+    "section_id": "section_devops_cloud_monitoring_logging_intro",
+    "level_id": "level_intermediate",
+    "question": "Why is centralized logging valuable in a distributed system?",
+    "explanation": "It allows logs from multiple services to be searched and correlated in one place, easing debugging.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_019_a",
+        "text": "It allows logs from multiple services to be searched in one place",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_019_b",
+        "text": "It eliminates the need for monitoring metrics",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_019_c",
+        "text": "It automatically fixes application bugs",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_019_d",
+        "text": "It is only useful for a single-server application",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_020",
+    "section_id": "section_devops_cloud_monitoring_logging_intro",
+    "level_id": "level_intermediate",
+    "question": "What is the purpose of setting up alerting on key metrics?",
+    "explanation": "Alerting notifies teams proactively when a metric crosses a threshold, enabling faster incident response.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_020_a",
+        "text": "Notifying teams proactively of potential issues",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_020_b",
+        "text": "Automatically deploying new code",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_020_c",
+        "text": "Replacing the need for logs",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_020_d",
+        "text": "Encrypting stored metrics",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_021",
+    "section_id": "section_devops_cloud_production_infrastructure_architecture",
+    "level_id": "level_advanced",
+    "question": "Why is designing for high availability important in production infrastructure?",
+    "explanation": "It reduces the impact of individual component failures by avoiding single points of failure.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_021_a",
+        "text": "It reduces the impact of individual component failures",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_021_b",
+        "text": "It eliminates the need for monitoring",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_021_c",
+        "text": "It guarantees zero infrastructure cost",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_021_d",
+        "text": "It is only relevant for small applications",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_022",
+    "section_id": "section_devops_cloud_advanced_cicd_pipelines",
+    "level_id": "level_advanced",
+    "question": "Why should secrets (like API keys) be stored in a CI/CD platform's secret manager rather than in workflow files?",
+    "explanation": "Storing secrets in plain configuration files risks exposing them to anyone with repository access.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_022_a",
+        "text": "Plaintext secrets in config files risk exposure to repository access",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_022_b",
+        "text": "Secret managers are required for workflows to run at all",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_022_c",
+        "text": "It has no security benefit, just convenience",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_022_d",
+        "text": "It slows down the pipeline unnecessarily",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_023",
+    "section_id": "section_devops_cloud_advanced_cicd_pipelines",
+    "level_id": "level_advanced",
+    "question": "What is the benefit of requiring manual approval gates before a production deployment stage?",
+    "explanation": "Approval gates add a controlled checkpoint, reducing the risk of unreviewed changes reaching production.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_023_a",
+        "text": "They add a controlled checkpoint reducing unreviewed production changes",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_023_b",
+        "text": "They eliminate the need for automated testing entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_023_c",
+        "text": "They speed up every deployment automatically",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_023_d",
+        "text": "They are required for a pipeline to be valid YAML",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_024",
+    "section_id": "section_devops_cloud_container_orchestration_concepts",
+    "level_id": "level_advanced",
+    "question": "What problem does container orchestration primarily solve?",
+    "explanation": "Orchestration automates deployment, scaling, networking, and recovery of containers across many machines.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_024_a",
+        "text": "Automating deployment, scaling, and recovery of containers at scale",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_024_b",
+        "text": "Compiling application source code",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_024_c",
+        "text": "Replacing the need for containers entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_024_d",
+        "text": "Formatting Dockerfiles automatically",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_025",
+    "section_id": "section_devops_cloud_advanced_monitoring_observability",
+    "level_id": "level_advanced",
+    "question": "What is the difference between an SLI and an SLO?",
+    "explanation": "An SLI is a measured indicator (like latency), while an SLO is the target objective for that indicator.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_025_a",
+        "text": "An SLI is a measured indicator; an SLO is the target for it",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_025_b",
+        "text": "They are the same concept with different names",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_025_c",
+        "text": "An SLO is a type of log file",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_025_d",
+        "text": "An SLI only applies to databases",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_026",
+    "section_id": "section_devops_cloud_advanced_monitoring_observability",
+    "level_id": "level_advanced",
+    "question": "Why is correlating logs, metrics, and traces valuable during an incident?",
+    "explanation": "It gives a fuller picture of what happened across a distributed system, speeding up root cause analysis.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_026_a",
+        "text": "It gives a fuller picture across a distributed system, speeding diagnosis",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_026_b",
+        "text": "It replaces the need for any human investigation",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_026_c",
+        "text": "It only helps with frontend issues",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_026_d",
+        "text": "It is only useful after an incident is resolved",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_027",
+    "section_id": "section_devops_cloud_cloud_security_networking",
+    "level_id": "level_advanced",
+    "question": "What does the principle of least privilege mean in cloud IAM design?",
+    "explanation": "It means granting only the minimum permissions necessary for a user or service to perform its function.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_027_a",
+        "text": "Granting only the minimum permissions necessary",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_027_b",
+        "text": "Granting all users administrator access by default",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_027_c",
+        "text": "Disabling all access controls for simplicity",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_027_d",
+        "text": "Applying permissions only to root accounts",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_028",
+    "section_id": "section_devops_cloud_cloud_security_networking",
+    "level_id": "level_advanced",
+    "question": "Why is network segmentation (e.g. via VPCs and subnets) important in cloud architecture?",
+    "explanation": "It limits the blast radius of a compromise by isolating resources into separate network boundaries.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_028_a",
+        "text": "It limits the blast radius of a compromise by isolating resources",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_028_b",
+        "text": "It makes all resources publicly accessible by default",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_028_c",
+        "text": "It removes the need for IAM policies",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_028_d",
+        "text": "It has no effect on security posture",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_029",
+    "section_id": "section_devops_cloud_production_deployment_operations",
+    "level_id": "level_advanced",
+    "question": "What is a benefit of a zero-downtime deployment process?",
+    "explanation": "It allows new versions to be released without interrupting service availability for users.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_devops_cloud_029_a",
+        "text": "Releasing new versions without interrupting availability",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_029_b",
+        "text": "It eliminates the need for monitoring after release",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_029_c",
+        "text": "It guarantees no bugs will ever be deployed",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_029_d",
+        "text": "It is only relevant for static websites",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_devops_cloud_030",
+    "section_id": "section_devops_cloud_production_deployment_operations",
+    "level_id": "level_advanced",
+    "question": "Why is capacity planning important for production cloud workloads?",
+    "explanation": "It helps ensure enough resources are provisioned to handle expected load while avoiding excessive, wasteful cost.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_devops_cloud_030_a",
+        "text": "It balances provisioning enough resources against wasteful cost",
+        "is_correct": true
+      },
+      {
+        "id": "opt_devops_cloud_030_b",
+        "text": "It removes the need for monitoring after deployment",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_030_c",
+        "text": "It guarantees infrastructure will never need scaling again",
+        "is_correct": false
+      },
+      {
+        "id": "opt_devops_cloud_030_d",
+        "text": "It is only relevant for on-premises servers",
+        "is_correct": false
+      }
+    ]
+  }
+]

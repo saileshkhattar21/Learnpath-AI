@@ -1,0 +1,154 @@
+[
+  {
+    "id": "video_backend_001",
+    "section_id": "section_backend_node_fundamentals",
+    "title": "Node.js Course for Beginners",
+    "description": "A full beginner course covering the Node.js runtime and core modules.",
+    "url": "https://www.youtube.com/watch?v=RLtyhwFtXQA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_002",
+    "section_id": "section_backend_npm_modules",
+    "title": "Node.js and Express Course",
+    "description": "Covers npm, package management, and modules as part of the full Node/Express course.",
+    "url": "https://youtu.be/Oe421EPjeBE",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_003",
+    "section_id": "section_backend_async_javascript_backend",
+    "title": "Node.js Course for Beginners",
+    "description": "Covers asynchronous patterns as part of the Node.js fundamentals course.",
+    "url": "https://www.youtube.com/watch?v=RLtyhwFtXQA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_004",
+    "section_id": "section_backend_event_loop_concurrency",
+    "title": "Node.js Course for Beginners",
+    "description": "Covers Node's concurrency model as part of the Node.js fundamentals course.",
+    "url": "https://www.youtube.com/watch?v=RLtyhwFtXQA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_005",
+    "section_id": "section_backend_express_basics",
+    "title": "Node.js and Express Course",
+    "description": "A full 8-hour course covering Express fundamentals and building a web server.",
+    "url": "https://youtu.be/Oe421EPjeBE",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_006",
+    "section_id": "section_backend_routing_middleware_intro",
+    "title": "Node.js and Express Course",
+    "description": "Covers Express routing and middleware as part of the full course.",
+    "url": "https://youtu.be/Oe421EPjeBE",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_007",
+    "section_id": "section_backend_api_fundamentals",
+    "title": "Node.js and Express Course",
+    "description": "Covers building basic JSON APIs with Express.",
+    "url": "https://youtu.be/Oe421EPjeBE",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_008",
+    "section_id": "section_backend_rest_api_design",
+    "title": "Node.js / Express Course - Build 4 Projects",
+    "description": "A project-based course that includes designing and building REST APIs.",
+    "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_009",
+    "section_id": "section_backend_authentication_authorization",
+    "title": "User Authentication in Node.js with Passport.js and JWT",
+    "description": "A full 6-hour course covering sessions, Passport.js, and JWT-based authentication.",
+    "url": "https://youtu.be/F-sFp_AvHc8",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_010",
+    "section_id": "section_backend_database_integration_orm",
+    "title": "Node.js / Express Course - Build 4 Projects",
+    "description": "Includes database-backed projects relevant to ORM integration.",
+    "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_011",
+    "section_id": "section_backend_middleware_error_handling",
+    "title": "Node.js and Express Course",
+    "description": "Covers middleware chaining and error handling as part of the full course.",
+    "url": "https://youtu.be/Oe421EPjeBE",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_012",
+    "section_id": "section_backend_backend_architecture_patterns",
+    "title": "Node.js / Express Course - Build 4 Projects",
+    "description": "Demonstrates structuring multiple real Express projects.",
+    "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_013",
+    "section_id": "section_backend_backend_testing_intro",
+    "title": "Node.js / Express Course - Build 4 Projects",
+    "description": "Project-based course useful context for testing real Express applications.",
+    "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_014",
+    "section_id": "section_backend_scalable_backend_architecture",
+    "title": "Node.js / Express Course - Build 4 Projects",
+    "description": "Project-based course illustrating backend architecture decisions at scale.",
+    "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_015",
+    "section_id": "section_backend_advanced_security",
+    "title": "User Authentication in Node.js with Passport.js and JWT",
+    "description": "Covers security-relevant authentication and token handling in depth.",
+    "url": "https://youtu.be/F-sFp_AvHc8",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_016",
+    "section_id": "section_backend_performance_scaling_nodejs",
+    "title": "Node.js Course for Beginners",
+    "description": "Foundational event loop concepts relevant to diagnosing performance issues.",
+    "url": "https://www.youtube.com/watch?v=RLtyhwFtXQA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_017",
+    "section_id": "section_backend_advanced_database_patterns",
+    "title": "Node.js / Express Course - Build 4 Projects",
+    "description": "Includes database integration patterns across multiple real projects.",
+    "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_018",
+    "section_id": "section_backend_production_readiness",
+    "title": "Node.js and Express Course",
+    "description": "Full course covering the fundamentals needed for production-ready services.",
+    "url": "https://youtu.be/Oe421EPjeBE",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_backend_019",
+    "section_id": "section_backend_advanced_testing_backend",
+    "title": "Node.js / Express Course - Build 4 Projects",
+    "description": "Project-based course providing real applications to apply advanced testing to.",
+    "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+    "channel": "freeCodeCamp.org"
+  }
+]

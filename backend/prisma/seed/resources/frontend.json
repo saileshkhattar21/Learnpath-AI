@@ -1,0 +1,416 @@
+[
+  {
+    "id": "resource_frontend_001",
+    "section_id": "section_frontend_html_foundations",
+    "title": "HTML basics",
+    "description": "MDN's introduction to HTML structure and elements.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_002",
+    "section_id": "section_frontend_html_foundations",
+    "title": "HTML element reference",
+    "description": "Full reference of HTML elements and their attributes.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+    "source": "MDN",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_003",
+    "section_id": "section_frontend_html_foundations",
+    "title": "Semantic HTML",
+    "description": "Guide to writing meaningful, semantic markup.",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics",
+    "source": "MDN",
+    "type": "article"
+  },
+  {
+    "id": "resource_frontend_004",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "title": "CSS basics",
+    "description": "MDN's overview of CSS syntax and core concepts.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_005",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "title": "CSS box model",
+    "description": "Detailed explanation of the CSS box model.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_sizing/Box_model",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_006",
+    "section_id": "section_frontend_css_foundations_responsive",
+    "title": "Responsive design",
+    "description": "Guide to building responsive layouts with media queries.",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+    "source": "MDN",
+    "type": "tutorial"
+  },
+  {
+    "id": "resource_frontend_007",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "title": "JavaScript guide",
+    "description": "MDN's comprehensive guide to core JavaScript.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_008",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "title": "JavaScript reference",
+    "description": "Full reference for JavaScript syntax and built-ins.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "source": "MDN",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_009",
+    "section_id": "section_frontend_javascript_fundamentals",
+    "title": "Array methods",
+    "description": "Reference for common JavaScript array methods.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "source": "MDN",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_010",
+    "section_id": "section_frontend_dom_browser_apis",
+    "title": "Document Object Model",
+    "description": "Introduction to the DOM and how scripts interact with it.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_011",
+    "section_id": "section_frontend_dom_browser_apis",
+    "title": "EventTarget & events",
+    "description": "Reference for handling events on DOM elements.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget",
+    "source": "MDN",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_012",
+    "section_id": "section_frontend_dom_browser_apis",
+    "title": "Web Storage API",
+    "description": "Guide to localStorage and sessionStorage.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_013",
+    "section_id": "section_frontend_http_api_basics",
+    "title": "HTTP overview",
+    "description": "MDN's overview of the HTTP protocol.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_014",
+    "section_id": "section_frontend_http_api_basics",
+    "title": "Fetch API",
+    "description": "Guide to making network requests with fetch.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_015",
+    "section_id": "section_frontend_http_api_basics",
+    "title": "HTTP response status codes",
+    "description": "Reference for standard HTTP status codes.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+    "source": "MDN",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_016",
+    "section_id": "section_frontend_accessibility_basics",
+    "title": "Accessibility fundamentals",
+    "description": "MDN's introduction to web accessibility.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_017",
+    "section_id": "section_frontend_accessibility_basics",
+    "title": "WCAG quick reference",
+    "description": "Searchable reference of WCAG success criteria.",
+    "url": "https://www.w3.org/WAI/WCAG21/quickref/",
+    "source": "W3C WAI",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_frontend_018",
+    "section_id": "section_frontend_accessibility_basics",
+    "title": "ARIA basics",
+    "description": "Introduction to using ARIA attributes correctly.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_019",
+    "section_id": "section_frontend_react_fundamentals",
+    "title": "React Learn",
+    "description": "Official React documentation's Learn section.",
+    "url": "https://react.dev/learn",
+    "source": "React",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_frontend_020",
+    "section_id": "section_frontend_react_fundamentals",
+    "title": "Writing markup with JSX",
+    "description": "Official guide to JSX syntax.",
+    "url": "https://react.dev/learn/writing-markup-with-jsx",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_021",
+    "section_id": "section_frontend_react_fundamentals",
+    "title": "Passing props to a component",
+    "description": "Official guide to passing and using props.",
+    "url": "https://react.dev/learn/passing-props-to-a-component",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_022",
+    "section_id": "section_frontend_react_state_hooks",
+    "title": "State: a component's memory",
+    "description": "Official guide to component state with useState.",
+    "url": "https://react.dev/learn/state-a-components-memory",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_023",
+    "section_id": "section_frontend_react_state_hooks",
+    "title": "Synchronizing with Effects",
+    "description": "Official guide to useEffect and side effects.",
+    "url": "https://react.dev/learn/synchronizing-with-effects",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_024",
+    "section_id": "section_frontend_react_state_hooks",
+    "title": "useState reference",
+    "description": "API reference for the useState hook.",
+    "url": "https://react.dev/reference/react/useState",
+    "source": "React",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_025",
+    "section_id": "section_frontend_component_composition",
+    "title": "Passing JSX as children",
+    "description": "Guide to composing components using children.",
+    "url": "https://react.dev/learn/passing-props-to-a-component#passing-jsx-as-children",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_026",
+    "section_id": "section_frontend_component_composition",
+    "title": "Thinking in React",
+    "description": "Official guide to structuring component hierarchies.",
+    "url": "https://react.dev/learn/thinking-in-react",
+    "source": "React",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_frontend_027",
+    "section_id": "section_frontend_consuming_apis_react",
+    "title": "Fetching data (Effects)",
+    "description": "Official guidance on fetching data with Effects.",
+    "url": "https://react.dev/learn/synchronizing-with-effects#fetching-data",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_028",
+    "section_id": "section_frontend_consuming_apis_react",
+    "title": "You Might Not Need an Effect",
+    "description": "Guidance on when data fetching logic belongs in an Effect.",
+    "url": "https://react.dev/learn/you-might-not-need-an-effect",
+    "source": "React",
+    "type": "article"
+  },
+  {
+    "id": "resource_frontend_029",
+    "section_id": "section_frontend_frontend_testing_basics",
+    "title": "React Testing Library docs",
+    "description": "Official documentation for React Testing Library.",
+    "url": "https://testing-library.com/docs/react-testing-library/intro/",
+    "source": "Testing Library",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_030",
+    "section_id": "section_frontend_frontend_testing_basics",
+    "title": "Common testing mistakes",
+    "description": "Guide to common mistakes when testing with Testing Library.",
+    "url": "https://kentcdodds.com/blog/common-mistakes-with-react-testing-library",
+    "source": "Kent C. Dodds",
+    "type": "article"
+  },
+  {
+    "id": "resource_frontend_031",
+    "section_id": "section_frontend_state_management_patterns",
+    "title": "Sharing state between components",
+    "description": "Official guide to lifting state up.",
+    "url": "https://react.dev/learn/sharing-state-between-components",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_032",
+    "section_id": "section_frontend_state_management_patterns",
+    "title": "Passing data deeply with context",
+    "description": "Official guide to the Context API.",
+    "url": "https://react.dev/learn/passing-data-deeply-with-context",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_033",
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "title": "Thinking in React",
+    "description": "Guidance on structuring larger component-based applications.",
+    "url": "https://react.dev/learn/thinking-in-react",
+    "source": "React",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_frontend_034",
+    "section_id": "section_frontend_frontend_architecture_scale",
+    "title": "Scaling up with Reducer and Context",
+    "description": "Official guide to combining reducers and context for larger apps.",
+    "url": "https://react.dev/learn/scaling-up-with-reducer-and-context",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_035",
+    "section_id": "section_frontend_web_performance_optimization",
+    "title": "Web Vitals",
+    "description": "Google's guide to Core Web Vitals metrics.",
+    "url": "https://web.dev/articles/vitals",
+    "source": "web.dev",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_036",
+    "section_id": "section_frontend_web_performance_optimization",
+    "title": "Code-splitting",
+    "description": "Guide to code-splitting for performance.",
+    "url": "https://react.dev/reference/react/lazy",
+    "source": "React",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_037",
+    "section_id": "section_frontend_web_performance_optimization",
+    "title": "Optimizing performance",
+    "description": "Official guidance on profiling and optimizing React apps.",
+    "url": "https://react.dev/learn/render-and-commit",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_038",
+    "section_id": "section_frontend_advanced_accessibility",
+    "title": "ARIA authoring practices",
+    "description": "Patterns for building accessible complex UI widgets.",
+    "url": "https://www.w3.org/WAI/ARIA/apg/",
+    "source": "W3C WAI",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_frontend_039",
+    "section_id": "section_frontend_advanced_accessibility",
+    "title": "Accessibility tree",
+    "description": "Explanation of how browsers expose the accessibility tree.",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Accessibility_tree",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_040",
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "title": "Testing overview",
+    "description": "Official React documentation's testing overview.",
+    "url": "https://react.dev/learn/testing",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_041",
+    "section_id": "section_frontend_advanced_testing_strategies",
+    "title": "React Testing Library docs",
+    "description": "Reference documentation for advanced testing patterns.",
+    "url": "https://testing-library.com/docs/",
+    "source": "Testing Library",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_042",
+    "section_id": "section_frontend_production_frontend_concerns",
+    "title": "Catching rendering errors with an Error Boundary",
+    "description": "Guidance on implementing error boundaries.",
+    "url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary",
+    "source": "React",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_043",
+    "section_id": "section_frontend_production_frontend_concerns",
+    "title": "Web Vitals",
+    "description": "Guidance on monitoring production performance metrics.",
+    "url": "https://web.dev/articles/vitals",
+    "source": "web.dev",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_044",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "title": "Reusing logic with custom Hooks",
+    "description": "Official guide to building custom hooks.",
+    "url": "https://react.dev/learn/reusing-logic-with-custom-hooks",
+    "source": "React",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_frontend_045",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "title": "useMemo reference",
+    "description": "API reference for memoizing expensive calculations.",
+    "url": "https://react.dev/reference/react/useMemo",
+    "source": "React",
+    "type": "reference"
+  },
+  {
+    "id": "resource_frontend_046",
+    "section_id": "section_frontend_advanced_react_patterns",
+    "title": "useCallback reference",
+    "description": "API reference for memoizing functions between renders.",
+    "url": "https://react.dev/reference/react/useCallback",
+    "source": "React",
+    "type": "reference"
+  }
+]

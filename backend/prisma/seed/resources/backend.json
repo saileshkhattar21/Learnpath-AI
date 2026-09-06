@@ -1,0 +1,290 @@
+[
+  {
+    "id": "resource_backend_001",
+    "section_id": "section_backend_node_fundamentals",
+    "title": "About Node.js",
+    "description": "Official overview of what Node.js is and how it works.",
+    "url": "https://nodejs.org/en/about",
+    "source": "Node.js",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_002",
+    "section_id": "section_backend_node_fundamentals",
+    "title": "Node.js API documentation",
+    "description": "Full reference documentation for Node.js built-in modules.",
+    "url": "https://nodejs.org/api/",
+    "source": "Node.js",
+    "type": "reference"
+  },
+  {
+    "id": "resource_backend_003",
+    "section_id": "section_backend_npm_modules",
+    "title": "npm documentation",
+    "description": "Official documentation for npm, the Node package manager.",
+    "url": "https://docs.npmjs.com/",
+    "source": "npm",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_004",
+    "section_id": "section_backend_npm_modules",
+    "title": "About package.json",
+    "description": "Official guide explaining the package.json file.",
+    "url": "https://docs.npmjs.com/cli/v10/configuring-npm/package-json",
+    "source": "npm",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_005",
+    "section_id": "section_backend_async_javascript_backend",
+    "title": "Using Promises",
+    "description": "MDN's guide to working with JavaScript Promises.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_006",
+    "section_id": "section_backend_async_javascript_backend",
+    "title": "async function reference",
+    "description": "Reference documentation for async/await syntax.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+    "source": "MDN",
+    "type": "reference"
+  },
+  {
+    "id": "resource_backend_007",
+    "section_id": "section_backend_event_loop_concurrency",
+    "title": "The Node.js Event Loop",
+    "description": "Official Node.js guide explaining the event loop, timers, and process.nextTick.",
+    "url": "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick",
+    "source": "Node.js",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_008",
+    "section_id": "section_backend_event_loop_concurrency",
+    "title": "Don't Block the Event Loop",
+    "description": "Official Node.js guidance on avoiding blocking operations.",
+    "url": "https://nodejs.org/en/learn/asynchronous-work/dont-block-the-event-loop",
+    "source": "Node.js",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_009",
+    "section_id": "section_backend_express_basics",
+    "title": "Express: Hello world example",
+    "description": "Official Express documentation's introductory example.",
+    "url": "https://expressjs.com/en/starter/hello-world.html",
+    "source": "Express",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_backend_010",
+    "section_id": "section_backend_express_basics",
+    "title": "Express API reference",
+    "description": "Full API reference for the Express framework.",
+    "url": "https://expressjs.com/en/4x/api.html",
+    "source": "Express",
+    "type": "reference"
+  },
+  {
+    "id": "resource_backend_011",
+    "section_id": "section_backend_routing_middleware_intro",
+    "title": "Express routing",
+    "description": "Official guide to defining routes in Express.",
+    "url": "https://expressjs.com/en/guide/routing.html",
+    "source": "Express",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_012",
+    "section_id": "section_backend_routing_middleware_intro",
+    "title": "Using Express middleware",
+    "description": "Official guide to writing and using middleware functions.",
+    "url": "https://expressjs.com/en/guide/using-middleware.html",
+    "source": "Express",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_013",
+    "section_id": "section_backend_api_fundamentals",
+    "title": "HTTP response status codes",
+    "description": "MDN reference for standard HTTP status codes used in APIs.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+    "source": "MDN",
+    "type": "reference"
+  },
+  {
+    "id": "resource_backend_014",
+    "section_id": "section_backend_api_fundamentals",
+    "title": "Express: basic routing",
+    "description": "Official guide covering basic route handling in Express.",
+    "url": "https://expressjs.com/en/starter/basic-routing.html",
+    "source": "Express",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_015",
+    "section_id": "section_backend_rest_api_design",
+    "title": "REST API tutorial (Express)",
+    "description": "Official Express guide relevant to building RESTful routes.",
+    "url": "https://expressjs.com/en/guide/routing.html",
+    "source": "Express",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_016",
+    "section_id": "section_backend_rest_api_design",
+    "title": "HTTP request methods",
+    "description": "MDN reference for HTTP methods used in REST APIs.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods",
+    "source": "MDN",
+    "type": "reference"
+  },
+  {
+    "id": "resource_backend_017",
+    "section_id": "section_backend_authentication_authorization",
+    "title": "JWT introduction",
+    "description": "Official introduction to JSON Web Tokens.",
+    "url": "https://jwt.io/introduction",
+    "source": "JWT.io",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_018",
+    "section_id": "section_backend_authentication_authorization",
+    "title": "Express production best practices: security",
+    "description": "Official Express guidance on securing applications in production.",
+    "url": "https://expressjs.com/en/advanced/best-practice-security.html",
+    "source": "Express",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_backend_019",
+    "section_id": "section_backend_database_integration_orm",
+    "title": "Prisma documentation",
+    "description": "Official documentation for the Prisma ORM.",
+    "url": "https://www.prisma.io/docs",
+    "source": "Prisma",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_020",
+    "section_id": "section_backend_database_integration_orm",
+    "title": "Prisma Client API reference",
+    "description": "Reference documentation for querying a database with Prisma Client.",
+    "url": "https://www.prisma.io/docs/orm/prisma-client",
+    "source": "Prisma",
+    "type": "reference"
+  },
+  {
+    "id": "resource_backend_021",
+    "section_id": "section_backend_middleware_error_handling",
+    "title": "Express error handling",
+    "description": "Official guide to handling errors in Express applications.",
+    "url": "https://expressjs.com/en/guide/error-handling.html",
+    "source": "Express",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_022",
+    "section_id": "section_backend_middleware_error_handling",
+    "title": "Using Express middleware",
+    "description": "Official guide covering middleware chaining and application.",
+    "url": "https://expressjs.com/en/guide/using-middleware.html",
+    "source": "Express",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_023",
+    "section_id": "section_backend_backend_architecture_patterns",
+    "title": "Express: writing middleware",
+    "description": "Official guide relevant to structuring an Express application.",
+    "url": "https://expressjs.com/en/guide/writing-middleware.html",
+    "source": "Express",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_024",
+    "section_id": "section_backend_backend_testing_intro",
+    "title": "About Jest",
+    "description": "Official documentation for the Jest testing framework.",
+    "url": "https://jestjs.io/docs/getting-started",
+    "source": "Jest",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_025",
+    "section_id": "section_backend_scalable_backend_architecture",
+    "title": "Node.js production best practices: performance",
+    "description": "Official Express/Node guidance on scalable production practices.",
+    "url": "https://expressjs.com/en/advanced/best-practice-performance.html",
+    "source": "Express",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_backend_026",
+    "section_id": "section_backend_advanced_security",
+    "title": "OWASP Top Ten",
+    "description": "The industry-standard reference for the most critical web application security risks.",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "source": "OWASP",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_backend_027",
+    "section_id": "section_backend_advanced_security",
+    "title": "Express security best practices",
+    "description": "Official Express documentation on production security hardening.",
+    "url": "https://expressjs.com/en/advanced/best-practice-security.html",
+    "source": "Express",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_backend_028",
+    "section_id": "section_backend_performance_scaling_nodejs",
+    "title": "Node.js cluster module",
+    "description": "Official documentation for scaling Node.js across CPU cores.",
+    "url": "https://nodejs.org/api/cluster.html",
+    "source": "Node.js",
+    "type": "reference"
+  },
+  {
+    "id": "resource_backend_029",
+    "section_id": "section_backend_performance_scaling_nodejs",
+    "title": "Don't Block the Event Loop",
+    "description": "Official Node.js guidance on diagnosing performance bottlenecks.",
+    "url": "https://nodejs.org/en/learn/asynchronous-work/dont-block-the-event-loop",
+    "source": "Node.js",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_030",
+    "section_id": "section_backend_advanced_database_patterns",
+    "title": "Prisma transactions",
+    "description": "Official documentation on handling transactions with Prisma.",
+    "url": "https://www.prisma.io/docs/orm/prisma-client/queries/transactions",
+    "source": "Prisma",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_backend_031",
+    "section_id": "section_backend_production_readiness",
+    "title": "Express production best practices: performance and reliability",
+    "description": "Official Express guidance for running applications reliably in production.",
+    "url": "https://expressjs.com/en/advanced/best-practice-performance.html",
+    "source": "Express",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_backend_032",
+    "section_id": "section_backend_advanced_testing_backend",
+    "title": "About Jest",
+    "description": "Official Jest documentation, useful for advanced backend test suites.",
+    "url": "https://jestjs.io/docs/getting-started",
+    "source": "Jest",
+    "type": "documentation"
+  }
+]

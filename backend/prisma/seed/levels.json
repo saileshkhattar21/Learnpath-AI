@@ -1,0 +1,23 @@
+[
+  {
+    "id": "level_beginner",
+    "slug": "beginner",
+    "name": "Beginner",
+    "rank": 1,
+    "description": "Foundational concepts, basic syntax, core principles, and entry-level hands-on practices."
+  },
+  {
+    "id": "level_intermediate",
+    "slug": "intermediate",
+    "name": "Intermediate",
+    "rank": 2,
+    "description": "Practical application, design patterns, framework usage, integration, and real-world problem solving."
+  },
+  {
+    "id": "level_advanced",
+    "slug": "advanced",
+    "name": "Advanced",
+    "rank": 3,
+    "description": "System architecture, performance optimization, security hardening, debugging complex edge cases, and scale."
+  }
+]

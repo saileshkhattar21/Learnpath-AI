@@ -1,0 +1,269 @@
+[
+  {
+    "id": "course_devops_cloud_beginner",
+    "track_id": "track_devops_cloud",
+    "level_id": "level_beginner",
+    "slug": "devops-cloud-beginner",
+    "title": "DevOps & Cloud \u2014 Beginner",
+    "description": "Learn the Linux, Git, and networking fundamentals that underpin DevOps work.",
+    "display_order": 1,
+    "sections": [
+      {
+        "id": "section_devops_cloud_linux_fundamentals",
+        "course_id": "course_devops_cloud_beginner",
+        "title": "Linux Fundamentals",
+        "slug": "linux-fundamentals",
+        "description": "Learn essential Linux command-line skills used in DevOps work.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Navigate the filesystem from the command line",
+          "Manage files, permissions, and processes",
+          "Use common shell utilities"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_git_version_control",
+        "course_id": "course_devops_cloud_beginner",
+        "title": "Git & Version Control",
+        "slug": "git-version-control",
+        "description": "Track and collaborate on code changes using Git.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Create commits and branches",
+          "Merge and resolve conflicts",
+          "Use remote repositories"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_networking_fundamentals",
+        "course_id": "course_devops_cloud_beginner",
+        "title": "Networking Fundamentals",
+        "slug": "networking-fundamentals",
+        "description": "Understand the networking concepts that underlie distributed systems.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Explain IP addressing and DNS",
+          "Understand ports and protocols",
+          "Diagnose basic connectivity issues"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_cloud_fundamentals",
+        "course_id": "course_devops_cloud_beginner",
+        "title": "Cloud Computing Fundamentals",
+        "slug": "cloud-fundamentals",
+        "description": "Learn the core concepts of cloud computing service models.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Distinguish IaaS, PaaS, and SaaS",
+          "Understand elasticity and on-demand resourcing",
+          "Compare major cloud providers"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_aws_core_services",
+        "course_id": "course_devops_cloud_beginner",
+        "title": "AWS Core Services",
+        "slug": "aws-core-services",
+        "description": "Get hands-on with foundational AWS services.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Launch and manage EC2 instances",
+          "Store objects in S3",
+          "Understand IAM basics"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_docker_intro",
+        "course_id": "course_devops_cloud_beginner",
+        "title": "Introduction to Docker",
+        "slug": "docker-intro",
+        "description": "Package applications into containers using Docker.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Write a Dockerfile",
+          "Build and run containers",
+          "Understand images vs containers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_devops_cloud_intermediate",
+    "track_id": "track_devops_cloud",
+    "level_id": "level_intermediate",
+    "slug": "devops-cloud-intermediate",
+    "title": "DevOps & Cloud \u2014 Intermediate",
+    "description": "Automate builds, tests, and deployments using CI/CD pipelines.",
+    "display_order": 2,
+    "sections": [
+      {
+        "id": "section_devops_cloud_containerization_deep_dive",
+        "course_id": "course_devops_cloud_intermediate",
+        "title": "Containerization Deep Dive",
+        "slug": "containerization-deep-dive",
+        "description": "Apply Docker in multi-container application scenarios.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Use Docker Compose for multi-container apps",
+          "Manage volumes and networking",
+          "Optimize image size and build layers"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_cicd_fundamentals",
+        "course_id": "course_devops_cloud_intermediate",
+        "title": "CI/CD Fundamentals",
+        "slug": "cicd-fundamentals",
+        "description": "Understand the principles of continuous integration and delivery.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Explain the CI/CD pipeline stages",
+          "Distinguish continuous delivery from deployment",
+          "Design a basic pipeline"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_github_actions_pipelines",
+        "course_id": "course_devops_cloud_intermediate",
+        "title": "GitHub Actions Pipelines",
+        "slug": "github-actions-pipelines",
+        "description": "Build automated workflows using GitHub Actions.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Write a GitHub Actions workflow",
+          "Automate tests on pull requests",
+          "Deploy from a pipeline"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_deployment_strategies",
+        "course_id": "course_devops_cloud_intermediate",
+        "title": "Deployment Strategies",
+        "slug": "deployment-strategies",
+        "description": "Apply strategies for releasing software safely.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Compare blue-green and rolling deployments",
+          "Apply environment promotion strategies",
+          "Roll back a failed deployment"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_cloud_infrastructure_practices",
+        "course_id": "course_devops_cloud_intermediate",
+        "title": "Cloud Infrastructure Practices",
+        "slug": "cloud-infrastructure-practices",
+        "description": "Apply practical infrastructure patterns in the cloud.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Apply infrastructure-as-code concepts",
+          "Manage environment configuration",
+          "Understand managed vs self-hosted services"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_monitoring_logging_intro",
+        "course_id": "course_devops_cloud_intermediate",
+        "title": "Monitoring & Logging",
+        "slug": "monitoring-logging-intro",
+        "description": "Set up observability for deployed applications.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Instrument applications with logs and metrics",
+          "Set up basic alerting",
+          "Interpret dashboards to diagnose issues"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course_devops_cloud_advanced",
+    "track_id": "track_devops_cloud",
+    "level_id": "level_advanced",
+    "slug": "devops-cloud-advanced",
+    "title": "DevOps & Cloud \u2014 Advanced",
+    "description": "Design production-grade infrastructure, pipelines, and operational practices.",
+    "display_order": 3,
+    "sections": [
+      {
+        "id": "section_devops_cloud_production_infrastructure_architecture",
+        "course_id": "course_devops_cloud_advanced",
+        "title": "Production Infrastructure Architecture",
+        "slug": "production-infrastructure-architecture",
+        "description": "Design resilient, scalable cloud infrastructure.",
+        "display_order": 1,
+        "learning_objectives": [
+          "Design for high availability",
+          "Apply auto-scaling concepts",
+          "Plan for disaster recovery"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_advanced_cicd_pipelines",
+        "course_id": "course_devops_cloud_advanced",
+        "title": "Advanced CI/CD Pipelines",
+        "slug": "advanced-cicd-pipelines",
+        "description": "Design robust, secure CI/CD pipelines for production systems.",
+        "display_order": 2,
+        "learning_objectives": [
+          "Implement multi-stage pipelines with approvals",
+          "Apply security scanning in pipelines",
+          "Manage secrets in CI/CD"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_container_orchestration_concepts",
+        "course_id": "course_devops_cloud_advanced",
+        "title": "Container Orchestration Concepts",
+        "slug": "container-orchestration-concepts",
+        "description": "Understand how orchestration systems manage containers at scale.",
+        "display_order": 3,
+        "learning_objectives": [
+          "Explain orchestration concepts such as scheduling and self-healing",
+          "Understand service discovery",
+          "Reason about scaling containerized workloads"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_advanced_monitoring_observability",
+        "course_id": "course_devops_cloud_advanced",
+        "title": "Advanced Monitoring & Observability",
+        "slug": "advanced-monitoring-observability",
+        "description": "Apply advanced observability practices for production systems.",
+        "display_order": 4,
+        "learning_objectives": [
+          "Design SLIs/SLOs",
+          "Correlate logs, metrics, and traces",
+          "Design actionable alerting"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_cloud_security_networking",
+        "course_id": "course_devops_cloud_advanced",
+        "title": "Cloud Security & Networking",
+        "slug": "cloud-security-networking",
+        "description": "Apply security best practices to cloud infrastructure and networking.",
+        "display_order": 5,
+        "learning_objectives": [
+          "Apply least-privilege IAM design",
+          "Secure network boundaries with VPCs and security groups",
+          "Reason about encryption in transit and at rest"
+        ]
+      },
+      {
+        "id": "section_devops_cloud_production_deployment_operations",
+        "course_id": "course_devops_cloud_advanced",
+        "title": "Production Deployment & Operations",
+        "slug": "production-deployment-operations",
+        "description": "Operate deployed systems reliably at scale.",
+        "display_order": 6,
+        "learning_objectives": [
+          "Design zero-downtime deployment processes",
+          "Plan capacity and cost management",
+          "Run effective incident response"
+        ]
+      }
+    ]
+  }
+]

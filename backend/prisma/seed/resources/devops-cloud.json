@@ -1,0 +1,200 @@
+[
+  {
+    "id": "resource_devops_cloud_001",
+    "section_id": "section_devops_cloud_linux_fundamentals",
+    "title": "Linux command line basics",
+    "description": "An introduction to the Linux filesystem and essential shell commands.",
+    "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+    "source": "Ubuntu",
+    "type": "tutorial"
+  },
+  {
+    "id": "resource_devops_cloud_002",
+    "section_id": "section_devops_cloud_linux_fundamentals",
+    "title": "Bash reference manual",
+    "description": "Official GNU reference manual for the Bash shell.",
+    "url": "https://www.gnu.org/software/bash/manual/bash.html",
+    "source": "GNU",
+    "type": "reference"
+  },
+  {
+    "id": "resource_devops_cloud_003",
+    "section_id": "section_devops_cloud_git_version_control",
+    "title": "Git documentation",
+    "description": "Official Git reference and documentation.",
+    "url": "https://git-scm.com/doc",
+    "source": "Git",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_004",
+    "section_id": "section_devops_cloud_git_version_control",
+    "title": "Pro Git book",
+    "description": "The free, official Git book covering fundamentals through advanced workflows.",
+    "url": "https://git-scm.com/book/en/v2",
+    "source": "Git",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_devops_cloud_005",
+    "section_id": "section_devops_cloud_networking_fundamentals",
+    "title": "HTTP overview",
+    "description": "MDN's overview of the HTTP protocol that underlies most networked applications.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+    "source": "MDN",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_006",
+    "section_id": "section_devops_cloud_cloud_fundamentals",
+    "title": "What is cloud computing?",
+    "description": "AWS's official overview of core cloud computing concepts.",
+    "url": "https://aws.amazon.com/what-is-cloud-computing/",
+    "source": "AWS",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_devops_cloud_007",
+    "section_id": "section_devops_cloud_aws_core_services",
+    "title": "Amazon EC2 documentation",
+    "description": "Official documentation for Amazon's core virtual server service.",
+    "url": "https://docs.aws.amazon.com/ec2/",
+    "source": "AWS",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_008",
+    "section_id": "section_devops_cloud_aws_core_services",
+    "title": "Amazon S3 documentation",
+    "description": "Official documentation for Amazon's object storage service.",
+    "url": "https://docs.aws.amazon.com/s3/",
+    "source": "AWS",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_009",
+    "section_id": "section_devops_cloud_docker_intro",
+    "title": "Docker overview",
+    "description": "Official introduction to Docker and containerization concepts.",
+    "url": "https://docs.docker.com/get-started/docker-overview/",
+    "source": "Docker",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_010",
+    "section_id": "section_devops_cloud_docker_intro",
+    "title": "Dockerfile reference",
+    "description": "Official reference for writing Dockerfiles.",
+    "url": "https://docs.docker.com/reference/dockerfile/",
+    "source": "Docker",
+    "type": "reference"
+  },
+  {
+    "id": "resource_devops_cloud_011",
+    "section_id": "section_devops_cloud_containerization_deep_dive",
+    "title": "Docker Compose overview",
+    "description": "Official documentation for defining multi-container applications with Compose.",
+    "url": "https://docs.docker.com/compose/",
+    "source": "Docker",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_012",
+    "section_id": "section_devops_cloud_cicd_fundamentals",
+    "title": "About continuous integration",
+    "description": "GitHub's overview of continuous integration principles.",
+    "url": "https://docs.github.com/en/actions/about-github-actions/about-continuous-integration",
+    "source": "GitHub",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_013",
+    "section_id": "section_devops_cloud_github_actions_pipelines",
+    "title": "GitHub Actions documentation",
+    "description": "Official documentation for building automated workflows with GitHub Actions.",
+    "url": "https://docs.github.com/en/actions",
+    "source": "GitHub",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_014",
+    "section_id": "section_devops_cloud_deployment_strategies",
+    "title": "AWS deployment strategies",
+    "description": "AWS's overview of common application deployment strategies.",
+    "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/deployment-strategies.html",
+    "source": "AWS",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_devops_cloud_015",
+    "section_id": "section_devops_cloud_cloud_infrastructure_practices",
+    "title": "AWS Well-Architected Framework",
+    "description": "AWS's official framework for designing reliable, secure cloud infrastructure.",
+    "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+    "source": "AWS",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_devops_cloud_016",
+    "section_id": "section_devops_cloud_monitoring_logging_intro",
+    "title": "Amazon CloudWatch documentation",
+    "description": "Official documentation for AWS's monitoring and logging service.",
+    "url": "https://docs.aws.amazon.com/cloudwatch/",
+    "source": "AWS",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_017",
+    "section_id": "section_devops_cloud_production_infrastructure_architecture",
+    "title": "AWS Well-Architected Framework",
+    "description": "Guidance on designing highly available, resilient cloud infrastructure.",
+    "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+    "source": "AWS",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_devops_cloud_018",
+    "section_id": "section_devops_cloud_advanced_cicd_pipelines",
+    "title": "Security hardening for GitHub Actions",
+    "description": "Official GitHub guidance on securing CI/CD workflows.",
+    "url": "https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions",
+    "source": "GitHub",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_devops_cloud_019",
+    "section_id": "section_devops_cloud_container_orchestration_concepts",
+    "title": "Kubernetes concepts overview",
+    "description": "Official Kubernetes documentation introducing orchestration concepts.",
+    "url": "https://kubernetes.io/docs/concepts/overview/",
+    "source": "Kubernetes",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_020",
+    "section_id": "section_devops_cloud_advanced_monitoring_observability",
+    "title": "Amazon CloudWatch documentation",
+    "description": "Reference documentation useful for advanced monitoring and alerting setups.",
+    "url": "https://docs.aws.amazon.com/cloudwatch/",
+    "source": "AWS",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_021",
+    "section_id": "section_devops_cloud_cloud_security_networking",
+    "title": "AWS Identity and Access Management documentation",
+    "description": "Official documentation on securing AWS resources with IAM.",
+    "url": "https://docs.aws.amazon.com/iam/",
+    "source": "AWS",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_devops_cloud_022",
+    "section_id": "section_devops_cloud_production_deployment_operations",
+    "title": "AWS deployment strategies",
+    "description": "Guidance on operating and safely deploying production workloads on AWS.",
+    "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/deployment-strategies.html",
+    "source": "AWS",
+    "type": "official-guide"
+  }
+]

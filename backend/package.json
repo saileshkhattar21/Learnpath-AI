@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
-    "migrate": "node src/db/migrate.js"
+    "migrate": "node src/db/migrate.js",
+    "seed": "node prisma/seed.js"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +17,15 @@
   "description": "",
   "dependencies": {
     "@clerk/express": "^2.1.66",
+    "@langchain/core": "^0.3.0",
+    "@langchain/groq": "^0.1.0",
+    "@prisma/client": "^6.0.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "pg": "^8.23.0"
+    "pg": "^8.23.0",
+    "prisma": "^6.0.0",
+    "zod": "^3.24.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
