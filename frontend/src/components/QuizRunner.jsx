@@ -21,12 +21,9 @@ export default function QuizRunner({
 
     const load = async () => {
       try {
-        console.log("[quiz-runner] fetching questions");
         const data = await fetchQuestions();
-        console.log(`[quiz-runner] got ${data.length} questions`);
         if (!cancelled) setQuestions(data);
       } catch (err) {
-        console.error("[quiz-runner] fetchQuestions failed:", err);
         if (!cancelled) setError(err.message);
       } finally {
         if (!cancelled) setLoading(false);
@@ -50,14 +47,9 @@ export default function QuizRunner({
       const responses = Object.entries(answers).map(
         ([questionId, optionId]) => ({ questionId, optionId }),
       );
-      console.log(
-        `[quiz-runner] submitting ${responses.length}/${questions.length}`,
-      );
       const data = await onSubmit(responses);
-      console.log("[quiz-runner] result:", data);
       setResult(data);
     } catch (err) {
-      console.error("[quiz-runner] onSubmit failed:", err);
       setError(err.message);
     } finally {
       setSubmitting(false);

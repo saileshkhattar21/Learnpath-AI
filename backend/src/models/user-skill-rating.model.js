@@ -1,7 +1,6 @@
 import prisma from "../config/prisma.js";
 
 export const upsertRating = async ({ userId, skillId, rating }) => {
-  console.log("[skill-rating.model] upsert:", { userId, skillId, rating });
   return prisma.userSkillRating.upsert({
     where: { userId_skillId: { userId, skillId } },
     update: { rating },

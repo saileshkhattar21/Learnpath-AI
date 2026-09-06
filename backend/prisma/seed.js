@@ -18,7 +18,7 @@ const TRACK_FILES = [
   "data-analytics",
 ];
 
-// Reads a JSON file relative to prisma/seed/. Returns [] (and logs why)
+// Reads a JSON file relative to prisma/seed/. Returns []
 // instead of throwing when a file is missing, empty, or not valid JSON —
 // several seed files aren't filled in yet and that shouldn't block the rest.
 async function readJsonSafe(relativePath) {
@@ -26,37 +26,23 @@ async function readJsonSafe(relativePath) {
   try {
     const raw = await fs.readFile(fullPath, "utf8");
     if (!raw.trim()) {
-      console.log(`[seed] ${relativePath} is empty, skipping`);
       return [];
     }
     return JSON.parse(raw);
   } catch (err) {
-    if (err.code === "ENOENT") {
-      console.log(`[seed] ${relativePath} not found, skipping`);
-    } else {
-      console.warn(`[seed] couldn't parse ${relativePath}:`, err.message);
-    }
     return [];
   }
 }
 
 async function seedLevels() {
   const levels = await readJsonSafe("levels.json");
-  console.log(`[seed] levels: ${levels.length}`);
-
   const seenSlugs = new Map();
   const seenRanks = new Map();
   for (const level of levels) {
     if (seenSlugs.has(level.slug)) {
-      console.error(
-        `[seed] DUPLICATE LEVEL SLUG "${level.slug}": ${seenSlugs.get(level.slug)} and ${level.id} both use it. Skipping ${level.id}.`,
-      );
       continue;
     }
     if (seenRanks.has(level.rank)) {
-      console.error(
-        `[seed] DUPLICATE LEVEL RANK ${level.rank}: ${seenRanks.get(level.rank)} and ${level.id} both use it. Skipping ${level.id}.`,
-      );
       continue;
     }
     seenSlugs.set(level.slug, level.id);
@@ -79,19 +65,13 @@ async function seedLevels() {
       },
     });
   }
-  console.log("[seed] levels done");
 }
 
 async function seedSkills() {
   const skills = await readJsonSafe("skills.json");
-  console.log(`[seed] skills: ${skills.length}`);
-
   const seenSlugs = new Map();
   for (const skill of skills) {
     if (seenSlugs.has(skill.slug)) {
-      console.error(
-        `[seed] DUPLICATE SLUG "${skill.slug}": ${seenSlugs.get(skill.slug)} and ${skill.id} both use it. Skipping ${skill.id}.`,
-      );
       continue;
     }
     seenSlugs.set(skill.slug, skill.id);
@@ -111,19 +91,13 @@ async function seedSkills() {
       },
     });
   }
-  console.log("[seed] skills done");
 }
 
 async function seedTracks() {
   const tracks = await readJsonSafe("tracks.json");
-  console.log(`[seed] tracks: ${tracks.length}`);
-
   const seenSlugs = new Map();
   for (const track of tracks) {
     if (seenSlugs.has(track.slug)) {
-      console.error(
-        `[seed] DUPLICATE TRACK SLUG "${track.slug}": ${seenSlugs.get(track.slug)} and ${track.id} both use it. Skipping ${track.id}.`,
-      );
       continue;
     }
     seenSlugs.set(track.slug, track.id);
@@ -145,12 +119,10 @@ async function seedTracks() {
       },
     });
   }
-  console.log("[seed] tracks done");
 }
 
 async function seedTrackSkills() {
   const trackSkills = await readJsonSafe("track-skills.json");
-  console.log(`[seed] track-skills: ${trackSkills.length}`);
   for (const ts of trackSkills) {
     await prisma.trackSkill.upsert({
       where: {
@@ -160,12 +132,10 @@ async function seedTrackSkills() {
       create: { trackId: ts.track_id, skillId: ts.skill_id },
     });
   }
-  console.log("[seed] track-skills done");
 }
 
 async function seedTrackPrerequisites() {
   const prereqs = await readJsonSafe("track-prerequisites.json");
-  console.log(`[seed] track-prerequisites: ${prereqs.length}`);
   for (const p of prereqs) {
     await prisma.trackPrerequisite.upsert({
       where: { trackId_skillId: { trackId: p.track_id, skillId: p.skill_id } },
@@ -177,7 +147,6 @@ async function seedTrackPrerequisites() {
       },
     });
   }
-  console.log("[seed] track-prerequisites done");
 }
 
 async function seedCoursesAndSections() {
@@ -190,13 +159,8 @@ async function seedCoursesAndSections() {
 
   for (const trackKey of TRACK_FILES) {
     const courses = await readJsonSafe(`courses/${trackKey}.json`);
-    console.log(`[seed] courses/${trackKey}.json: ${courses.length} courses`);
-
     for (const course of courses) {
       if (seenCourseSlugs.has(course.slug)) {
-        console.error(
-          `[seed] DUPLICATE COURSE SLUG "${course.slug}": ${seenCourseSlugs.get(course.slug)} and ${course.id} both use it. Skipping ${course.id}.`,
-        );
         continue;
       }
       seenCourseSlugs.set(course.slug, course.id);
@@ -226,9 +190,6 @@ async function seedCoursesAndSections() {
       for (const section of sections) {
         const key = `${section.course_id}:${section.slug}`;
         if (seenSectionSlugs.has(key)) {
-          console.error(
-            `[seed] DUPLICATE SECTION SLUG "${section.slug}" in course ${section.course_id}: ${seenSectionSlugs.get(key)} and ${section.id} both use it. Skipping ${section.id}.`,
-          );
           continue;
         }
         seenSectionSlugs.set(key, section.id);
@@ -256,12 +217,10 @@ async function seedCoursesAndSections() {
       }
     }
   }
-  console.log("[seed] courses & sections done");
 }
 
 async function seedSectionSkills() {
   const sectionSkills = await readJsonSafe("section-skills.json");
-  console.log(`[seed] section-skills: ${sectionSkills.length}`);
   for (const ss of sectionSkills) {
     await prisma.sectionSkill.upsert({
       where: {
@@ -271,16 +230,11 @@ async function seedSectionSkills() {
       create: { sectionId: ss.section_id, skillId: ss.skill_id },
     });
   }
-  console.log("[seed] section-skills done");
 }
 
 async function seedQuestions() {
   for (const trackKey of TRACK_FILES) {
     const questions = await readJsonSafe(`questions/${trackKey}.json`);
-    console.log(
-      `[seed] questions/${trackKey}.json: ${questions.length} questions`,
-    );
-
     for (const q of questions) {
       await prisma.question.upsert({
         where: { id: q.id },
@@ -320,14 +274,11 @@ async function seedQuestions() {
       }
     }
   }
-  console.log("[seed] questions & options done");
 }
 
 async function seedVideos() {
   for (const trackKey of TRACK_FILES) {
     const videos = await readJsonSafe(`videos/${trackKey}.json`);
-    console.log(`[seed] videos/${trackKey}.json: ${videos.length} videos`);
-
     for (const v of videos) {
       await prisma.video.upsert({
         where: { id: v.id },
@@ -349,16 +300,11 @@ async function seedVideos() {
       });
     }
   }
-  console.log("[seed] videos done");
 }
 
 async function seedResources() {
   for (const trackKey of TRACK_FILES) {
     const resources = await readJsonSafe(`resources/${trackKey}.json`);
-    console.log(
-      `[seed] resources/${trackKey}.json: ${resources.length} resources`,
-    );
-
     for (const r of resources) {
       await prisma.resource.upsert({
         where: { id: r.id },
@@ -382,12 +328,9 @@ async function seedResources() {
       });
     }
   }
-  console.log("[seed] resources done");
 }
 
 async function main() {
-  console.log("[seed] starting...");
-
   // Order matters: rows must exist before anything else references them.
   await seedLevels();
   await seedSkills();
@@ -400,12 +343,10 @@ async function main() {
   await seedVideos();
   await seedResources();
 
-  console.log("[seed] all done ✅");
 }
 
 main()
-  .catch((err) => {
-    console.error("[seed] failed:", err);
+  .catch(() => {
     process.exitCode = 1;
   })
   .finally(async () => {

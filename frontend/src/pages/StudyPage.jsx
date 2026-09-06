@@ -67,12 +67,7 @@ export default function StudyPage() {
   const loadStudy = async () => {
     if (!isLoaded || !isSignedIn || !userId) return;
     try {
-      console.log("[study] fetching study view:", slug);
       const data = await getTrackStudy(slug, getToken);
-      console.log(
-        "[study] levels:",
-        data.study.levels.map((l) => l.levelName),
-      );
       setStudy(data.study);
       setPath(data.path);
 
@@ -81,7 +76,6 @@ export default function StudyPage() {
       setActiveRank((prev) => prev ?? firstUnlocked?.rank);
       setActiveItemId((prev) => prev ?? firstUnlocked?.items[0]?.id);
     } catch (err) {
-      console.error("[study] getTrackStudy failed:", err);
       setError(err.message);
     } finally {
       setLoading(false);
@@ -94,7 +88,6 @@ export default function StudyPage() {
   }, [slug, isLoaded, isSignedIn, userId]);
 
   const handleReassess = () => {
-    console.log("[study] sending user to retake diagnostic before reassessing");
     navigate(`/tracks/${slug}/quiz?reassess=1`);
   };
 

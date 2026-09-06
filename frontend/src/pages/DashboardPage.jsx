@@ -28,12 +28,9 @@ export default function DashboardPage() {
     const loadTracks = async () => {
       if (!isLoaded || !isSignedIn || !userId) return;
       try {
-        console.log("[dashboard] fetching tracks");
         const data = await getTracks(getToken);
-        console.log(`[dashboard] got ${data.tracks.length} tracks`);
         if (!cancelled) setTracks(data.tracks);
       } catch (err) {
-        console.error("[dashboard] getTracks failed:", err);
         if (!cancelled) setError(err.message);
       } finally {
         if (!cancelled) setLoading(false);

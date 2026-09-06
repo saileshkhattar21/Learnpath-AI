@@ -11,7 +11,6 @@ router.use("/users", userRoutes);
 router.use("/tracks", trackRoutes);
 if (process.env.NODE_ENV !== "production") {
   router.use("/test", testRoutes);
-  console.log("[routes] test routes mounted at /api/test");
 }
 
 export default router;

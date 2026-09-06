@@ -14,15 +14,12 @@ const router = express.Router();
 router.get("/tracks/:slug/catalog", requireAuthJson, async (req, res) => {
   try {
     const { slug } = req.params;
-    console.log("[TEST] catalog requested for:", slug);
-
     const track = await getTrackDetail(slug);
     if (!track) return res.status(404).json({ error: "Track not found" });
 
     const catalog = await getTrackCatalog(track.id);
     res.json({ trackId: track.id, catalog });
   } catch (err) {
-    console.error("[TEST] catalog failed:", err);
     res.status(500).json({ error: err.message });
   }
 });
@@ -33,15 +30,12 @@ router.get(
   async (req, res) => {
     try {
       const { attemptId } = req.params;
-      console.log("[TEST] breakdown requested for attempt:", attemptId);
-
       const breakdown = await getBreakdownForAttempt(attemptId);
       if (!breakdown)
         return res.status(404).json({ error: "Attempt not found" });
 
       res.json({ breakdown });
     } catch (err) {
-      console.error("[TEST] breakdown failed:", err);
       res.status(500).json({ error: err.message });
     }
   },
@@ -53,14 +47,11 @@ router.get(
   async (req, res) => {
     try {
       const { attemptId } = req.params;
-      console.log("[TEST] full-context requested for attempt:", attemptId);
-
       const context = await getFullContextForAttempt(attemptId);
       if (!context) return res.status(404).json({ error: "Attempt not found" });
 
       res.json({ context });
     } catch (err) {
-      console.error("[TEST] full-context failed:", err);
       res.status(500).json({ error: err.message });
     }
   },
@@ -70,8 +61,6 @@ router.get("/tracks/:slug/ai-context", requireAuthJson, async (req, res) => {
   try {
     const { slug } = req.params;
     const { attemptId } = req.query;
-    console.log("[TEST] ai-context requested:", { slug, attemptId });
-
     const clerkUserId = getAuth(req).userId;
     const user = await findOrCreateUser(clerkUserId);
 
@@ -80,7 +69,6 @@ router.get("/tracks/:slug/ai-context", requireAuthJson, async (req, res) => {
 
     res.json({ context });
   } catch (err) {
-    console.error("[TEST] ai-context failed:", err);
     res.status(500).json({ error: err.message });
   }
 });

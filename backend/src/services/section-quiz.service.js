@@ -21,11 +21,7 @@ function shuffle(arr) {
 }
 
 export const buildSectionQuiz = async (sectionId) => {
-  console.log("[section-quiz.service] building quiz for section:", sectionId);
   const pool = await findQuestionsForSection(sectionId);
-  console.log(
-    `[section-quiz.service] pool: ${pool.length}, taking ${QUIZ_SIZE}`,
-  );
 
   return shuffle(pool)
     .slice(0, QUIZ_SIZE)
@@ -37,10 +33,6 @@ export const buildSectionQuiz = async (sectionId) => {
 };
 
 export const gradeSectionQuiz = async ({ userId, sectionId, responses }) => {
-  console.log(
-    `[section-quiz.service] grading ${responses.length} responses for section:`,
-    sectionId,
-  );
 
   const questions = await findQuestionsByIds(
     responses.map((r) => r.questionId),
@@ -60,9 +52,6 @@ export const gradeSectionQuiz = async ({ userId, sectionId, responses }) => {
     totalQuestions > 0 ? (correctAnswers / totalQuestions) * 100 : 0;
   const passed =
     totalQuestions > 0 && correctAnswers / totalQuestions >= PASS_RATIO;
-  console.log(
-    `[section-quiz.service] ${correctAnswers}/${totalQuestions} passed=${passed}`,
-  );
 
   await createQuizAttempt({
     userId,
@@ -78,7 +67,5 @@ export const gradeSectionQuiz = async ({ userId, sectionId, responses }) => {
   const bestScore = Math.max(score, existing?.bestScore ?? 0);
   const completed = passed || Boolean(existing?.completed);
   await upsertSectionProgress({ userId, sectionId, completed, bestScore });
-  console.log(`[section-quiz.service] progress saved: completed=${completed}`);
-
   return { passed, score, correctAnswers, totalQuestions };
 };

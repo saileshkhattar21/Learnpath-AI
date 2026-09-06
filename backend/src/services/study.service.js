@@ -7,8 +7,6 @@ function extractYoutubeId(url) {
 }
 
 export const buildStudyView = async ({ userId, trackId }) => {
-  console.log("[study.service] building study view:", { userId, trackId });
-
   const path = await findLearningPathForStudy({ userId, trackId });
   if (!path) return null;
 
@@ -16,9 +14,6 @@ export const buildStudyView = async ({ userId, trackId }) => {
     .filter((i) => i.section)
     .map((i) => i.section.id);
   const progressMap = await findProgressForSections(userId, sectionIds);
-  console.log(
-    `[study.service] progress rows: ${Object.keys(progressMap).length}/${sectionIds.length}`,
-  );
 
   // Group path items by level rank, preserving the AI's chosen order within each level.
   const levelsByRank = new Map();
@@ -74,13 +69,6 @@ export const buildStudyView = async ({ userId, trackId }) => {
     );
     previousComplete = level.completed;
   }
-
-  console.log(
-    "[study.service] levels:",
-    levels
-      .map((l) => `${l.levelName}:${l.unlocked ? "unlocked" : "locked"}`)
-      .join(", "),
-  );
 
   return {
     learningPathId: path.id,

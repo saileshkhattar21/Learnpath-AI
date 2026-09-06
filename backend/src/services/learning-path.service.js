@@ -132,10 +132,6 @@ export const generateLearningPath = async ({ userId, slug, trackId }) => {
 };
 
 export const regenerateLearningPath = async ({ userId, slug, trackId }) => {
-  console.log("[learning-path.service] regenerating path:", {
-    userId,
-    trackId,
-  });
   await deleteLearningPath({ userId, trackId });
   return generateLearningPath({ userId, slug, trackId });
 };

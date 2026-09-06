@@ -26,7 +26,6 @@ export const getTracks = async (req, res) => {
       })),
     });
   } catch (err) {
-    console.error("[GET /tracks] failed:", err);
     res.status(500).json({ error: err.message });
   }
 };
@@ -56,7 +55,6 @@ export const getTrack = async (req, res) => {
       hasCompletedQuiz: Boolean(latestAttempt),
     });
   } catch (err) {
-    console.error("[GET /tracks/:slug] failed:", err);
     res.status(500).json({ error: err.message });
   }
 };
@@ -64,7 +62,6 @@ export const getTrack = async (req, res) => {
 export const postTrackSkillRatings = async (req, res) => {
   try {
     const clerkUserId = getAuth(req).userId;
-    console.log("[POST /tracks/:slug/skills] clerkUserId:", clerkUserId);
     const user = await findOrCreateUser(clerkUserId);
 
     const { ratings } = req.body;
@@ -83,7 +80,6 @@ export const postTrackSkillRatings = async (req, res) => {
 
     res.json({ ratings: saved });
   } catch (err) {
-    console.error("[POST /tracks/:slug/skills] failed:", err);
     res.status(500).json({ error: err.message });
   }
 };
@@ -103,7 +99,6 @@ export const postGenerateLearningPath = async (req, res) => {
     });
     res.status(result.created ? 201 : 200).json(result);
   } catch (err) {
-    console.error("[POST /tracks/:slug/path] failed:", err);
     res
       .status(err.statusCode || 500)
       .json({ error: err.message || "Could not generate learning path." });
@@ -125,7 +120,6 @@ export const postRegenerateLearningPath = async (req, res) => {
     });
     res.status(201).json(result);
   } catch (err) {
-    console.error("[POST /tracks/:slug/path/regenerate] failed:", err);
     res
       .status(err.statusCode || 500)
       .json({ error: err.message || "Could not regenerate learning path." });

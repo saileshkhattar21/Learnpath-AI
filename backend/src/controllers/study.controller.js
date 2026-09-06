@@ -7,8 +7,6 @@ import { getLearningPathForTrack } from "../services/learning-path.service.js";
 export const getTrackStudy = async (req, res) => {
   try {
     const { slug } = req.params;
-    console.log("[GET /tracks/:slug/study] slug:", slug);
-
     const clerkUserId = getAuth(req).userId;
     const user = await findOrCreateUser(clerkUserId);
 
@@ -24,7 +22,6 @@ export const getTrackStudy = async (req, res) => {
     const path = await getLearningPathForTrack({ userId: user.id, trackId: track.id });
     res.json({ study, path });
   } catch (err) {
-    console.error("[GET /tracks/:slug/study] failed:", err);
     res.status(500).json({ error: err.message });
   }
 };

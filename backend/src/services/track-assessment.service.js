@@ -31,24 +31,16 @@ function sanitizeQuestion(q) {
 }
 
 export const buildQuizForTrack = async (trackId) => {
-  console.log("[track-assessment.service] building quiz for track:", trackId);
   const selected = [];
 
   for (const [levelId, count] of Object.entries(TIER_COUNTS)) {
     const pool = await findQuestionsForTrackByLevel(trackId, levelId);
-    console.log(
-      `[track-assessment.service] ${levelId}: pool ${pool.length}, need ${count}`,
-    );
     if (pool.length < count) {
-      console.warn(
-        `[track-assessment.service] not enough questions for ${levelId}, using all ${pool.length}`,
-      );
     }
     selected.push(...shuffle(pool).slice(0, count));
   }
 
   const shuffled = shuffle(selected);
-  console.log(`[track-assessment.service] total selected: ${shuffled.length}`);
   return shuffled.map(sanitizeQuestion);
 };
 
@@ -59,10 +51,6 @@ export const gradeAndSaveAttempt = async ({ userId, trackId, responses }) => {
   if (new Set(responses.map((r) => r.questionId)).size !== responses.length) {
     throw new Error("Each quiz question can only be answered once.");
   }
-  console.log(
-    `[track-assessment.service] grading ${responses.length} responses, user:`,
-    userId,
-  );
 
   const questionIds = responses.map((r) => r.questionId);
   const questions = await findQuestionsByIds(questionIds);
@@ -85,9 +73,6 @@ export const gradeAndSaveAttempt = async ({ userId, trackId, responses }) => {
   const totalQuestions = responses.length;
   const score =
     totalQuestions > 0 ? (correctAnswers / totalQuestions) * 100 : 0;
-  console.log(
-    `[track-assessment.service] score: ${correctAnswers}/${totalQuestions} (${score.toFixed(1)}%)`,
-  );
 
   const attempt = await createAttempt({
     userId,
@@ -97,13 +82,10 @@ export const gradeAndSaveAttempt = async ({ userId, trackId, responses }) => {
     correctAnswers,
     answers,
   });
-  console.log("[track-assessment.service] attempt saved:", attempt.id);
-
   return { attemptId: attempt.id, score, correctAnswers, totalQuestions };
 };
 
 export const getFullContextForAttempt = async (attemptId) => {
-  console.log("[track-assessment.service] building full context:", attemptId);
   const attempt = await findAttemptWithFullContext(attemptId);
   if (!attempt) return null;
 
@@ -120,10 +102,6 @@ export const getFullContextForAttempt = async (attemptId) => {
     };
   });
 
-  console.log(
-    `[track-assessment.service] built context for ${questionDetails.length} questions`,
-  );
-
   return {
     trackId: attempt.trackId,
     score: attempt.score,
@@ -134,7 +112,6 @@ export const getFullContextForAttempt = async (attemptId) => {
 };
 
 export const getBreakdownForAttempt = async (attemptId) => {
-  console.log("[track-assessment.service] building breakdown:", attemptId);
   const attempt = await findAttemptWithAnswers(attemptId);
   if (!attempt) return null;
 
@@ -146,6 +123,5 @@ export const getBreakdownForAttempt = async (attemptId) => {
     if (answer.isCorrect) breakdown[tier].correct += 1;
   }
 
-  console.log("[track-assessment.service] breakdown:", breakdown);
   return breakdown;
 };

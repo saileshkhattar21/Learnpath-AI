@@ -24,12 +24,9 @@ export default function QuizPage() {
   const handleUpdatePath = async () => {
     try {
       setRegenerating(true);
-      console.log("[quiz] reassess: regenerating path with new attempt");
       await regenerateLearningPath(slug, getToken);
-      console.log("[quiz] regenerated, going to study page");
       navigate(`/tracks/${slug}/study`);
     } catch (err) {
-      console.error("[quiz] regenerateLearningPath failed:", err);
       setRegenError(err.message);
     } finally {
       setRegenerating(false);
