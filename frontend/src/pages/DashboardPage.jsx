@@ -47,7 +47,7 @@ export default function DashboardPage() {
     };
   }, [getToken, isLoaded, isSignedIn, userId]);
 
-  if (!isLoaded || !isSignedIn || !userId) {
+  if (!isLoaded || !isSignedIn || !userId || loading) {
     return <LoadingScreen label="Preparing your learning space…" />;
   }
 
@@ -90,7 +90,6 @@ export default function DashboardPage() {
             {tracks.length} learning tracks
           </span>
         </div>
-        if (loading) return <LoadingScreen message="Loading tracks…" />;
         {error && (
           <p className="mt-10 text-sm text-[#e08a8a]">
             Couldn't load tracks: {error}
