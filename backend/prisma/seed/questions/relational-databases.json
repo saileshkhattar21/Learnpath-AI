@@ -1,0 +1,902 @@
+[
+  {
+    "id": "question_relational_databases_001",
+    "section_id": "section_relational_databases_database_fundamentals_section",
+    "level_id": "level_beginner",
+    "question": "What is a relational database?",
+    "explanation": "A relational database organizes data into tables of rows and columns, with relationships defined between tables.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_001_a",
+        "text": "A database that organizes data into related tables",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_001_b",
+        "text": "A database that stores only images",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_001_c",
+        "text": "A file system for storing text documents",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_001_d",
+        "text": "A programming language for building websites",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_002",
+    "section_id": "section_relational_databases_relational_modeling_basics",
+    "level_id": "level_beginner",
+    "question": "What does a primary key uniquely identify?",
+    "explanation": "A primary key uniquely identifies each row within a table.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_002_a",
+        "text": "A row within a table",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_002_b",
+        "text": "A column's data type",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_002_c",
+        "text": "An entire database",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_002_d",
+        "text": "A database server",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_003",
+    "section_id": "section_relational_databases_relational_modeling_basics",
+    "level_id": "level_beginner",
+    "question": "What is the purpose of a foreign key?",
+    "explanation": "A foreign key references a primary key in another table, establishing a relationship between the two.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_003_a",
+        "text": "Referencing a primary key in another table",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_003_b",
+        "text": "Encrypting sensitive data",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_003_c",
+        "text": "Storing the database's name",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_003_d",
+        "text": "Formatting query output",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_004",
+    "section_id": "section_relational_databases_sql_fundamentals",
+    "level_id": "level_beginner",
+    "question": "Which SQL keyword is used to retrieve data from a table?",
+    "explanation": "SELECT is the SQL keyword used to query and retrieve data from one or more tables.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_004_a",
+        "text": "SELECT",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_004_b",
+        "text": "GET",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_004_c",
+        "text": "FETCH",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_004_d",
+        "text": "RETRIEVE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_005",
+    "section_id": "section_relational_databases_sql_fundamentals",
+    "level_id": "level_beginner",
+    "question": "Which SQL statement is used to add a new row to a table?",
+    "explanation": "INSERT INTO is used to add new rows of data into a table.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_005_a",
+        "text": "INSERT INTO",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_005_b",
+        "text": "ADD ROW",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_005_c",
+        "text": "CREATE ROW",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_005_d",
+        "text": "NEW RECORD",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_006",
+    "section_id": "section_relational_databases_joins_basics",
+    "level_id": "level_beginner",
+    "question": "What does an INNER JOIN return?",
+    "explanation": "An INNER JOIN returns only the rows that have matching values in both joined tables.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_006_a",
+        "text": "Only rows with matching values in both tables",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_006_b",
+        "text": "All rows from both tables regardless of match",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_006_c",
+        "text": "Only rows from the left table",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_006_d",
+        "text": "A single combined table with no rows",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_007",
+    "section_id": "section_relational_databases_aggregations_basics",
+    "level_id": "level_beginner",
+    "question": "Which SQL function returns the number of rows matching a query?",
+    "explanation": "COUNT() returns the number of rows that match the specified criteria.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_007_a",
+        "text": "COUNT()",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_007_b",
+        "text": "SUM()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_007_c",
+        "text": "TOTAL()",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_007_d",
+        "text": "LEN()",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_008",
+    "section_id": "section_relational_databases_constraints_basics",
+    "level_id": "level_beginner",
+    "question": "What does a NOT NULL constraint enforce?",
+    "explanation": "A NOT NULL constraint ensures that a column cannot contain a null (missing) value.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_008_a",
+        "text": "A column cannot contain a null value",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_008_b",
+        "text": "A column must be unique across all rows",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_008_c",
+        "text": "A column must reference another table",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_008_d",
+        "text": "A column must store only numbers",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_009",
+    "section_id": "section_relational_databases_constraints_basics",
+    "level_id": "level_beginner",
+    "question": "What does a UNIQUE constraint ensure?",
+    "explanation": "A UNIQUE constraint ensures that all values in a column (or set of columns) are distinct across rows.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_009_a",
+        "text": "All values in the column are distinct",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_009_b",
+        "text": "The column can never be empty",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_009_c",
+        "text": "The column is automatically indexed for speed only",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_009_d",
+        "text": "The column stores a foreign key",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_010",
+    "section_id": "section_relational_databases_database_fundamentals_section",
+    "level_id": "level_beginner",
+    "question": "What is a table in a relational database made up of?",
+    "explanation": "A table is made up of rows (records) and columns (fields) that store structured data.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_010_a",
+        "text": "Rows and columns",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_010_b",
+        "text": "Files and folders",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_010_c",
+        "text": "Functions and variables",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_010_d",
+        "text": "Threads and processes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_011",
+    "section_id": "section_relational_databases_normalization_deep_dive",
+    "level_id": "level_intermediate",
+    "question": "What is the main goal of normalization?",
+    "explanation": "Normalization organizes data to reduce redundancy and prevent update anomalies.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_011_a",
+        "text": "Reducing redundancy and preventing update anomalies",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_011_b",
+        "text": "Making all tables as large as possible",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_011_c",
+        "text": "Removing the need for primary keys",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_011_d",
+        "text": "Storing all data in a single table",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_012",
+    "section_id": "section_relational_databases_schema_design_practice",
+    "level_id": "level_intermediate",
+    "question": "How is a many-to-many relationship typically modeled in a relational database?",
+    "explanation": "A many-to-many relationship is typically modeled using a join (junction) table with foreign keys to both related tables.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_012_a",
+        "text": "Using a join table with foreign keys to both tables",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_012_b",
+        "text": "By duplicating one table's data into the other",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_012_c",
+        "text": "It cannot be modeled in a relational database",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_012_d",
+        "text": "By storing an array directly in a single column",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_013",
+    "section_id": "section_relational_databases_advanced_sql_queries",
+    "level_id": "level_intermediate",
+    "question": "What is a subquery?",
+    "explanation": "A subquery is a query nested inside another SQL query, often used to filter or compute intermediate results.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_013_a",
+        "text": "A query nested inside another query",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_013_b",
+        "text": "A backup copy of a query",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_013_c",
+        "text": "A query that only works on one row",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_013_d",
+        "text": "A shortcut for creating tables",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_014",
+    "section_id": "section_relational_databases_transactions_intro",
+    "level_id": "level_intermediate",
+    "question": "What does the COMMIT statement do in a transaction?",
+    "explanation": "COMMIT permanently saves all changes made during the current transaction.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_014_a",
+        "text": "Permanently saves the changes made in the transaction",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_014_b",
+        "text": "Cancels all changes made in the transaction",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_014_c",
+        "text": "Deletes the current table",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_014_d",
+        "text": "Creates a new database",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_015",
+    "section_id": "section_relational_databases_transactions_intro",
+    "level_id": "level_intermediate",
+    "question": "What does the ROLLBACK statement do?",
+    "explanation": "ROLLBACK undoes all changes made during the current transaction, returning the data to its prior state.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_015_a",
+        "text": "Undoes changes made during the current transaction",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_015_b",
+        "text": "Permanently saves the current transaction",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_015_c",
+        "text": "Creates a new index",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_015_d",
+        "text": "Locks the entire database indefinitely",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_016",
+    "section_id": "section_relational_databases_acid_properties",
+    "level_id": "level_intermediate",
+    "question": "What does the 'Isolation' property in ACID guarantee?",
+    "explanation": "Isolation ensures that concurrently executing transactions don't interfere with each other's intermediate results.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_016_a",
+        "text": "Concurrent transactions don't interfere with each other",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_016_b",
+        "text": "Data is always encrypted at rest",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_016_c",
+        "text": "Transactions always execute instantly",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_016_d",
+        "text": "Queries never need indexes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_017",
+    "section_id": "section_relational_databases_indexes_intro",
+    "level_id": "level_intermediate",
+    "question": "What is a trade-off of adding an index to a frequently updated column?",
+    "explanation": "While indexes speed up reads, they add overhead to write operations since the index must also be updated.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_017_a",
+        "text": "Faster reads but added overhead on writes",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_017_b",
+        "text": "Slower reads but faster writes",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_017_c",
+        "text": "No effect on reads or writes",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_017_d",
+        "text": "It removes the need for a primary key",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_018",
+    "section_id": "section_relational_databases_indexes_intro",
+    "level_id": "level_intermediate",
+    "question": "Which type of column is generally a good candidate for indexing?",
+    "explanation": "Columns frequently used in WHERE clauses or joins are good candidates for indexing to speed up lookups.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_018_a",
+        "text": "Columns frequently used in WHERE clauses or joins",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_018_b",
+        "text": "Columns that are never queried",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_018_c",
+        "text": "Columns storing large binary files only",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_018_d",
+        "text": "Columns that change on every single write with no reads",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_019",
+    "section_id": "section_relational_databases_schema_design_practice",
+    "level_id": "level_intermediate",
+    "question": "Why might migrations be used when evolving a database schema?",
+    "explanation": "Migrations apply and track incremental, version-controlled changes to a schema over time.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_019_a",
+        "text": "To apply and track incremental, version-controlled schema changes",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_019_b",
+        "text": "To permanently delete all existing data",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_019_c",
+        "text": "To bypass the need for constraints",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_019_d",
+        "text": "To encrypt the entire database",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_020",
+    "section_id": "section_relational_databases_query_optimization_deep_dive",
+    "level_id": "level_advanced",
+    "question": "What is the purpose of using EXPLAIN on a SQL query?",
+    "explanation": "EXPLAIN shows the query execution plan, helping identify inefficient operations like full table scans.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_020_a",
+        "text": "Showing the query execution plan to identify inefficiencies",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_020_b",
+        "text": "Automatically rewriting the query to be faster",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_020_c",
+        "text": "Encrypting the query before it runs",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_020_d",
+        "text": "Deleting unused indexes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_021",
+    "section_id": "section_relational_databases_concurrency_control_deep_dive",
+    "level_id": "level_advanced",
+    "question": "What commonly causes a deadlock between two database transactions?",
+    "explanation": "A deadlock occurs when two transactions each hold a lock the other needs, and neither can proceed.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_021_a",
+        "text": "Two transactions each holding a lock the other needs",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_021_b",
+        "text": "A single transaction running without any locks",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_021_c",
+        "text": "Using too many SELECT statements",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_021_d",
+        "text": "Having too few tables in the database",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_022",
+    "section_id": "section_relational_databases_concurrency_control_deep_dive",
+    "level_id": "level_advanced",
+    "question": "What does a higher transaction isolation level generally trade off against concurrency?",
+    "explanation": "Higher isolation levels reduce anomalies but can reduce concurrency by increasing locking or blocking.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_022_a",
+        "text": "Reduced concurrency due to increased locking or blocking",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_022_b",
+        "text": "No trade-off exists at any isolation level",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_022_c",
+        "text": "Isolation level has no effect on performance",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_022_d",
+        "text": "Higher isolation always improves write speed",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_023",
+    "section_id": "section_relational_databases_advanced_transactions",
+    "level_id": "level_advanced",
+    "question": "What is 'optimistic concurrency control' typically based on?",
+    "explanation": "It assumes conflicts are rare and checks for them at commit time, often using a version or timestamp column.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_023_a",
+        "text": "Checking for conflicts at commit time using a version column",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_023_b",
+        "text": "Locking every row before any read occurs",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_023_c",
+        "text": "Disabling all transactions entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_023_d",
+        "text": "Only allowing one user to access the database at a time",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_024",
+    "section_id": "section_relational_databases_advanced_schema_design",
+    "level_id": "level_advanced",
+    "question": "What is a valid reason to intentionally denormalize part of a schema?",
+    "explanation": "Denormalization can improve read performance for specific, well-understood query patterns at the cost of some redundancy.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_024_a",
+        "text": "Improving read performance for specific, well-understood queries",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_024_b",
+        "text": "It is always required for a schema to be valid",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_024_c",
+        "text": "It removes the need for primary keys",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_024_d",
+        "text": "It guarantees better write performance in all cases",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_025",
+    "section_id": "section_relational_databases_indexing_strategy_production",
+    "level_id": "level_advanced",
+    "question": "What is a composite index?",
+    "explanation": "A composite index is built on multiple columns together, useful for queries that filter or sort on those columns combined.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_025_a",
+        "text": "An index built on multiple columns together",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_025_b",
+        "text": "An index that covers every table in the database",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_025_c",
+        "text": "An index that only works on primary keys",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_025_d",
+        "text": "A temporary index used only during migrations",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_026",
+    "section_id": "section_relational_databases_indexing_strategy_production",
+    "level_id": "level_advanced",
+    "question": "Why might too many indexes on a table hurt overall performance?",
+    "explanation": "Each additional index adds overhead to every write operation, since all relevant indexes must be updated.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_026_a",
+        "text": "Each index adds write overhead since it must also be updated",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_026_b",
+        "text": "Indexes have no impact on write performance",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_026_c",
+        "text": "More indexes always make every query faster with no downside",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_026_d",
+        "text": "Indexes only affect read performance, never writes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_027",
+    "section_id": "section_relational_databases_production_database_considerations",
+    "level_id": "level_advanced",
+    "question": "Why is having a tested backup and recovery strategy critical for production databases?",
+    "explanation": "Untested backups may fail silently, so verifying recovery is essential to actually protect against data loss.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_relational_databases_027_a",
+        "text": "Untested backups may fail silently when actually needed",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_027_b",
+        "text": "Backups are only useful for development databases",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_027_c",
+        "text": "Recovery strategies eliminate the need for monitoring",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_027_d",
+        "text": "Backups guarantee zero downtime during outages",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_028",
+    "section_id": "section_relational_databases_production_database_considerations",
+    "level_id": "level_advanced",
+    "question": "What is a key consideration when using database replication for read scalability?",
+    "explanation": "Replicas may lag behind the primary, so applications must account for potential eventual consistency.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_028_a",
+        "text": "Replicas may lag behind the primary, causing eventual consistency",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_028_b",
+        "text": "Replication guarantees identical data at every instant",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_028_c",
+        "text": "Replication removes the need for backups",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_028_d",
+        "text": "Replication only works for a single-user database",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_029",
+    "section_id": "section_relational_databases_acid_properties",
+    "level_id": "level_intermediate",
+    "question": "What does the 'Durability' property in ACID guarantee?",
+    "explanation": "Durability guarantees that once a transaction is committed, its changes persist even in the event of a system failure.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_029_a",
+        "text": "Committed changes persist even after a system failure",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_029_b",
+        "text": "Transactions always run in parallel",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_029_c",
+        "text": "Data is never written to disk",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_029_d",
+        "text": "Queries always return in constant time",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_relational_databases_030",
+    "section_id": "section_relational_databases_query_optimization_deep_dive",
+    "level_id": "level_advanced",
+    "question": "Why can a missing index on a frequently filtered column cause slow queries?",
+    "explanation": "Without an index, the database may need to scan the entire table to find matching rows, which is slow on large tables.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_relational_databases_030_a",
+        "text": "The database may need to scan the entire table to find matches",
+        "is_correct": true
+      },
+      {
+        "id": "opt_relational_databases_030_b",
+        "text": "Missing indexes only affect INSERT statements",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_030_c",
+        "text": "The database will refuse to run the query at all",
+        "is_correct": false
+      },
+      {
+        "id": "opt_relational_databases_030_d",
+        "text": "It has no effect on query performance",
+        "is_correct": false
+      }
+    ]
+  }
+]

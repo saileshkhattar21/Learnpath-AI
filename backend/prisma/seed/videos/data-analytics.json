@@ -1,0 +1,146 @@
+[
+  {
+    "id": "video_data_analytics_001",
+    "section_id": "section_data_analytics_analytics_fundamentals_section",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "A full course providing foundational spreadsheet and data-handling skills for analytics.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_002",
+    "section_id": "section_data_analytics_data_cleaning_basics",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers data entry and organization relevant to data cleaning practices.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_003",
+    "section_id": "section_data_analytics_excel_essentials",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "A full course covering the Excel interface and core spreadsheet skills.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_004",
+    "section_id": "section_data_analytics_excel_formulas_functions",
+    "title": "Excel Formulas and Functions Course",
+    "description": "A full course covering essential Excel formulas, functions, and cell referencing.",
+    "url": "https://www.youtube.com/watch?v=O3m9m6Ie4gY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_005",
+    "section_id": "section_data_analytics_lookup_functions_section",
+    "title": "Excel Formulas and Functions Course",
+    "description": "Covers lookup-style formulas as part of the full formulas course.",
+    "url": "https://www.youtube.com/watch?v=O3m9m6Ie4gY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_006",
+    "section_id": "section_data_analytics_charts_basics",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers creating charts and graphs as part of the full Excel course.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_007",
+    "section_id": "section_data_analytics_pivot_tables_section",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers Pivot Tables as part of the full Excel course.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_008",
+    "section_id": "section_data_analytics_power_query_section",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers importing and exporting data relevant to Power Query concepts.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_009",
+    "section_id": "section_data_analytics_power_bi_fundamentals",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Provides foundational spreadsheet and data modeling skills relevant to Power BI.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_010",
+    "section_id": "section_data_analytics_dax_fundamentals",
+    "title": "Excel Formulas and Functions Course",
+    "description": "Provides formula-writing foundations relevant to learning DAX syntax.",
+    "url": "https://www.youtube.com/watch?v=O3m9m6Ie4gY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_011",
+    "section_id": "section_data_analytics_kpis_business_analytics",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers the Decision Factors project relevant to defining business metrics.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_012",
+    "section_id": "section_data_analytics_advanced_charts_visualization",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Provides charting foundations relevant to advanced visualization techniques.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_013",
+    "section_id": "section_data_analytics_advanced_dax",
+    "title": "Excel Formulas and Functions Course",
+    "description": "Provides advanced formula-writing skills relevant to complex DAX measures.",
+    "url": "https://www.youtube.com/watch?v=O3m9m6Ie4gY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_014",
+    "section_id": "section_data_analytics_dashboard_design_section",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers the Sales Database project relevant to dashboard layout practices.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_015",
+    "section_id": "section_data_analytics_advanced_power_query_modeling",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers data import/export and modeling foundations relevant to Power Query.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_016",
+    "section_id": "section_data_analytics_advanced_business_analytics",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers the Decision Factors project relevant to advanced business analysis.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_017",
+    "section_id": "section_data_analytics_analytics_at_scale",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers the Car Inventory and Sales Database projects relevant to larger datasets.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_data_analytics_018",
+    "section_id": "section_data_analytics_production_reporting_practices",
+    "title": "Learn Microsoft Excel - Full Video Course",
+    "description": "Covers the Problem Solving Templates section relevant to ongoing reporting practices.",
+    "url": "https://youtu.be/Vl0H-qTclOg",
+    "channel": "freeCodeCamp.org"
+  }
+]

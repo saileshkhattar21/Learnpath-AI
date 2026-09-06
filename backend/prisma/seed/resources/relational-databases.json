@@ -1,0 +1,182 @@
+[
+  {
+    "id": "resource_relational_databases_001",
+    "section_id": "section_relational_databases_database_fundamentals_section",
+    "title": "PostgreSQL Tutorial",
+    "description": "Official PostgreSQL documentation's introductory tutorial.",
+    "url": "https://www.postgresql.org/docs/current/tutorial.html",
+    "source": "PostgreSQL",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_relational_databases_002",
+    "section_id": "section_relational_databases_relational_modeling_basics",
+    "title": "PostgreSQL: Data Definition",
+    "description": "Official PostgreSQL documentation on defining tables and relationships.",
+    "url": "https://www.postgresql.org/docs/current/ddl.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_003",
+    "section_id": "section_relational_databases_sql_fundamentals",
+    "title": "PostgreSQL: The SQL Language",
+    "description": "Official PostgreSQL chapter covering core SQL syntax and queries.",
+    "url": "https://www.postgresql.org/docs/current/queries.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_004",
+    "section_id": "section_relational_databases_sql_fundamentals",
+    "title": "SELECT reference",
+    "description": "Official PostgreSQL reference for the SELECT statement.",
+    "url": "https://www.postgresql.org/docs/current/sql-select.html",
+    "source": "PostgreSQL",
+    "type": "reference"
+  },
+  {
+    "id": "resource_relational_databases_005",
+    "section_id": "section_relational_databases_joins_basics",
+    "title": "PostgreSQL: Joins between tables",
+    "description": "Official documentation explaining SQL join types.",
+    "url": "https://www.postgresql.org/docs/current/tutorial-join.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_006",
+    "section_id": "section_relational_databases_aggregations_basics",
+    "title": "PostgreSQL: Aggregate functions",
+    "description": "Official documentation on aggregate functions like COUNT and SUM.",
+    "url": "https://www.postgresql.org/docs/current/tutorial-agg.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_007",
+    "section_id": "section_relational_databases_constraints_basics",
+    "title": "PostgreSQL: Constraints",
+    "description": "Official documentation covering primary keys, foreign keys, and other constraints.",
+    "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_008",
+    "section_id": "section_relational_databases_normalization_deep_dive",
+    "title": "Database normalization",
+    "description": "MDN's explanation of relational database structure and normalization concepts.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology",
+    "source": "MDN",
+    "type": "article"
+  },
+  {
+    "id": "resource_relational_databases_009",
+    "section_id": "section_relational_databases_normalization_deep_dive",
+    "title": "PostgreSQL: Data Definition",
+    "description": "Reference for designing well-structured table schemas.",
+    "url": "https://www.postgresql.org/docs/current/ddl.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_010",
+    "section_id": "section_relational_databases_schema_design_practice",
+    "title": "Prisma schema reference",
+    "description": "Official documentation for defining a relational schema with Prisma.",
+    "url": "https://www.prisma.io/docs/orm/prisma-schema",
+    "source": "Prisma",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_011",
+    "section_id": "section_relational_databases_advanced_sql_queries",
+    "title": "PostgreSQL: Subqueries",
+    "description": "Official documentation on writing subqueries in PostgreSQL.",
+    "url": "https://www.postgresql.org/docs/current/functions-subquery.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_012",
+    "section_id": "section_relational_databases_transactions_intro",
+    "title": "PostgreSQL: Transactions",
+    "description": "Official documentation introducing transactions in PostgreSQL.",
+    "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_013",
+    "section_id": "section_relational_databases_acid_properties",
+    "title": "PostgreSQL: Transaction Isolation",
+    "description": "Official documentation covering isolation levels and ACID guarantees.",
+    "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_014",
+    "section_id": "section_relational_databases_indexes_intro",
+    "title": "PostgreSQL: Indexes",
+    "description": "Official introductory documentation on how and when to use indexes.",
+    "url": "https://www.postgresql.org/docs/current/indexes.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_015",
+    "section_id": "section_relational_databases_query_optimization_deep_dive",
+    "title": "PostgreSQL: Using EXPLAIN",
+    "description": "Official documentation on reading query execution plans.",
+    "url": "https://www.postgresql.org/docs/current/using-explain.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_016",
+    "section_id": "section_relational_databases_concurrency_control_deep_dive",
+    "title": "PostgreSQL: Concurrency Control",
+    "description": "Official documentation covering how PostgreSQL manages concurrent access.",
+    "url": "https://www.postgresql.org/docs/current/mvcc.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_017",
+    "section_id": "section_relational_databases_advanced_transactions",
+    "title": "PostgreSQL: Transaction Isolation",
+    "description": "Reference on isolation levels relevant to advanced transactional design.",
+    "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+    "source": "PostgreSQL",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_018",
+    "section_id": "section_relational_databases_advanced_schema_design",
+    "title": "Prisma schema reference",
+    "description": "Reference documentation useful for designing evolving production schemas.",
+    "url": "https://www.prisma.io/docs/orm/prisma-schema",
+    "source": "Prisma",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_relational_databases_019",
+    "section_id": "section_relational_databases_indexing_strategy_production",
+    "title": "PostgreSQL: Index Types",
+    "description": "Official documentation on the different index types available in PostgreSQL.",
+    "url": "https://www.postgresql.org/docs/current/indexes-types.html",
+    "source": "PostgreSQL",
+    "type": "reference"
+  },
+  {
+    "id": "resource_relational_databases_020",
+    "section_id": "section_relational_databases_production_database_considerations",
+    "title": "PostgreSQL: Backup and Restore",
+    "description": "Official documentation on backup and recovery strategies.",
+    "url": "https://www.postgresql.org/docs/current/backup.html",
+    "source": "PostgreSQL",
+    "type": "official-guide"
+  }
+]

@@ -1,52 +1,302 @@
 [
-  {"id": "skill_html", "slug": "html", "name": "HTML", "description": "Semantic markup, document structure, and accessibility for web pages."},
-  {"id": "skill_css", "slug": "css", "name": "CSS", "description": "Styling, box model, layouts, flexbox, grid, and visual design."},
-  {"id": "skill_responsive_design", "slug": "responsive-design", "name": "Responsive Design", "description": "Media queries, mobile-first design, fluid grids, and adaptive layouts."},
-  {"id": "skill_javascript", "slug": "javascript", "name": "JavaScript", "description": "Core JavaScript syntax, data types, ES6+ features, and modern logic."},
-  {"id": "skill_dom", "slug": "dom-manipulation", "name": "DOM Manipulation", "description": "Interacting with document object model elements and handling browser events."},
-  {"id": "skill_browser_apis", "slug": "browser-apis", "name": "Browser APIs", "description": "Fetch API, Web Storage, Geolocation, and browser context environments."},
-  {"id": "skill_http", "slug": "http-apis", "name": "HTTP & REST APIs", "description": "HTTP methods, headers, status codes, REST architecture, and JSON data exchange."},
-  {"id": "skill_react_basics", "slug": "react-basics", "name": "React Basics", "description": "JSX, functional components, props, and component tree fundamentals."},
-  {"id": "skill_react_hooks", "slug": "react-hooks", "name": "React Hooks & State", "description": "useState, useEffect, custom hooks, and local component state management."},
-  {"id": "skill_react_architecture", "slug": "react-architecture", "name": "React Component Architecture", "description": "Component patterns, context API, state lifting, and application structure."},
-  {"id": "skill_frontend_performance", "slug": "frontend-performance", "name": "Frontend Performance", "description": "Code splitting, lazy loading, memoization, rendering optimization, and Core Web Vitals."},
-  {"id": "skill_frontend_testing", "slug": "frontend-testing", "name": "Frontend Testing", "description": "Unit testing, integration testing, component testing using Jest and React Testing Library."},
-  {"id": "skill_nodejs", "slug": "nodejs", "name": "Node.js Fundamentals", "description": "Node runtime environment, module pattern, global objects, and CLI execution."},
-  {"id": "skill_npm", "slug": "npm-modules", "name": "npm & Modules", "description": "Package management, CommonJS vs ES Modules, semantic versioning, and package.json."},
-  {"id": "skill_async_js", "slug": "async-javascript", "name": "Asynchronous JavaScript", "description": "Callbacks, Promises, async/await, and non-blocking asynchronous execution patterns."},
-  {"id": "skill_event_loop", "slug": "event-loop", "name": "Event Loop & Concurrency", "description": "Node.js event loop execution phases, microtasks, macrotasks, and libuv threads."},
-  {"id": "skill_express", "slug": "expressjs", "name": "Express Framework", "description": "Routing, server setup, request handling, and middleware integration in Express."},
-  {"id": "skill_middleware", "slug": "express-middleware", "name": "Express Middleware", "description": "Custom middleware design, error handlers, third-party middleware, and execution flow."},
-  {"id": "skill_auth", "slug": "authentication-authorization", "name": "Auth & Security", "description": "JWT, session management, password hashing, OAuth concepts, and role-based access control."},
-  {"id": "skill_db_integration", "slug": "database-integration", "name": "Database Integration", "description": "Connecting ORMs/ODMs or query builders (Prisma, Pg) to backend web applications."},
-  {"id": "skill_backend_architecture", "slug": "backend-architecture", "name": "Backend Architecture", "description": "Layered design, controller-service-repository patterns, scalability, and modularization."},
-  {"id": "skill_backend_security", "slug": "backend-security", "name": "Backend Security", "description": "OWASP top 10 protection, rate limiting, sanitization, CORS, and secret management."},
-  {"id": "skill_backend_testing", "slug": "backend-testing", "name": "Backend Testing & CI", "description": "API integration testing, unit testing routes, mock dependencies, and automated tests."},
-  {"id": "skill_linux", "slug": "linux-fundamentals", "name": "Linux Fundamentals", "description": "Command line interface, bash scripting, file permissions, processes, and environment variables."},
-  {"id": "skill_git", "slug": "git", "name": "Git & Version Control", "description": "Branching strategies, merging, rebase, resolving conflicts, and GitHub collaboration workflows."},
-  {"id": "skill_networking", "slug": "networking-fundamentals", "name": "Networking Fundamentals", "description": "TCP/IP, DNS, OSI model, ports, firewalls, reverse proxies, and SSL/TLS certificates."},
-  {"id": "skill_cloud_concepts", "slug": "cloud-concepts", "name": "Cloud Computing Fundamentals", "description": "IaaS, PaaS, SaaS delivery models, cloud elasticity, and shared responsibility frameworks."},
-  {"id": "skill_aws_basics", "slug": "aws-fundamentals", "name": "AWS Core Services", "description": "EC2 compute instances, S3 object storage, IAM access management, and VPC basics."},
-  {"id": "skill_docker", "slug": "docker-containers", "name": "Docker & Containerization", "description": "Dockerfiles, container images, volumes, networking, multi-stage builds, and Docker Compose."},
-  {"id": "skill_cicd", "slug": "cicd-pipelines", "name": "CI/CD Pipelines", "description": "GitHub Actions, automated build/test/deploy workflows, deployment strategies, and environments."},
-  {"id": "skill_monitoring", "slug": "monitoring-logging", "name": "Monitoring & Logging", "description": "Application logs, system metrics, alerting, health checks, and observability setups."},
-  {"id": "skill_db_fundamentals", "slug": "database-fundamentals", "name": "Database Fundamentals", "description": "Relational data structures, schemas, data types, and ACID transaction principles."},
-  {"id": "skill_sql", "slug": "sql-queries", "name": "SQL Data Manipulation", "description": "SELECT, INSERT, UPDATE, DELETE statements, filtering (WHERE), and sorting (ORDER BY)."},
-  {"id": "skill_sql_joins", "slug": "sql-joins-aggregates", "name": "SQL Joins & Aggregates", "description": "INNER, LEFT, RIGHT, FULL OUTER JOINs, GROUP BY, HAVING, and aggregate functions."},
-  {"id": "skill_normalization", "slug": "normalization-schema-design", "name": "Normalization & Schema Design", "description": "1NF, 2NF, 3NF rules, entity-relationship modeling, and foreign key constraints."},
-  {"id": "skill_transactions", "slug": "transactions-acid", "name": "Transactions & Concurrency", "description": "BEGIN, COMMIT, ROLLBACK, transaction isolation levels, and locking mechanisms."},
-  {"id": "skill_indexes", "slug": "indexing-optimization", "name": "Indexes & Query Tuning", "description": "B-tree indexes, EXPLAIN query execution plans, index scan types, and query performance tuning."},
-  {"id": "skill_ai_fundamentals", "slug": "ai-fundamentals", "name": "AI & ML Principles", "description": "Core concepts of artificial intelligence, supervised, unsupervised, and reinforcement learning."},
-  {"id": "skill_python_ml", "slug": "python-for-ml", "name": "Python for Data Science", "description": "NumPy arrays, Pandas DataFrames, data manipulation, and vectorized calculations."},
-  {"id": "skill_statistics", "slug": "basic-statistics", "name": "Statistics & Probability", "description": "Mean, median, standard deviation, distributions, correlation, and hypothesis testing."},
-  {"id": "skill_ml_algorithms", "slug": "ml-algorithms", "name": "Classical ML Algorithms", "description": "Linear/logistic regression, decision trees, random forests, and k-means clustering."},
-  {"id": "skill_model_evaluation", "slug": "model-evaluation", "name": "Model Evaluation & Tuning", "description": "Precision, recall, F1-score, ROC-AUC, cross-validation, hyperparameter optimization, and overfitting."},
-  {"id": "skill_deep_learning", "slug": "deep-learning", "name": "Deep Learning & Neural Networks", "description": "Perceptrons, backpropagation, activation functions, loss functions, and neural network architectures."},
-  {"id": "skill_transformers_llms", "slug": "transformers-llms", "name": "Transformers & LLMs", "description": "Self-attention mechanisms, transformer architecture, embeddings, prompt design, and fine-tuning."},
-  {"id": "skill_rag", "slug": "rag-ai-architecture", "name": "RAG & AI Applications", "description": "Retrieval-Augmented Generation, vector databases, chunking strategies, and AI agent integration."},
-  {"id": "skill_analytics_basics", "slug": "analytics-fundamentals", "name": "Analytics Fundamentals", "description": "Descriptive vs predictive analytics, business metrics, KPIs, and data problem formulation."},
-  {"id": "skill_excel_formulas", "slug": "excel-formulas-functions", "name": "Excel Formulas & Functions", "description": "VLOOKUP, XLOOKUP, INDEX/MATCH, IF, AND/OR, SUMIFS, and string functions in Excel."},
-  {"id": "skill_excel_pivots", "slug": "excel-pivot-tables", "name": "Excel Pivot Tables & Charts", "description": "Data aggregation using Pivot Tables, dynamic slicers, conditional formatting, and visualization."},
-  {"id": "skill_powerbi_basics", "slug": "powerbi-fundamentals", "name": "Power BI & Power Query", "description": "Importing heterogeneous data, cleaning/transforming data with Power Query, and star schemas."},
-  {"id": "skill_dax", "slug": "dax-measures", "name": "DAX Fundamentals", "description": "Calculated columns, custom DAX measures, CALCULATE context, and time intelligence functions."}
+  {
+    "id": "skill_html",
+    "slug": "html",
+    "name": "HTML",
+    "description": "Semantic markup, document structure, and accessibility for web pages."
+  },
+  {
+    "id": "skill_css",
+    "slug": "css",
+    "name": "CSS",
+    "description": "Styling, box model, layouts, flexbox, grid, and visual design."
+  },
+  {
+    "id": "skill_responsive_design",
+    "slug": "responsive-design",
+    "name": "Responsive Design",
+    "description": "Media queries, mobile-first design, fluid grids, and adaptive layouts."
+  },
+  {
+    "id": "skill_javascript",
+    "slug": "javascript",
+    "name": "JavaScript",
+    "description": "Core JavaScript syntax, data types, ES6+ features, and modern logic."
+  },
+  {
+    "id": "skill_dom",
+    "slug": "dom-manipulation",
+    "name": "DOM Manipulation",
+    "description": "Interacting with document object model elements and handling browser events."
+  },
+  {
+    "id": "skill_browser_apis",
+    "slug": "browser-apis",
+    "name": "Browser APIs",
+    "description": "Fetch API, Web Storage, Geolocation, and browser context environments."
+  },
+  {
+    "id": "skill_http",
+    "slug": "http-apis",
+    "name": "HTTP & REST APIs",
+    "description": "HTTP methods, headers, status codes, REST architecture, and JSON data exchange."
+  },
+  {
+    "id": "skill_react_basics",
+    "slug": "react-basics",
+    "name": "React Basics",
+    "description": "JSX, functional components, props, and component tree fundamentals."
+  },
+  {
+    "id": "skill_react_hooks",
+    "slug": "react-hooks",
+    "name": "React Hooks & State",
+    "description": "useState, useEffect, custom hooks, and local component state management."
+  },
+  {
+    "id": "skill_react_architecture",
+    "slug": "react-architecture",
+    "name": "React Component Architecture",
+    "description": "Component patterns, context API, state lifting, and application structure."
+  },
+  {
+    "id": "skill_frontend_performance",
+    "slug": "frontend-performance",
+    "name": "Frontend Performance",
+    "description": "Code splitting, lazy loading, memoization, rendering optimization, and Core Web Vitals."
+  },
+  {
+    "id": "skill_frontend_testing",
+    "slug": "frontend-testing",
+    "name": "Frontend Testing",
+    "description": "Unit testing, integration testing, component testing using Jest and React Testing Library."
+  },
+  {
+    "id": "skill_nodejs",
+    "slug": "nodejs",
+    "name": "Node.js Fundamentals",
+    "description": "Node runtime environment, module pattern, global objects, and CLI execution."
+  },
+  {
+    "id": "skill_npm",
+    "slug": "npm-modules",
+    "name": "npm & Modules",
+    "description": "Package management, CommonJS vs ES Modules, semantic versioning, and package.json."
+  },
+  {
+    "id": "skill_async_js",
+    "slug": "async-javascript",
+    "name": "Asynchronous JavaScript",
+    "description": "Callbacks, Promises, async/await, and non-blocking asynchronous execution patterns."
+  },
+  {
+    "id": "skill_event_loop",
+    "slug": "event-loop",
+    "name": "Event Loop & Concurrency",
+    "description": "Node.js event loop execution phases, microtasks, macrotasks, and libuv threads."
+  },
+  {
+    "id": "skill_express",
+    "slug": "expressjs",
+    "name": "Express Framework",
+    "description": "Routing, server setup, request handling, and middleware integration in Express."
+  },
+  {
+    "id": "skill_middleware",
+    "slug": "express-middleware",
+    "name": "Express Middleware",
+    "description": "Custom middleware design, error handlers, third-party middleware, and execution flow."
+  },
+  {
+    "id": "skill_auth",
+    "slug": "authentication-authorization",
+    "name": "Auth & Security",
+    "description": "JWT, session management, password hashing, OAuth concepts, and role-based access control."
+  },
+  {
+    "id": "skill_db_integration",
+    "slug": "database-integration",
+    "name": "Database Integration",
+    "description": "Connecting ORMs/ODMs or query builders (Prisma, Pg) to backend web applications."
+  },
+  {
+    "id": "skill_backend_architecture",
+    "slug": "backend-architecture",
+    "name": "Backend Architecture",
+    "description": "Layered design, controller-service-repository patterns, scalability, and modularization."
+  },
+  {
+    "id": "skill_backend_security",
+    "slug": "backend-security",
+    "name": "Backend Security",
+    "description": "OWASP top 10 protection, rate limiting, sanitization, CORS, and secret management."
+  },
+  {
+    "id": "skill_backend_testing",
+    "slug": "backend-testing",
+    "name": "Backend Testing & CI",
+    "description": "API integration testing, unit testing routes, mock dependencies, and automated tests."
+  },
+  {
+    "id": "skill_linux",
+    "slug": "linux-fundamentals",
+    "name": "Linux Fundamentals",
+    "description": "Command line interface, bash scripting, file permissions, processes, and environment variables."
+  },
+  {
+    "id": "skill_git",
+    "slug": "git",
+    "name": "Git & Version Control",
+    "description": "Branching strategies, merging, rebase, resolving conflicts, and GitHub collaboration workflows."
+  },
+  {
+    "id": "skill_networking",
+    "slug": "networking-fundamentals",
+    "name": "Networking Fundamentals",
+    "description": "TCP/IP, DNS, OSI model, ports, firewalls, reverse proxies, and SSL/TLS certificates."
+  },
+  {
+    "id": "skill_cloud_concepts",
+    "slug": "cloud-concepts",
+    "name": "Cloud Computing Fundamentals",
+    "description": "IaaS, PaaS, SaaS delivery models, cloud elasticity, and shared responsibility frameworks."
+  },
+  {
+    "id": "skill_aws_basics",
+    "slug": "aws-fundamentals",
+    "name": "AWS Core Services",
+    "description": "EC2 compute instances, S3 object storage, IAM access management, and VPC basics."
+  },
+  {
+    "id": "skill_docker",
+    "slug": "docker-containers",
+    "name": "Docker & Containerization",
+    "description": "Dockerfiles, container images, volumes, networking, multi-stage builds, and Docker Compose."
+  },
+  {
+    "id": "skill_cicd",
+    "slug": "cicd-pipelines",
+    "name": "CI/CD Pipelines",
+    "description": "GitHub Actions, automated build/test/deploy workflows, deployment strategies, and environments."
+  },
+  {
+    "id": "skill_monitoring",
+    "slug": "monitoring-logging",
+    "name": "Monitoring & Logging",
+    "description": "Application logs, system metrics, alerting, health checks, and observability setups."
+  },
+  {
+    "id": "skill_db_fundamentals",
+    "slug": "database-fundamentals",
+    "name": "Database Fundamentals",
+    "description": "Relational data structures, schemas, data types, and ACID transaction principles."
+  },
+  {
+    "id": "skill_sql",
+    "slug": "sql-queries",
+    "name": "SQL Data Manipulation",
+    "description": "SELECT, INSERT, UPDATE, DELETE statements, filtering (WHERE), and sorting (ORDER BY)."
+  },
+  {
+    "id": "skill_sql_joins",
+    "slug": "sql-joins-aggregates",
+    "name": "SQL Joins & Aggregates",
+    "description": "INNER, LEFT, RIGHT, FULL OUTER JOINs, GROUP BY, HAVING, and aggregate functions."
+  },
+  {
+    "id": "skill_normalization",
+    "slug": "normalization-schema-design",
+    "name": "Normalization & Schema Design",
+    "description": "1NF, 2NF, 3NF rules, entity-relationship modeling, and foreign key constraints."
+  },
+  {
+    "id": "skill_transactions",
+    "slug": "transactions-acid",
+    "name": "Transactions & Concurrency",
+    "description": "BEGIN, COMMIT, ROLLBACK, transaction isolation levels, and locking mechanisms."
+  },
+  {
+    "id": "skill_indexes",
+    "slug": "indexing-optimization",
+    "name": "Indexes & Query Tuning",
+    "description": "B-tree indexes, EXPLAIN query execution plans, index scan types, and query performance tuning."
+  },
+  {
+    "id": "skill_ai_fundamentals",
+    "slug": "ai-fundamentals",
+    "name": "AI & ML Principles",
+    "description": "Core concepts of artificial intelligence, supervised, unsupervised, and reinforcement learning."
+  },
+  {
+    "id": "skill_python_ml",
+    "slug": "python-for-ml",
+    "name": "Python for Data Science",
+    "description": "NumPy arrays, Pandas DataFrames, data manipulation, and vectorized calculations."
+  },
+  {
+    "id": "skill_statistics",
+    "slug": "basic-statistics",
+    "name": "Statistics & Probability",
+    "description": "Mean, median, standard deviation, distributions, correlation, and hypothesis testing."
+  },
+  {
+    "id": "skill_ml_algorithms",
+    "slug": "ml-algorithms",
+    "name": "Classical ML Algorithms",
+    "description": "Linear/logistic regression, decision trees, random forests, and k-means clustering."
+  },
+  {
+    "id": "skill_model_evaluation",
+    "slug": "model-evaluation",
+    "name": "Model Evaluation & Tuning",
+    "description": "Precision, recall, F1-score, ROC-AUC, cross-validation, hyperparameter optimization, and overfitting."
+  },
+  {
+    "id": "skill_deep_learning",
+    "slug": "deep-learning",
+    "name": "Deep Learning & Neural Networks",
+    "description": "Perceptrons, backpropagation, activation functions, loss functions, and neural network architectures."
+  },
+  {
+    "id": "skill_transformers_llms",
+    "slug": "transformers-llms",
+    "name": "Transformers & LLMs",
+    "description": "Self-attention mechanisms, transformer architecture, embeddings, prompt design, and fine-tuning."
+  },
+  {
+    "id": "skill_rag",
+    "slug": "rag-ai-architecture",
+    "name": "RAG & AI Applications",
+    "description": "Retrieval-Augmented Generation, vector databases, chunking strategies, and AI agent integration."
+  },
+  {
+    "id": "skill_analytics_basics",
+    "slug": "analytics-fundamentals",
+    "name": "Analytics Fundamentals",
+    "description": "Descriptive vs predictive analytics, business metrics, KPIs, and data problem formulation."
+  },
+  {
+    "id": "skill_excel_formulas",
+    "slug": "excel-formulas-functions",
+    "name": "Excel Formulas & Functions",
+    "description": "VLOOKUP, XLOOKUP, INDEX/MATCH, IF, AND/OR, SUMIFS, and string functions in Excel."
+  },
+  {
+    "id": "skill_excel_pivots",
+    "slug": "excel-pivot-tables",
+    "name": "Excel Pivot Tables & Charts",
+    "description": "Data aggregation using Pivot Tables, dynamic slicers, conditional formatting, and visualization."
+  },
+  {
+    "id": "skill_powerbi_basics",
+    "slug": "powerbi-fundamentals",
+    "name": "Power BI & Power Query",
+    "description": "Importing heterogeneous data, cleaning/transforming data with Power Query, and star schemas."
+  },
+  {
+    "id": "skill_dax",
+    "slug": "dax-measures",
+    "name": "DAX Fundamentals",
+    "description": "Calculated columns, custom DAX measures, CALCULATE context, and time intelligence functions."
+  }
 ]

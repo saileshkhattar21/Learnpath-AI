@@ -77,7 +77,7 @@ export default function DashboardPage() {
                 <h2 className="font-display text-lg font-medium text-[var(--text-ink-strong)]">
                   {track.name}
                 </h2>
-                <p className="mt-2 text-sm leading-relaxed text-[var(--text-muted)]">
+                <p className="mt-2 text-sm leading-relaxed text-[var(--text-muted)] text-justify">
                   {track.description}
                 </p>
                 <span className="mt-4 text-xs text-[var(--text-muted)]">

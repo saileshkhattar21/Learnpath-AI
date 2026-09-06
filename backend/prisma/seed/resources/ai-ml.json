@@ -1,0 +1,173 @@
+[
+  {
+    "id": "resource_ai_ml_001",
+    "section_id": "section_ai_ml_ai_ml_fundamentals_section",
+    "title": "Python.org: What is machine learning?",
+    "description": "scikit-learn's introductory overview of machine learning concepts.",
+    "url": "https://scikit-learn.org/stable/tutorial/basic/tutorial.html",
+    "source": "scikit-learn",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_ai_ml_002",
+    "section_id": "section_ai_ml_python_for_ml",
+    "title": "Python official tutorial",
+    "description": "The official Python tutorial covering core language fundamentals.",
+    "url": "https://docs.python.org/3/tutorial/",
+    "source": "Python",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_ai_ml_003",
+    "section_id": "section_ai_ml_numpy_fundamentals",
+    "title": "NumPy quickstart",
+    "description": "Official NumPy documentation's quickstart guide to arrays and operations.",
+    "url": "https://numpy.org/doc/stable/user/quickstart.html",
+    "source": "NumPy",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_ai_ml_004",
+    "section_id": "section_ai_ml_pandas_fundamentals",
+    "title": "10 minutes to pandas",
+    "description": "Official Pandas documentation's quickstart guide to DataFrames.",
+    "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+    "source": "Pandas",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_ai_ml_005",
+    "section_id": "section_ai_ml_statistics_probability_basics",
+    "title": "Python statistics module",
+    "description": "Official Python documentation for the built-in statistics module.",
+    "url": "https://docs.python.org/3/library/statistics.html",
+    "source": "Python",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_006",
+    "section_id": "section_ai_ml_intro_supervised_learning",
+    "title": "scikit-learn: Supervised learning",
+    "description": "Official scikit-learn documentation introducing supervised learning.",
+    "url": "https://scikit-learn.org/stable/supervised_learning.html",
+    "source": "scikit-learn",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_007",
+    "section_id": "section_ai_ml_classical_ml_algorithms_section",
+    "title": "scikit-learn: Linear Models",
+    "description": "Official documentation covering linear and logistic regression.",
+    "url": "https://scikit-learn.org/stable/modules/linear_model.html",
+    "source": "scikit-learn",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_008",
+    "section_id": "section_ai_ml_classical_ml_algorithms_section",
+    "title": "scikit-learn: Decision Trees",
+    "description": "Official documentation on decision tree algorithms.",
+    "url": "https://scikit-learn.org/stable/modules/tree.html",
+    "source": "scikit-learn",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_009",
+    "section_id": "section_ai_ml_unsupervised_learning_section",
+    "title": "scikit-learn: Clustering",
+    "description": "Official documentation covering clustering algorithms like k-means.",
+    "url": "https://scikit-learn.org/stable/modules/clustering.html",
+    "source": "scikit-learn",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_010",
+    "section_id": "section_ai_ml_model_evaluation_section",
+    "title": "scikit-learn: Model evaluation",
+    "description": "Official documentation on metrics and evaluation techniques.",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "source": "scikit-learn",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_011",
+    "section_id": "section_ai_ml_feature_engineering_section",
+    "title": "scikit-learn: Preprocessing data",
+    "description": "Official documentation covering feature scaling and encoding.",
+    "url": "https://scikit-learn.org/stable/modules/preprocessing.html",
+    "source": "scikit-learn",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_012",
+    "section_id": "section_ai_ml_overfitting_generalization",
+    "title": "scikit-learn: Underfitting vs Overfitting",
+    "description": "Official scikit-learn example explaining overfitting and underfitting.",
+    "url": "https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html",
+    "source": "scikit-learn",
+    "type": "article"
+  },
+  {
+    "id": "resource_ai_ml_013",
+    "section_id": "section_ai_ml_deep_learning_intro",
+    "title": "TensorFlow: Introduction to neural networks",
+    "description": "Official TensorFlow guide introducing neural networks with Keras.",
+    "url": "https://www.tensorflow.org/guide/keras/sequential_model",
+    "source": "TensorFlow",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_014",
+    "section_id": "section_ai_ml_neural_networks_deep_dive",
+    "title": "PyTorch: Neural Networks",
+    "description": "Official PyTorch tutorial on building and training neural networks.",
+    "url": "https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html",
+    "source": "PyTorch",
+    "type": "official-guide"
+  },
+  {
+    "id": "resource_ai_ml_015",
+    "section_id": "section_ai_ml_transformers_section",
+    "title": "Hugging Face: What is a Transformer?",
+    "description": "Official Hugging Face documentation introducing the transformer architecture.",
+    "url": "https://huggingface.co/learn/nlp-course/chapter1/4",
+    "source": "Hugging Face",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_016",
+    "section_id": "section_ai_ml_llms_section",
+    "title": "Anthropic: Introduction to large language models",
+    "description": "Anthropic's overview of how large language models work.",
+    "url": "https://docs.claude.com/en/docs/about-claude/models/overview",
+    "source": "Anthropic",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_017",
+    "section_id": "section_ai_ml_embeddings_section",
+    "title": "OpenAI: Embeddings guide",
+    "description": "A widely referenced guide explaining embeddings and their use cases.",
+    "url": "https://platform.openai.com/docs/guides/embeddings",
+    "source": "OpenAI",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_018",
+    "section_id": "section_ai_ml_rag_section",
+    "title": "Anthropic: Retrieval augmented generation",
+    "description": "Official Anthropic documentation on building RAG systems with Claude.",
+    "url": "https://docs.claude.com/en/docs/build-with-claude/embeddings",
+    "source": "Anthropic",
+    "type": "documentation"
+  },
+  {
+    "id": "resource_ai_ml_019",
+    "section_id": "section_ai_ml_ai_app_architecture_section",
+    "title": "Anthropic: Build with Claude overview",
+    "description": "Official Anthropic documentation on designing applications powered by Claude.",
+    "url": "https://docs.claude.com/en/docs/build-with-claude/overview",
+    "source": "Anthropic",
+    "type": "official-guide"
+  }
+]

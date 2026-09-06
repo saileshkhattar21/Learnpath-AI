@@ -128,43 +128,44 @@ export default function StudyPage() {
         >
           LearnPath AI
         </button>
-        <div className="flex items-center gap-4">
-          <button
-            onClick={handleReassess}
-            className="rounded-md border border-[var(--line)] px-3 py-1.5 text-xs font-medium text-[var(--text-muted)] hover:border-[var(--waypoint)] hover:text-[var(--text-ink-strong)]"
-          >
-            Reassess my path
-          </button>
-          <UserButton afterSignOutUrl="/sign-in" />
-        </div>
       </header>
 
       {/* Level tabs */}
-      <div className="flex gap-2 border-b border-[var(--line)] px-8 pt-6">
-        {study.levels.map((level) => (
-          <button
-            key={level.rank}
-            disabled={!level.unlocked}
-            onClick={() => {
-              setActiveRank(level.rank);
-              setActiveItemId(level.items[0]?.id);
-            }}
-            className={`flex items-center gap-2 rounded-t-md px-4 py-2.5 text-sm font-medium transition-colors ${
-              activeRank === level.rank
-                ? "border-b-2 border-[var(--waypoint)] text-[var(--text-ink-strong)]"
-                : level.unlocked
-                  ? "text-[var(--text-muted)] hover:text-[var(--text-ink-strong)]"
-                  : "cursor-not-allowed text-[var(--text-muted)] opacity-40"
-            }`}
-          >
-            {!level.unlocked && (
-              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 fill-current">
-                <path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v9a2 2 0 002 2h12a2 2 0 002-2v-9a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z" />
-              </svg>
-            )}
-            {level.levelName}
-          </button>
-        ))}
+      <div className="flex justify-between">
+        <div className="flex gap-2 border-b border-[var(--line)] px-8 pt-6">
+          {study.levels.map((level) => (
+            <button
+              key={level.rank}
+              disabled={!level.unlocked}
+              onClick={() => {
+                setActiveRank(level.rank);
+                setActiveItemId(level.items[0]?.id);
+              }}
+              className={`flex items-center gap-2 rounded-t-md px-4 py-2.5 text-sm font-medium transition-colors ${
+                activeRank === level.rank
+                  ? "border-b-2 border-[var(--waypoint)] text-[var(--text-ink-strong)]"
+                  : level.unlocked
+                    ? "text-[var(--text-muted)] hover:text-[var(--text-ink-strong)]"
+                    : "cursor-not-allowed text-[var(--text-muted)] opacity-40"
+              }`}
+            >
+              {!level.unlocked && (
+                <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 fill-current">
+                  <path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v9a2 2 0 002 2h12a2 2 0 002-2v-9a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z" />
+                </svg>
+              )}
+
+              {level.levelName}
+            </button>
+          ))}
+        </div>
+
+        <button
+          onClick={handleReassess}
+          className="rounded-md bg-[var(--waypoint)] px-5 py-2.5 text-sm font-medium text-[#1c1a12] hover:bg-[var(--waypoint-strong)]"
+        >
+          Reassess my path
+        </button>
       </div>
 
       <div className="mx-auto grid max-w-6xl grid-cols-[1fr_260px] gap-8 px-8 py-10">

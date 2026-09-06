@@ -1,0 +1,146 @@
+[
+  {
+    "id": "video_ai_ml_001",
+    "section_id": "section_ai_ml_ai_ml_fundamentals_section",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Covers the fundamentals and roadmap of machine learning for beginners.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_002",
+    "section_id": "section_ai_ml_python_for_ml",
+    "title": "Learn Python - Full Course for Beginners",
+    "description": "A full beginner course covering core Python programming fundamentals.",
+    "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_003",
+    "section_id": "section_ai_ml_numpy_fundamentals",
+    "title": "Learn Python - Full Course for Beginners",
+    "description": "Provides Python fundamentals needed before working with NumPy.",
+    "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_004",
+    "section_id": "section_ai_ml_pandas_fundamentals",
+    "title": "Learn Python - Full Course for Beginners",
+    "description": "Provides Python fundamentals needed before working with Pandas.",
+    "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_005",
+    "section_id": "section_ai_ml_statistics_probability_basics",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Covers descriptive statistics as part of the ML fundamentals course.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_006",
+    "section_id": "section_ai_ml_intro_supervised_learning",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Introduces supervised learning concepts like regression and classification.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_007",
+    "section_id": "section_ai_ml_classical_ml_algorithms_section",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Covers linear and logistic regression as part of the full ML course.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_008",
+    "section_id": "section_ai_ml_unsupervised_learning_section",
+    "title": "Deep Learning Crash Course",
+    "description": "Introduces unsupervised learning as part of the deep learning terminology course.",
+    "url": "https://youtu.be/VyWAvY2CF9c",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_009",
+    "section_id": "section_ai_ml_model_evaluation_section",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Covers evaluation metrics as part of the full ML course.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_010",
+    "section_id": "section_ai_ml_feature_engineering_section",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Covers data preprocessing as part of the end-to-end ML project.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_011",
+    "section_id": "section_ai_ml_overfitting_generalization",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Covers the bias-variance trade-off and overfitting as part of the ML basics.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_012",
+    "section_id": "section_ai_ml_deep_learning_intro",
+    "title": "Deep Learning Crash Course",
+    "description": "A full crash course introducing neural networks and deep learning terminology.",
+    "url": "https://youtu.be/VyWAvY2CF9c",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_013",
+    "section_id": "section_ai_ml_neural_networks_deep_dive",
+    "title": "Deep Learning Crash Course",
+    "description": "Covers neural network architectures and training concepts in depth.",
+    "url": "https://youtu.be/VyWAvY2CF9c",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_014",
+    "section_id": "section_ai_ml_transformers_section",
+    "title": "Deep Learning Crash Course",
+    "description": "Provides foundational neural network context relevant to transformer architectures.",
+    "url": "https://youtu.be/VyWAvY2CF9c",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_015",
+    "section_id": "section_ai_ml_llms_section",
+    "title": "Deep Learning Crash Course",
+    "description": "Provides foundational deep learning context relevant to how LLMs are built.",
+    "url": "https://youtu.be/VyWAvY2CF9c",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_016",
+    "section_id": "section_ai_ml_embeddings_section",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Provides ML foundations relevant to understanding vector-based representations.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_017",
+    "section_id": "section_ai_ml_rag_section",
+    "title": "Deep Learning Crash Course",
+    "description": "Provides foundational context on neural network-based generation relevant to RAG.",
+    "url": "https://youtu.be/VyWAvY2CF9c",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_ai_ml_018",
+    "section_id": "section_ai_ml_ai_app_architecture_section",
+    "title": "Learn Machine Learning - Full Comprehensive Course",
+    "description": "Covers the end-to-end ML project workflow relevant to AI application design.",
+    "url": "https://youtu.be/bmmQA8A-yUA",
+    "channel": "freeCodeCamp.org"
+  }
+]

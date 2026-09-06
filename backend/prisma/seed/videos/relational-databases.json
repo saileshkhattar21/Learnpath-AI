@@ -1,0 +1,146 @@
+[
+  {
+    "id": "video_relational_databases_001",
+    "section_id": "section_relational_databases_database_fundamentals_section",
+    "title": "SQL Tutorial - Full Database Course for Beginners",
+    "description": "A full course covering database fundamentals and core SQL concepts.",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_002",
+    "section_id": "section_relational_databases_relational_modeling_basics",
+    "title": "PostgreSQL Full Course",
+    "description": "Covers creating tables and databases as part of the full PostgreSQL course.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_003",
+    "section_id": "section_relational_databases_sql_fundamentals",
+    "title": "SQL Tutorial - Full Database Course for Beginners",
+    "description": "Covers writing basic SQL statements including SELECT, INSERT, and UPDATE.",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_004",
+    "section_id": "section_relational_databases_joins_basics",
+    "title": "SQL Tutorial - Full Database Course for Beginners",
+    "description": "Covers joins as part of the full SQL fundamentals course.",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_005",
+    "section_id": "section_relational_databases_aggregations_basics",
+    "title": "PostgreSQL Full Course",
+    "description": "Covers aggregate functions as part of the full PostgreSQL course.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_006",
+    "section_id": "section_relational_databases_constraints_basics",
+    "title": "PostgreSQL Full Course",
+    "description": "Covers database constraints as part of the full PostgreSQL course.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_007",
+    "section_id": "section_relational_databases_normalization_deep_dive",
+    "title": "SQL Tutorial - Full Database Course for Beginners",
+    "description": "Provides schema design context relevant to normalization concepts.",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_008",
+    "section_id": "section_relational_databases_schema_design_practice",
+    "title": "PostgreSQL Full Course",
+    "description": "Covers table creation and schema design as part of the full course.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_009",
+    "section_id": "section_relational_databases_advanced_sql_queries",
+    "title": "SQL Tutorial - Full Database Course for Beginners",
+    "description": "Covers unions and more advanced SQL query patterns.",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_010",
+    "section_id": "section_relational_databases_transactions_intro",
+    "title": "PostgreSQL Full Course",
+    "description": "Provides foundational PostgreSQL context relevant to transactions.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_011",
+    "section_id": "section_relational_databases_acid_properties",
+    "title": "PostgreSQL Full Course",
+    "description": "Provides foundational PostgreSQL context relevant to database guarantees.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_012",
+    "section_id": "section_relational_databases_indexes_intro",
+    "title": "SQL Tutorial - Full Database Course for Beginners",
+    "description": "Foundational SQL course providing query context relevant to indexing.",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_013",
+    "section_id": "section_relational_databases_query_optimization_deep_dive",
+    "title": "PostgreSQL Full Course",
+    "description": "Foundational PostgreSQL query concepts relevant to optimization.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_014",
+    "section_id": "section_relational_databases_concurrency_control_deep_dive",
+    "title": "PostgreSQL Full Course",
+    "description": "Foundational PostgreSQL course providing context for concurrency topics.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_015",
+    "section_id": "section_relational_databases_advanced_transactions",
+    "title": "PostgreSQL Full Course",
+    "description": "Foundational PostgreSQL course relevant to transactional design patterns.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_016",
+    "section_id": "section_relational_databases_advanced_schema_design",
+    "title": "SQL Tutorial - Full Database Course for Beginners",
+    "description": "Provides schema and query fundamentals relevant to advanced schema design.",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_017",
+    "section_id": "section_relational_databases_indexing_strategy_production",
+    "title": "SQL Tutorial - Full Database Course for Beginners",
+    "description": "Foundational SQL course providing query context relevant to production indexing.",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "freeCodeCamp.org"
+  },
+  {
+    "id": "video_relational_databases_018",
+    "section_id": "section_relational_databases_production_database_considerations",
+    "title": "PostgreSQL Full Course",
+    "description": "Foundational PostgreSQL course relevant to running a production database.",
+    "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "channel": "freeCodeCamp.org"
+  }
+]

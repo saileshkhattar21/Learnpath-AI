@@ -1,0 +1,902 @@
+[
+  {
+    "id": "question_ai_ml_001",
+    "section_id": "section_ai_ml_ai_ml_fundamentals_section",
+    "level_id": "level_beginner",
+    "question": "What is machine learning?",
+    "explanation": "Machine learning is a subset of AI where systems learn patterns from data rather than following explicit hardcoded rules.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_001_a",
+        "text": "A subset of AI where systems learn patterns from data",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_001_b",
+        "text": "A type of database management system",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_001_c",
+        "text": "A programming language for web development",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_001_d",
+        "text": "A method for designing user interfaces",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_002",
+    "section_id": "section_ai_ml_python_for_ml",
+    "level_id": "level_beginner",
+    "question": "Which data structure in Python stores an ordered, mutable collection of items?",
+    "explanation": "A list is an ordered, mutable collection of items in Python.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_002_a",
+        "text": "A list",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_002_b",
+        "text": "A tuple",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_002_c",
+        "text": "A frozenset",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_002_d",
+        "text": "An integer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_003",
+    "section_id": "section_ai_ml_numpy_fundamentals",
+    "level_id": "level_beginner",
+    "question": "What is the main advantage of a NumPy array over a plain Python list for numerical work?",
+    "explanation": "NumPy arrays support efficient, vectorized numerical operations that are much faster than looping over plain Python lists.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_003_a",
+        "text": "Efficient, vectorized numerical operations",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_003_b",
+        "text": "It can only store text data",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_003_c",
+        "text": "It automatically connects to a database",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_003_d",
+        "text": "It replaces the need for Python entirely",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_004",
+    "section_id": "section_ai_ml_pandas_fundamentals",
+    "level_id": "level_beginner",
+    "question": "What is a Pandas DataFrame primarily used to represent?",
+    "explanation": "A DataFrame represents tabular data organized into labeled rows and columns.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_004_a",
+        "text": "Tabular data with labeled rows and columns",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_004_b",
+        "text": "A single number",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_004_c",
+        "text": "A compiled machine learning model",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_004_d",
+        "text": "A web page layout",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_005",
+    "section_id": "section_ai_ml_statistics_probability_basics",
+    "level_id": "level_beginner",
+    "question": "What does the mean of a dataset represent?",
+    "explanation": "The mean is the average value, calculated by summing all values and dividing by the count.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_005_a",
+        "text": "The average value of the dataset",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_005_b",
+        "text": "The most frequently occurring value",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_005_c",
+        "text": "The middle value when sorted",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_005_d",
+        "text": "The total number of values",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_006",
+    "section_id": "section_ai_ml_intro_supervised_learning",
+    "level_id": "level_beginner",
+    "question": "In supervised learning, what does the model learn from?",
+    "explanation": "Supervised learning models learn from labeled data, where each input example has a known correct output.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_006_a",
+        "text": "Labeled data with known correct outputs",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_006_b",
+        "text": "Completely unlabeled data with no outputs",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_006_c",
+        "text": "Randomly generated noise",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_006_d",
+        "text": "Only the model's own previous predictions",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_007",
+    "section_id": "section_ai_ml_intro_supervised_learning",
+    "level_id": "level_beginner",
+    "question": "Which type of problem is predicting a continuous numeric value, like a house price?",
+    "explanation": "Regression problems involve predicting a continuous numeric output value.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_007_a",
+        "text": "Regression",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_007_b",
+        "text": "Classification",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_007_c",
+        "text": "Clustering",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_007_d",
+        "text": "Dimensionality reduction",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_008",
+    "section_id": "section_ai_ml_ai_ml_fundamentals_section",
+    "level_id": "level_beginner",
+    "question": "How does deep learning relate to machine learning?",
+    "explanation": "Deep learning is a subfield of machine learning that uses multi-layer neural networks.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_008_a",
+        "text": "It is a subfield of machine learning using neural networks",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_008_b",
+        "text": "They are unrelated fields",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_008_c",
+        "text": "Deep learning came before machine learning existed",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_008_d",
+        "text": "Machine learning is a subfield of deep learning",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_009",
+    "section_id": "section_ai_ml_python_for_ml",
+    "level_id": "level_beginner",
+    "question": "What does a Python function defined with 'def' allow you to do?",
+    "explanation": "It lets you define a reusable, named block of code that can be called with different inputs.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_009_a",
+        "text": "Define a reusable, named block of code",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_009_b",
+        "text": "Create a new file on disk",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_009_c",
+        "text": "Install a new Python package",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_009_d",
+        "text": "Connect to the internet",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_010",
+    "section_id": "section_ai_ml_statistics_probability_basics",
+    "level_id": "level_beginner",
+    "question": "What does probability measure?",
+    "explanation": "Probability measures the likelihood that a particular event will occur.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_010_a",
+        "text": "The likelihood that an event will occur",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_010_b",
+        "text": "The exact outcome of every event",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_010_c",
+        "text": "The speed of a computation",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_010_d",
+        "text": "The size of a dataset",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_011",
+    "section_id": "section_ai_ml_classical_ml_algorithms_section",
+    "level_id": "level_intermediate",
+    "question": "What type of problem is logistic regression typically used for?",
+    "explanation": "Despite its name, logistic regression is commonly used for classification problems, predicting discrete categories.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_011_a",
+        "text": "Classification",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_011_b",
+        "text": "Only continuous regression",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_011_c",
+        "text": "Image compression",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_011_d",
+        "text": "Database indexing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_012",
+    "section_id": "section_ai_ml_classical_ml_algorithms_section",
+    "level_id": "level_intermediate",
+    "question": "What does k-means clustering group data based on?",
+    "explanation": "K-means groups data points based on their similarity, typically measured by distance to cluster centers.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_012_a",
+        "text": "Similarity, based on distance to cluster centers",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_012_b",
+        "text": "Alphabetical order of labels",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_012_c",
+        "text": "The order data was collected",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_012_d",
+        "text": "Random assignment with no pattern",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_013",
+    "section_id": "section_ai_ml_unsupervised_learning_section",
+    "level_id": "level_intermediate",
+    "question": "What distinguishes unsupervised learning from supervised learning?",
+    "explanation": "Unsupervised learning finds patterns in data without labeled outputs, unlike supervised learning.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_013_a",
+        "text": "It works with unlabeled data, finding patterns without known outputs",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_013_b",
+        "text": "It requires more labeled data than supervised learning",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_013_c",
+        "text": "It can only be used for regression tasks",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_013_d",
+        "text": "It does not require any data at all",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_014",
+    "section_id": "section_ai_ml_model_evaluation_section",
+    "level_id": "level_intermediate",
+    "question": "Why is it important to evaluate a model on a separate test set rather than the training data?",
+    "explanation": "Evaluating on unseen test data gives a more honest estimate of how well the model generalizes to new data.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_014_a",
+        "text": "It gives an honest estimate of generalization to new data",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_014_b",
+        "text": "Training data cannot be used to make predictions",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_014_c",
+        "text": "Test sets are always larger than training sets",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_014_d",
+        "text": "It eliminates the need for a validation set",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_015",
+    "section_id": "section_ai_ml_model_evaluation_section",
+    "level_id": "level_intermediate",
+    "question": "In a classification task, what does 'precision' measure?",
+    "explanation": "Precision measures the proportion of predicted positive cases that were actually positive.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_015_a",
+        "text": "The proportion of predicted positives that are actually positive",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_015_b",
+        "text": "The total number of predictions made",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_015_c",
+        "text": "The speed of the model's predictions",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_015_d",
+        "text": "The size of the training dataset",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_016",
+    "section_id": "section_ai_ml_feature_engineering_section",
+    "level_id": "level_intermediate",
+    "question": "Why might categorical variables need to be encoded before training many ML models?",
+    "explanation": "Many ML algorithms require numeric input, so categorical values must be converted into a numeric representation.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_016_a",
+        "text": "Many algorithms require numeric input rather than raw categories",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_016_b",
+        "text": "Categorical variables cannot be stored in a DataFrame",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_016_c",
+        "text": "Encoding removes the need for any other preprocessing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_016_d",
+        "text": "It is only necessary for image data",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_017",
+    "section_id": "section_ai_ml_overfitting_generalization",
+    "level_id": "level_intermediate",
+    "question": "What is overfitting?",
+    "explanation": "Overfitting occurs when a model learns the training data too closely, including its noise, and fails to generalize to new data.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_017_a",
+        "text": "A model fitting training data too closely and failing to generalize",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_017_b",
+        "text": "A model that trains too quickly",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_017_c",
+        "text": "A model with too few parameters",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_017_d",
+        "text": "A dataset that is too small to load",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_018",
+    "section_id": "section_ai_ml_overfitting_generalization",
+    "level_id": "level_intermediate",
+    "question": "What is one common technique used to reduce overfitting?",
+    "explanation": "Regularization techniques add a penalty for complexity, discouraging the model from fitting noise too closely.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_018_a",
+        "text": "Regularization",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_018_b",
+        "text": "Increasing the learning rate to the maximum",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_018_c",
+        "text": "Removing the test set entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_018_d",
+        "text": "Using fewer training examples on purpose",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_019",
+    "section_id": "section_ai_ml_deep_learning_intro",
+    "level_id": "level_intermediate",
+    "question": "What is the basic building block of a neural network?",
+    "explanation": "The neuron (or node), which combines weighted inputs and applies an activation function, is the basic building block.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_019_a",
+        "text": "A neuron (node) that combines weighted inputs",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_019_b",
+        "text": "A SQL table",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_019_c",
+        "text": "An HTTP request",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_019_d",
+        "text": "A CSS selector",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_020",
+    "section_id": "section_ai_ml_deep_learning_intro",
+    "level_id": "level_intermediate",
+    "question": "What is the purpose of an activation function in a neural network?",
+    "explanation": "An activation function introduces non-linearity, allowing the network to learn complex patterns beyond simple linear relationships.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_020_a",
+        "text": "Introducing non-linearity so the network can learn complex patterns",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_020_b",
+        "text": "Storing the network's weights permanently",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_020_c",
+        "text": "Connecting the model to a database",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_020_d",
+        "text": "Formatting the model's output as JSON",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_021",
+    "section_id": "section_ai_ml_neural_networks_deep_dive",
+    "level_id": "level_advanced",
+    "question": "What problem can occur when gradients become extremely small during backpropagation in deep networks?",
+    "explanation": "The vanishing gradient problem can prevent earlier layers from learning effectively, since their weight updates become negligible.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_021_a",
+        "text": "The vanishing gradient problem, hindering learning in earlier layers",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_021_b",
+        "text": "The network trains instantly with perfect accuracy",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_021_c",
+        "text": "The dataset automatically becomes larger",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_021_d",
+        "text": "The model stops requiring any activation function",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_022",
+    "section_id": "section_ai_ml_transformers_section",
+    "level_id": "level_advanced",
+    "question": "What mechanism allows transformers to weigh the relevance of different words in a sequence?",
+    "explanation": "Self-attention allows the model to weigh how relevant other tokens in the sequence are when processing each token.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_022_a",
+        "text": "Self-attention",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_022_b",
+        "text": "Recursive looping",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_022_c",
+        "text": "SQL joins",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_022_d",
+        "text": "CSS specificity",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_023",
+    "section_id": "section_ai_ml_llms_section",
+    "level_id": "level_advanced",
+    "question": "What does 'in-context learning' refer to in the context of large language models?",
+    "explanation": "In-context learning refers to a model adapting its behavior based on examples or instructions provided within the prompt, without updating its weights.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_023_a",
+        "text": "Adapting behavior based on prompt content without updating weights",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_023_b",
+        "text": "Permanently retraining the model on every request",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_023_c",
+        "text": "Storing user data in a database",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_023_d",
+        "text": "A method for compressing model file size",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_024",
+    "section_id": "section_ai_ml_embeddings_section",
+    "level_id": "level_advanced",
+    "question": "What property do embeddings aim to capture about similar pieces of data?",
+    "explanation": "Embeddings aim to place semantically similar items close together in a vector space.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_024_a",
+        "text": "Semantic similarity, represented as closeness in vector space",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_024_b",
+        "text": "Exact byte-for-byte equality only",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_024_c",
+        "text": "Alphabetical ordering of text",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_024_d",
+        "text": "File size on disk",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_025",
+    "section_id": "section_ai_ml_rag_section",
+    "level_id": "level_advanced",
+    "question": "What is the main benefit of a RAG (Retrieval-Augmented Generation) architecture?",
+    "explanation": "RAG grounds an LLM's responses in retrieved external data, improving accuracy and reducing hallucination on specific facts.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_025_a",
+        "text": "Grounding LLM responses in retrieved external data",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_025_b",
+        "text": "Eliminating the need for any language model",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_025_c",
+        "text": "Making training data unnecessary entirely",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_025_d",
+        "text": "Guaranteeing zero latency responses",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_026",
+    "section_id": "section_ai_ml_rag_section",
+    "level_id": "level_advanced",
+    "question": "In a typical RAG pipeline, what is usually done with a user's query before retrieval?",
+    "explanation": "The query is often converted into an embedding so it can be compared against stored document embeddings for relevance.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_026_a",
+        "text": "It is converted into an embedding for similarity search",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_026_b",
+        "text": "It is discarded and ignored",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_026_c",
+        "text": "It is translated into SQL directly with no other processing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_026_d",
+        "text": "It is used to retrain the entire model from scratch",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_027",
+    "section_id": "section_ai_ml_ai_app_architecture_section",
+    "level_id": "level_advanced",
+    "question": "Why is it important to separate deterministic application logic from LLM-generated output in an AI-enhanced application?",
+    "explanation": "Keeping critical logic deterministic improves reliability, since LLM outputs can be inconsistent or require validation.",
+    "display_order": 1,
+    "options": [
+      {
+        "id": "opt_ai_ml_027_a",
+        "text": "It improves reliability, since LLM output can be inconsistent",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_027_b",
+        "text": "LLMs cannot be used in production applications at all",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_027_c",
+        "text": "It removes the need for any testing",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_027_d",
+        "text": "It guarantees the LLM will never make a mistake",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_028",
+    "section_id": "section_ai_ml_ai_app_architecture_section",
+    "level_id": "level_advanced",
+    "question": "What is an important consideration when evaluating an AI feature's cost in production?",
+    "explanation": "Cost considerations include factors like token usage and call frequency, which scale with usage and model choice.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_028_a",
+        "text": "Token usage and call frequency, which scale with usage",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_028_b",
+        "text": "Cost is irrelevant once a model is deployed",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_028_c",
+        "text": "AI features are always free to run at any scale",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_028_d",
+        "text": "Only the initial development time matters",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_029",
+    "section_id": "section_ai_ml_neural_networks_deep_dive",
+    "level_id": "level_advanced",
+    "question": "What is the role of an optimizer like Adam during neural network training?",
+    "explanation": "An optimizer updates the network's weights to minimize the loss function based on computed gradients.",
+    "display_order": 2,
+    "options": [
+      {
+        "id": "opt_ai_ml_029_a",
+        "text": "Updating weights to minimize the loss function",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_029_b",
+        "text": "Formatting the training dataset into a table",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_029_c",
+        "text": "Rendering the model's output as a chart",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_029_d",
+        "text": "Compressing the trained model file",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "question_ai_ml_030",
+    "section_id": "section_ai_ml_ai_app_architecture_section",
+    "level_id": "level_advanced",
+    "question": "Why should AI-enhanced features typically include a way to evaluate output quality over time?",
+    "explanation": "Ongoing evaluation helps catch regressions or quality drift as models, prompts, or data change.",
+    "display_order": 3,
+    "options": [
+      {
+        "id": "opt_ai_ml_030_a",
+        "text": "It helps catch regressions or quality drift over time",
+        "is_correct": true
+      },
+      {
+        "id": "opt_ai_ml_030_b",
+        "text": "Evaluation is only needed once, before initial launch",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_030_c",
+        "text": "It removes the need for monitoring the rest of the application",
+        "is_correct": false
+      },
+      {
+        "id": "opt_ai_ml_030_d",
+        "text": "It guarantees the model will never need to be updated",
+        "is_correct": false
+      }
+    ]
+  }
+]
