@@ -8,53 +8,57 @@ import TrackDetailPage from "./pages/TrackDetailPage";
 import QuizPage from "./pages/QuizPage";
 import StudyPage from "./pages/StudyPage";
 import SectionQuizPage from "./pages/SectionQuizPage";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/sign-in/*" element={<SignInPage />} />
-      <Route path="/sign-up/*" element={<SignUpPage />} />
-      <Route
-        path="/dashboard"
-        element={
-          <ProtectedRoute>
-            <DashboardPage />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path="/tracks/:slug"
-        element={
-          <ProtectedRoute>
-            <TrackDetailPage />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path="/tracks/:slug/quiz"
-        element={
-          <ProtectedRoute>
-            <QuizPage />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path="/tracks/:slug/study"
-        element={
-          <ProtectedRoute>
-            <StudyPage />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path="/tracks/:slug/sections/:sectionId/quiz"
-        element={
-          <ProtectedRoute>
-            <SectionQuizPage />
-          </ProtectedRoute>
-        }
-      />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/sign-in/*" element={<SignInPage />} />
+        <Route path="/sign-up/*" element={<SignUpPage />} />
+        <Route
+          path="/dashboard"
+          element={
+            <ProtectedRoute>
+              <DashboardPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/tracks/:slug"
+          element={
+            <ProtectedRoute>
+              <TrackDetailPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/tracks/:slug/quiz"
+          element={
+            <ProtectedRoute>
+              <QuizPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/tracks/:slug/study"
+          element={
+            <ProtectedRoute>
+              <StudyPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/tracks/:slug/sections/:sectionId/quiz"
+          element={
+            <ProtectedRoute>
+              <SectionQuizPage />
+            </ProtectedRoute>
+          }
+        />
+      </Routes>
+      <Footer />
+    </>
   );
 }
