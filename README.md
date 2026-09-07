@@ -2,7 +2,7 @@
 
 An adaptive learning platform that builds a personalized, AI-generated study path for developers across six tracks — rather than handing everyone the same fixed curriculum.
 
-**Live app:** _[https://learnpath-9mht1e87h-sailesh4.vercel.app/]_
+**Live app:** _[https://learnpath-ai-green.vercel.app/]_
 **API:** _[https://learnpath-ai-backend-voo1.onrender.com]_
 
 ---
